@@ -1,0 +1,32 @@
+=== MANUAL POLYLANG LINKING REQUIRED ===
+Go to WP admin → Pages, for each ZH page below:
+1. Edit page
+2. Set Language to 中文 (zh)
+3. Set Translations: link to EN sibling + ID sibling
+
+EN_ID	ZH_ID	ZH_SLUG	ZH_TITLE
+12	5448	shouye	首页
+29	5450	guanyu-women	关于 SURIOTA
+35	5451	zidonghua	自动化与物联网服务
+37	5452	dianqi-gongcheng	电气工程服务
+39	5453	kezaisheng-nengyuan	可再生能源服务
+839	5454	anli	项目案例
+929	5455	wastewater-logger	Wastewater Logger V.3
+934	5456	modbus-gateway	Modbus 网关 IIoT
+945	5457	shuichuli	水处理服务
+1542	5458	surge-energy-mapping	SURGE-Energy Mapping
+1546	5459	surge-vessel-tracking	SURGE-Vessel Tracking
+1547	5460	surge-water-analytic	SURGE-Water Analytic
+1740	5461	iso-m485	ISO-M485 系列
+1741	5462	thm-30md	THM-30MD
+1742	5463	pm1611-wd	PM1611-WD
+1765	5464	rs-485-spd	RS-485 Surge Protector SPD-T485-105
+4983	5465	lianxi	联系我们
+4985	5466	yinsi-zhengce	隐私政策
+4987	5467	fuwu-tiaokuan	服务条款
+5029	5468	iot	物联网与系统集成
+5031	5469	xitong-jicheng	系统集成
+5033	5470	shuzihua-zixun	数字化咨询
+5035	5471	rengong-zhineng	人工智能与数据分析
+5037	5472	shujufenxi	数据分析
+5039	5473	saas	软件即服务 SaaS
