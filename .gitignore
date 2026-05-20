@@ -25,3 +25,10 @@ Thumbs.db
 # Embedded repos
 .design-claude/
 .neo-ux/
+
+# Screenshots
+screenshots/
+
+# Temp scripts
+tools/py/_*.py
+tools/js/_*.js
