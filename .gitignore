@@ -1,0 +1,9 @@
+_home.html
+_auto.html
+_min.css
+_pt_surya_eyebrow.png
+_pt_brand_*.png
+_audit_id_pages.txt
+__pycache__/
+*.pyc
+.DS_Store
