@@ -1,0 +1,841 @@
+[
+  {
+    "name": "EN-home",
+    "url": "https://suriota.com/",
+    "tier": 1,
+    "status": 200,
+    "title": "Industrial IoT & System Integration Batam | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to script at 'https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+    ],
+    "requestFailed": [
+      "[desktop] https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0 :: net::ERR_FAILED"
+    ],
+    "forms": 2,
+    "submitButtons": 2,
+    "visibleLinks": 51,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": true,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "(no action attr)",
+      "method": "post",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 7
+    }
+  },
+  {
+    "name": "ID-home",
+    "url": "https://suriota.com/id/",
+    "tier": 1,
+    "status": 200,
+    "title": "IoT Industri & Integrasi Sistem Batam | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 2,
+    "submitButtons": 2,
+    "visibleLinks": 51,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": true,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "(no action attr)",
+      "method": "post",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 7
+    }
+  },
+  {
+    "name": "ZH-home",
+    "url": "https://suriota.com/shouye/",
+    "tier": 1,
+    "status": 200,
+    "title": "首页 - Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 2,
+    "submitButtons": 2,
+    "visibleLinks": 51,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": true,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "(no action attr)",
+      "method": "post",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 7
+    }
+  },
+  {
+    "name": "About",
+    "url": "https://suriota.com/about-us/",
+    "tier": 1,
+    "status": 200,
+    "title": "About SURIOTA - Industrial IoT Partner Batam Indonesia",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 38,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "Portfolio",
+    "url": "https://suriota.com/portfolio/",
+    "tier": 1,
+    "status": 200,
+    "title": "Portfolio - 64+ Industrial IoT Projects | SURIOTA Batam",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 43,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "Contact",
+    "url": "https://suriota.com/contact/",
+    "tier": 1,
+    "status": 200,
+    "title": "Contact - Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 42,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "Electrical",
+    "url": "https://suriota.com/electrical-services/",
+    "tier": 2,
+    "status": 404,
+    "title": "Page not found – Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] Failed to load resource: the server responded with a status of 404 ()",
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] Failed to load resource: the server responded with a status of 404 ()",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 33,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "Automation",
+    "url": "https://suriota.com/automation-services/",
+    "tier": 2,
+    "status": 404,
+    "title": "Page not found – Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] Failed to load resource: the server responded with a status of 404 ()",
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] Failed to load resource: the server responded with a status of 404 ()",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 33,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "Renewable",
+    "url": "https://suriota.com/renewable-energy-services/",
+    "tier": 2,
+    "status": 404,
+    "title": "Page not found – Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] Failed to load resource: the server responded with a status of 404 ()",
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] Failed to load resource: the server responded with a status of 404 ()",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 33,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "WaterTreat",
+    "url": "https://suriota.com/water-treatment-services/",
+    "tier": 2,
+    "status": 404,
+    "title": "Page not found – Suriota",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] Failed to load resource: the server responded with a status of 404 ()",
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] Failed to load resource: the server responded with a status of 404 ()",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 33,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "ModbusGW",
+    "url": "https://suriota.com/suriota-modbus-gateway/",
+    "tier": 3,
+    "status": 200,
+    "title": "SRT-MGATE-1210 Modbus Gateway IIoT | SURIOTA Batam",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "ISO-M485",
+    "url": "https://suriota.com/iso-m485-series/",
+    "tier": 3,
+    "status": 200,
+    "title": "ISO-M485 Isolated RS-485 Repeater | SURIOTA Indonesia",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "THM-30MD",
+    "url": "https://suriota.com/thm-30md/",
+    "tier": 3,
+    "status": 200,
+    "title": "THM-30MD Temperature & Humidity Modbus Sensor | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "PM1611-WD",
+    "url": "https://suriota.com/pm1611-wd/",
+    "tier": 3,
+    "status": 200,
+    "title": "PM1611-WD Prepaid Energy Meter with IoT | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "SPD-T485",
+    "url": "https://suriota.com/rs-485-surge-protector-spd-t485-105/",
+    "tier": 3,
+    "status": 200,
+    "title": "RS-485 Surge Protector SPD-T485-105 | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "WasteLogger",
+    "url": "https://suriota.com/waste-water-loger/",
+    "tier": 3,
+    "status": 200,
+    "title": "Wastewater Data Logger - IPAL IoT Monitoring | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] Failed to load resource: the server responded with a status of 404 ()",
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Failed to load resource: the server responded with a status of 404 ()",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+    ],
+    "requestFailed": [],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "SURGE-Energy",
+    "url": "https://suriota.com/surge-energy-mapping/",
+    "tier": 4,
+    "status": 200,
+    "title": "SURGE Energy Mapping - kWh Monitoring SaaS | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "SURGE-Vessel",
+    "url": "https://suriota.com/surge-vessel-tracking/",
+    "tier": 4,
+    "status": 200,
+    "title": "SURGE Vessel Tracking - Fleet & Fuel Monitoring | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  },
+  {
+    "name": "SURGE-Water",
+    "url": "https://suriota.com/surge-water-analytic/",
+    "tier": 4,
+    "status": 200,
+    "title": "SURGE Water Analytics - KLHK SPARING Monitoring | SURIOTA",
+    "pageErrors": [
+      "[desktop] Cannot read properties of null (reading 'classList')",
+      "[mobile] Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleErrors": [
+      "[desktop] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[desktop] Access to fetch at 'https://va.tawk.to/v1/session/start' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[desktop] Failed to load resource: net::ERR_FAILED",
+      "[mobile] X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.",
+      "[mobile] Access to fetch at 'https://va.tawk.to/log-performance/v3' from origin 'https://suriota.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "[mobile] Failed to load resource: net::ERR_FAILED",
+      "[mobile] true"
+    ],
+    "requestFailed": [
+      "[desktop] https://va.tawk.to/v1/session/start :: net::ERR_FAILED",
+      "[mobile] https://va.tawk.to/log-performance/v3 :: net::ERR_FAILED"
+    ],
+    "forms": 1,
+    "submitButtons": 1,
+    "visibleLinks": 37,
+    "brokenHrefStubs": 0,
+    "brokenImages": 0,
+    "brokenImageList": [],
+    "hasCarouselWidget": false,
+    "reduceMotionActive": true,
+    "bodyOverflowX": {
+      "desktop": false,
+      "mobile": false
+    },
+    "langSwitcherCount": 0,
+    "langSwitcherLinks": [],
+    "contactForm": {
+      "action": "https://suriota.com/contact/",
+      "method": "get",
+      "hasRecaptcha": false,
+      "hasHoneypot": false,
+      "inputCount": 1
+    }
+  }
+]

@@ -1,0 +1,657 @@
+{
+  "desktop": {
+    "label": "desktop-1440x900",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false
+    },
+    "url": "https://suriota.com/",
+    "timestamp": "2026-05-20T15:53:30.425Z",
+    "pageErrors": [
+      "Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleMessages": [
+      {
+        "type": "log",
+        "text": "JQMIGRATE: Migrate is installed, version 3.4.1"
+      },
+      {
+        "type": "error",
+        "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+      },
+      {
+        "type": "error",
+        "text": "Access to script at 'https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "debug",
+        "text": "Search endpoint requested!"
+      }
+    ],
+    "failedRequests": [
+      {
+        "url": "https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0",
+        "method": "GET",
+        "failure": "net::ERR_FAILED",
+        "resourceType": "script"
+      }
+    ],
+    "requests": [
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+        "status": 200,
+        "resourceType": "stylesheet"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-7ba40e52.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-fd001542.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-cb052039.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-0667255a.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor-pro/assets/js/form.cfd61a9174be80f835c6.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor-pro/assets/js/popup.61d4fcab8891b2e07802.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      }
+    ],
+    "inPageProbe": {
+      "widget": {
+        "dataSettings": "{\"slides_to_show\":\"5\",\"slides_to_show_tablet\":\"5\",\"slides_to_show_mobile\":\"3\",\"navigation\":\"none\",\"autoplay_speed\":3000,\"speed\":800,\"image_spacing_custom\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"autoplay\":\"yes\",\"infinite\":\"yes\",\"image_spacing_custom_tablet\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"image_spacing_custom_mobile\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]}}",
+        "classes": [
+          "elementor-element",
+          "elementor-element-e396a55",
+          "elementor-widget",
+          "elementor-widget-image-carousel",
+          "e-widget-swiper"
+        ],
+        "rect": {
+          "x": 170,
+          "y": 344.703125,
+          "width": 1100,
+          "height": 211,
+          "top": 344.703125,
+          "right": 1270,
+          "bottom": 555.703125,
+          "left": 170
+        }
+      },
+      "swiperEl": {
+        "classes": [
+          "elementor-image-carousel-wrapper",
+          "swiper",
+          "swiper-initialized",
+          "swiper-horizontal",
+          "swiper-pointer-events"
+        ],
+        "hasInitializedClass": true,
+        "hasContainerInitClass": false,
+        "tag": "DIV"
+      },
+      "swiperApi": true,
+      "swiperParams": {
+        "autoplay": {
+          "enabled": false,
+          "delay": 3000,
+          "waitForTransition": true,
+          "disableOnInteraction": true,
+          "stopOnLastSlide": false,
+          "reverseDirection": false,
+          "pauseOnMouseEnter": false
+        },
+        "allowTouchMove": true,
+        "simulateTouch": true,
+        "slidesPerView": 5,
+        "loop": true,
+        "speed": 0,
+        "enabled": true,
+        "initialized": true,
+        "isLocked": false,
+        "mouseEvents": null
+      },
+      "autoplayState": {
+        "running": false,
+        "paused": false
+      },
+      "slidesCount": 30,
+      "wrapperInline": {
+        "transform": "translate3d(-1140px, 0px, 0px)",
+        "transitionDuration": "0ms"
+      },
+      "firstSlideInline": {
+        "transform": "",
+        "width": "188px"
+      },
+      "computed": {
+        "widget": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "1100px",
+          "height": "211px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "auto"
+        },
+        "swiperEl": {
+          "pointer-events": "auto",
+          "touch-action": "pan-y",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "hidden",
+          "overflow-x": "hidden",
+          "overflow-y": "hidden",
+          "width": "1100px",
+          "height": "211px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "static",
+          "z-index": "1"
+        },
+        "wrapper": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "1100px",
+          "height": "195px",
+          "visibility": "visible",
+          "display": "flex",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "1"
+        },
+        "firstSlide": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "188px",
+          "height": "195px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "auto"
+        }
+      },
+      "elementFromPointAtCenter": {
+        "tag": "DIV",
+        "id": "swiper-wrapper-6ea5492d17464aad",
+        "className": "elementor-image-carousel swiper-wrapper",
+        "isInsideWidget": true,
+        "outerHTMLstart": "<div class=\"elementor-image-carousel swiper-wrapper\" aria-live=\"polite\" style=\"transform: translate3d(-1140px, 0px, 0px); transition-duration: 0ms;\" id=\"swiper-wrapper-6ea5492d17464aad\"><div class=\"swiper-slide swiper-sl"
+      },
+      "matchingStylesheetRules": [
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper",
+          "cssText": ".elementor-widget-image-carousel .swiper { position: static; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper .swiper-slide figure",
+          "cssText": ".elementor-widget-image-carousel .swiper .swiper-slide figure { line-height: inherit; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper-slide",
+          "cssText": ".elementor-widget-image-carousel .swiper-slide { text-align: center; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-image-carousel-wrapper:not(.swiper-initialized) .swiper-slide",
+          "cssText": ".elementor-image-carousel-wrapper:not(.swiper-initialized) .swiper-slide { max-width: calc(100% / var(--e-image-carousel-slides-to-show, 3)); }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 { --e-image-carousel-slides-to-show: 5; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55 > .elementor-widget-container",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 > .elementor-widget-container { margin: 0px; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image { border-radius: 0px; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-image-carousel-wrapper",
+          "cssText": ".elementor-image-carousel-wrapper { padding: 8px 0px; }"
+        },
+        {
+          "href": "(inline)",
+          "selector": ".elementor-image-carousel-wrapper",
+          "cssText": ".elementor-image-carousel-wrapper { padding: 8px 0px; }"
+        }
+      ],
+      "inlineStyleHits": [
+        {
+          "index": 9,
+          "dataAttrs": [
+            "id=sx-zh-pages-css"
+          ],
+          "snippet": "@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap);@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap);@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&dis",
+          "length": 349838
+        }
+      ],
+      "handlerInfo": {
+        "keys": [
+          "accordion.default",
+          "alert.default",
+          "counter.default",
+          "progress.default",
+          "tabs.default",
+          "toggle.default",
+          "video.default",
+          "image-carousel.default",
+          "text-editor.default",
+          "wp-widget-media_audio.default",
+          "container",
+          "section",
+          "column"
+        ],
+        "hasImageCarousel": true
+      },
+      "swiperGlobals": {
+        "windowSwiper": "function",
+        "elementorSwiper": true
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36",
+      "readyState": "complete"
+    }
+  },
+  "mobile": {
+    "label": "mobile-iphone12",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 3,
+      "isMobile": true,
+      "hasTouch": true
+    },
+    "url": "https://suriota.com/",
+    "timestamp": "2026-05-20T15:53:41.031Z",
+    "pageErrors": [
+      "Cannot read properties of null (reading 'classList')"
+    ],
+    "consoleMessages": [
+      {
+        "type": "log",
+        "text": "JQMIGRATE: Migrate is installed, version 3.4.1"
+      },
+      {
+        "type": "error",
+        "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+      },
+      {
+        "type": "error",
+        "text": "Access to script at 'https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0' from origin 'https://suriota.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "type": "debug",
+        "text": "Search endpoint requested!"
+      }
+    ],
+    "failedRequests": [
+      {
+        "url": "https://embed.tawk.to/66666723981b6c56477b687b/1i0005pb0",
+        "method": "GET",
+        "failure": "net::ERR_FAILED",
+        "resourceType": "script"
+      }
+    ],
+    "requests": [
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+        "status": 200,
+        "resourceType": "stylesheet"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-7ba40e52.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-fd001542.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-cb052039.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-footer-0667255a.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/section-frontend-handlers.d85ab872da118940910d.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor/assets/js/image-carousel.6167d20b95b33386757b.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor-pro/assets/js/form.cfd61a9174be80f835c6.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      },
+      {
+        "url": "https://suriota.com/wp-content/plugins/elementor-pro/assets/js/popup.61d4fcab8891b2e07802.bundle.min.js",
+        "status": 200,
+        "resourceType": "script"
+      }
+    ],
+    "inPageProbe": {
+      "widget": {
+        "dataSettings": "{\"slides_to_show\":\"5\",\"slides_to_show_tablet\":\"5\",\"slides_to_show_mobile\":\"3\",\"navigation\":\"none\",\"autoplay_speed\":3000,\"speed\":800,\"image_spacing_custom\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"autoplay\":\"yes\",\"infinite\":\"yes\",\"image_spacing_custom_tablet\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"image_spacing_custom_mobile\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]}}",
+        "classes": [
+          "elementor-element",
+          "elementor-element-e396a55",
+          "elementor-widget",
+          "elementor-widget-image-carousel",
+          "e-widget-swiper"
+        ],
+        "rect": {
+          "x": 40,
+          "y": 372.28125,
+          "width": 310,
+          "height": 99.65625,
+          "top": 372.28125,
+          "right": 350,
+          "bottom": 471.9375,
+          "left": 40
+        }
+      },
+      "swiperEl": {
+        "classes": [
+          "elementor-image-carousel-wrapper",
+          "swiper",
+          "swiper-initialized",
+          "swiper-horizontal"
+        ],
+        "hasInitializedClass": true,
+        "hasContainerInitClass": false,
+        "tag": "DIV"
+      },
+      "swiperApi": true,
+      "swiperParams": {
+        "autoplay": {
+          "enabled": false,
+          "delay": 3000,
+          "waitForTransition": true,
+          "disableOnInteraction": true,
+          "stopOnLastSlide": false,
+          "reverseDirection": false,
+          "pauseOnMouseEnter": false
+        },
+        "allowTouchMove": true,
+        "simulateTouch": true,
+        "slidesPerView": 3,
+        "loop": true,
+        "speed": 0,
+        "enabled": true,
+        "initialized": true,
+        "isLocked": false,
+        "mouseEvents": null
+      },
+      "autoplayState": {
+        "running": false,
+        "paused": false
+      },
+      "slidesCount": 26,
+      "wrapperInline": {
+        "transform": "translate3d(-350px, 0px, 0px)",
+        "transitionDuration": "0ms"
+      },
+      "firstSlideInline": {
+        "transform": "",
+        "width": "76.6667px"
+      },
+      "computed": {
+        "widget": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "310px",
+          "height": "99.6562px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "auto"
+        },
+        "swiperEl": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "hidden",
+          "overflow-x": "hidden",
+          "overflow-y": "hidden",
+          "width": "310px",
+          "height": "99.6562px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "static",
+          "z-index": "1"
+        },
+        "wrapper": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "310px",
+          "height": "83.6562px",
+          "visibility": "visible",
+          "display": "flex",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "1"
+        },
+        "firstSlide": {
+          "pointer-events": "auto",
+          "touch-action": "auto",
+          "user-select": "auto",
+          "transform": "none",
+          "overflow": "visible",
+          "overflow-x": "visible",
+          "overflow-y": "visible",
+          "width": "76.6562px",
+          "height": "83.6562px",
+          "visibility": "visible",
+          "display": "block",
+          "cursor": "auto",
+          "position": "relative",
+          "z-index": "auto"
+        }
+      },
+      "elementFromPointAtCenter": {
+        "tag": "DIV",
+        "id": "swiper-wrapper-c24e85910d85ad76c",
+        "className": "elementor-image-carousel swiper-wrapper",
+        "isInsideWidget": true,
+        "outerHTMLstart": "<div class=\"elementor-image-carousel swiper-wrapper\" aria-live=\"polite\" style=\"transition-duration: 0ms; transform: translate3d(-350px, 0px, 0px);\" id=\"swiper-wrapper-c24e85910d85ad76c\"><div class=\"swiper-slide swiper-sl"
+      },
+      "matchingStylesheetRules": [
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper",
+          "cssText": ".elementor-widget-image-carousel .swiper { position: static; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper .swiper-slide figure",
+          "cssText": ".elementor-widget-image-carousel .swiper .swiper-slide figure { line-height: inherit; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-widget-image-carousel .swiper-slide",
+          "cssText": ".elementor-widget-image-carousel .swiper-slide { text-align: center; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-image-carousel-wrapper:not(.swiper-initialized) .swiper-slide",
+          "cssText": ".elementor-image-carousel-wrapper:not(.swiper-initialized) .swiper-slide { max-width: calc(100% / var(--e-image-carousel-slides-to-show, 3)); }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 { --e-image-carousel-slides-to-show: 5; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55 > .elementor-widget-container",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 > .elementor-widget-container { margin: 0px; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-12 .elementor-element.elementor-element-e396a55 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image",
+          "cssText": ".elementor-12 .elementor-element.elementor-element-e396a55 .elementor-image-carousel-wrapper .elementor-image-carousel .swiper-slide-image { border-radius: 0px; }"
+        },
+        {
+          "href": "https://suriota.com/wp-content/cache/wpo-minify/1779207331/assets/wpo-minify-header-9f47d99d.min.css",
+          "selector": ".elementor-image-carousel-wrapper",
+          "cssText": ".elementor-image-carousel-wrapper { padding: 8px 0px; }"
+        },
+        {
+          "href": "(inline)",
+          "selector": ".elementor-image-carousel-wrapper",
+          "cssText": ".elementor-image-carousel-wrapper { padding: 8px 0px; }"
+        }
+      ],
+      "inlineStyleHits": [
+        {
+          "index": 9,
+          "dataAttrs": [
+            "id=sx-zh-pages-css"
+          ],
+          "snippet": "@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap);@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap);@import url(https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500;600&dis",
+          "length": 349838
+        }
+      ],
+      "handlerInfo": {
+        "keys": [
+          "accordion.default",
+          "alert.default",
+          "counter.default",
+          "progress.default",
+          "tabs.default",
+          "toggle.default",
+          "video.default",
+          "image-carousel.default",
+          "text-editor.default",
+          "wp-widget-media_audio.default",
+          "container",
+          "section",
+          "column"
+        ],
+        "hasImageCarousel": true
+      },
+      "swiperGlobals": {
+        "windowSwiper": "function",
+        "elementorSwiper": true
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.0.0 Safari/537.36",
+      "readyState": "complete"
+    }
+  }
+}

@@ -28,7 +28,18 @@ Thumbs.db
 
 # Screenshots
 screenshots/
+audit/*.png
 
 # Temp scripts
 tools/py/_*.py
 tools/js/_*.js
+
+# Audit vendor / raw dumps (regenerable, large)
+audit/wpo_*.js
+audit/suriota_home.html
+audit/shared_handlers.js
+audit/carousel_bundle_snippet.js
+
+# Previous-session one-off PLL scripts
+fix_pll_zh*.py
+review_zh_pages.py
