@@ -5,6 +5,7 @@
 <p><strong>AI-assisted automation toolkit for managing suriota.com</strong><br/>
 WordPress + Elementor | Playwright | Python | MCP Servers</p>
 
+[![CI](https://github.com/GifariKemal/suriota-website-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/GifariKemal/suriota-website-toolkit/actions)
 [![GitHub stars](https://img.shields.io/github/stars/GifariKemal/suriota-website-toolkit?style=social)](https://github.com/GifariKemal/suriota-website-toolkit)
 [![License](https://img.shields.io/badge/License-Proprietary-2563EB.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-6.x-21759b?logo=wordpress)](https://wordpress.org)
