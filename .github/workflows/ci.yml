@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  lint-python:
+    name: Lint Python Scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Python scripts
+        run: |
+          python -m py_compile tools/py/*.py
+      - name: Check Python syntax
+        run: |
+          for f in tools/py/*.py; do
+            echo "Checking $f"
+            python -m py_compile "$f"
+          done
+
+  lint-js:
+    name: Lint JavaScript Scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci || npm install
+      - name: Check JavaScript syntax
+        run: |
+          for f in tools/js/*.js; do
+            echo "Checking $f"
+            node --check "$f"
+          done
+
+  validate-json:
+    name: Validate JSON Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON syntax
+        run: |
+          for f in exports/json/*.json backups/*.json; do
+            if [ -f "$f" ]; then
+              echo "Validating $f"
+              python -c "import json; json.load(open('$f'))"
+            fi
+          done
+
+  validate-markdown:
+    name: Validate Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --timeout 30 README.md CONTRIBUTING.md
+          fail: false

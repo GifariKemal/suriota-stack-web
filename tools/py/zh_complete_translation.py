@@ -265,6 +265,25 @@ PER_PAGE_TRANSLATIONS: dict[int, dict[str, str]] = {
     },
     5450: {
         "Ready to Collaborate with SURIOTA?": "准备好与 SURIOTA 合作了吗？",
+        "SURIOTA Core Values": "SURIOTA 核心价值观",
+        "CIPTA - Core Values": "CIPTA - 核心价值观",
+        "Five principles guiding every SURIOTA project, execution, and partnership.":
+            "指导 SURIOTA 每一个项目、执行与合作的五项原则。",
+        "Committed Outcome":  "坚定的成果",
+        "Consistent focus on the best results &amp; defined targets.":
+            "始终专注于最佳结果与既定目标。",
+        "Integrity of Innovation": "诚信创新",
+        "Innovating with honesty, ethics, &amp; responsibility.":
+            "以诚信、伦理与责任进行创新。",
+        "Precision in Execution": "精准执行",
+        "Precision, discipline, &amp; high quality standards.":
+            "精准、纪律与高质量标准。",
+        "Trust Through Reliability": "通过可靠建立信任",
+        "Consistency, dependability, &amp; commitment.":
+            "始终如一、可靠与承诺。",
+        "Adaptive Growth": "适应性成长",
+        "Embracing change &amp; continuous improvement.":
+            "拥抱变化与持续改进。",
     },
     5451: {
         "What communication protocols does the SURGE platform support?":
@@ -297,6 +316,8 @@ PER_PAGE_TRANSLATIONS: dict[int, dict[str, str]] = {
             "对于每个电气安装项目，SURIOTA 都会交付竣工图、完整的调试报告、交接文件（Berita Acara Serah Terima）以及建议的维护计划。",
         "Does SURIOTA serve projects outside Batam?":
             "SURIOTA 可以承接巴淡岛以外的项目吗？",
+        "Commissioning duration depends on installation complexity. For medium-scale commercial building installations, the commissioning process typically takes 2-5 business days, covering insulation resistance, continuity, and load testing.":
+            "调试时长取决于安装的复杂程度。对于中等规模的商业建筑安装，调试通常需要 2–5 个工作日，包含绝缘电阻、导通性以及负载测试。",
     },
     5453: {
         "Toward a greener future with SURIOTA renewable energy solutions":
@@ -311,6 +332,10 @@ PER_PAGE_TRANSLATIONS: dict[int, dict[str, str]] = {
             "PLTS 安装需要特殊许可吗？",
         "For on-grid PLTS systems, PLN approval and applicable regulatory permits are required. SURIOTA assists with the permitting process and coordination with relevant agencies as part of our service.":
             "对于并网 PLTS 系统，需要 PLN 审批和相关法规许可。作为服务的一部分，SURIOTA 协助办理许可流程并与相关机构对接。",
+        "Hybrid systems leverage two renewable energy sources simultaneously. When solar production is low (night or cloudy), wind turbines continue generating electricity, providing more stable energy supply and requiring smaller battery capacity.":
+            "混合系统同时利用两种可再生能源。当光伏出力较低时（夜间或多云），风力发电机可继续发电，从而提供更稳定的能源供应，并降低所需的电池容量。",
+        "PLTS ROI depends on electricity tariffs, solar irradiation at the location, and system capacity. For industrial applications in Batam and Riau Islands, ROI is typically achieved within 5-8 years, with system lifespan reaching 25 years.":
+            "PLTS 的投资回报周期取决于电价、当地的光照辐射以及系统容量。对于巴淡岛和廖内群岛的工业应用，通常在 5–8 年内即可实现回报，而系统寿命可达 25 年。",
     },
     5457: {
         "WTP, WWTP & IPAL design-build with KLHK SPARING compliance & real-time IoT monitoring (pH, COD, TSS, NH3) for industries, PDAM & water utilities":
@@ -327,6 +352,8 @@ PER_PAGE_TRANSLATIONS: dict[int, dict[str, str]] = {
             "可以，我们经验丰富的技术人员能够对 Grundfos、Ebara、Flygt、Satelite 等多种品牌的水泵电机进行重绕和维修。",
         "What is SPARING and why is it important?":
             "SPARING 是什么？为什么重要？",
+        "SPARING (Industrial Wastewater Quality Monitoring System) is an online monitoring system required by KLHK for certain industries. SURIOTA provides installation, integration, and maintenance of SPARING systems per government regulations.":
+            "SPARING（工业废水水质在线监测系统）是 KLHK 针对部分行业强制要求的在线监测系统。SURIOTA 依据政府法规提供 SPARING 系统的安装、集成与维护服务。",
     },
     5461: {
         "RS-485 Isolation Module": "RS-485 隔离模块",
