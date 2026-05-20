@@ -1,14 +1,10 @@
 <div align="center">
 
-<!-- Logo placeholder -->
-<img src="https://via.placeholder.com/120x120/2563EB/FFFFFF?text=S" width="100" alt="SURIOTA Logo" />
-
 <h1>SURIOTA Website Toolkit</h1>
 
 <p><strong>AI-assisted automation toolkit for managing suriota.com</strong><br/>
 WordPress + Elementor | Playwright | Python | MCP Servers</p>
 
-<!-- Badges -->
 [![GitHub stars](https://img.shields.io/github/stars/GifariKemal/suriota-website-toolkit?style=social)](https://github.com/GifariKemal/suriota-website-toolkit)
 [![License](https://img.shields.io/badge/License-Proprietary-2563EB.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-6.x-21759b?logo=wordpress)](https://wordpress.org)
@@ -23,6 +19,7 @@ WordPress + Elementor | Playwright | Python | MCP Servers</p>
 
 - [Overview](#overview)
 - [Architecture](#architecture)
+- [Workflow](#workflow)
 - [Features](#features)
 - [Quick Start](#quick-start)
 - [Folder Structure](#folder-structure)
@@ -37,7 +34,7 @@ WordPress + Elementor | Playwright | Python | MCP Servers</p>
 
 ## Overview
 
-Repository ini berisi toolkit otomasi, audit report, design system, dan backup data untuk pengelolaan website **suriota.com** milik **PT Surya Inovasi Prioritas (SURIOTA)**. Semua script dan asset diorganisir untuk workflow AI-assisted website management menggunakan Claude Code + MCP Servers.
+This repository contains automation tools, audit reports, design system assets, and backup data for managing [suriota.com](https://suriota.com) — the official website of **PT Surya Inovasi Prioritas (SURIOTA)**. All scripts and assets are organized for AI-assisted website management using Claude Code + MCP Servers.
 
 > **Website:** [suriota.com](https://suriota.com)  
 > **Company:** PT Surya Inovasi Prioritas (SURIOTA)  
@@ -50,33 +47,19 @@ Repository ini berisi toolkit otomasi, audit report, design system, dan backup d
 
 ```mermaid
 graph TB
-    subgraph "Developer Workflow"
-        A[Claude Code] -->|MCP Protocol| B[MCP Server]
-    end
-
-    subgraph "Automation Layer"
-        B --> C[Python Scripts]
-        B --> D[Node.js Scripts]
-        C --> E[Elementor API]
-        D --> F[Playwright/Puppeteer]
-    end
-
-    subgraph "WordPress Instance"
-        E --> G[(WordPress DB)]
-        F --> H[suriota.com]
-        H --> I[Elementor Frontend]
-    end
-
-    subgraph "Assets & Backup"
-        J[backups/] --> K[JSON Exports]
-        J --> L[Template Backups]
-        M[exports/] --> N[Content Data]
-    end
-
-    subgraph "Quality Assurance"
-        O[audit/] --> P[Audit Reports]
-        Q[tools/js/] --> R[Visual Regression]
-    end
+    A[Claude Code] --> B[MCP Server]
+    B --> C[Python Scripts]
+    B --> D[Node.js Scripts]
+    C --> E[Elementor API]
+    D --> F[Playwright]
+    E --> G[WordPress Database]
+    F --> H[suriota.com]
+    H --> I[Elementor Frontend]
+    J[backups] --> K[JSON Exports]
+    J --> L[Template Backups]
+    M[exports] --> N[Content Data]
+    O[audit] --> P[Audit Reports]
+    Q[tools/js] --> R[Visual Regression]
 ```
 
 ---
@@ -85,11 +68,11 @@ graph TB
 
 ```mermaid
 sequenceDiagram
-    participant Dev as Developer
+    participant Dev
     participant CC as Claude Code
     participant MCP as MCP Server
     participant WP as WordPress
-    participant DB as SQLite Audit DB
+    participant DB as SQLite DB
 
     Dev->>CC: Request page update
     CC->>MCP: Query page structure
@@ -111,14 +94,14 @@ sequenceDiagram
 
 | Feature | Description | Status |
 |:--------|:------------|:------:|
-| **Batch Backup** | Automated WordPress data backup dengan timestamp | ✅ Stable |
-| **Visual Audit** | Screenshot regression testing dengan Playwright | ✅ Stable |
-| **Elementor API** | Direct manipulation via MCP Tools for Elementor | ✅ Stable |
-| **Design System** | Centralized tokens, typography, spacing, colors | ✅ Stable |
-| **Audit Tracking** | SQLite database untuk tracking findings | ✅ Stable |
-| **SEO Audit** | AIOSEO meta audit dan validation | ✅ Stable |
-| **Multi-language** | Polylang EN/ID/ZH support scripts | ✅ Stable |
-| **Font Management** | Sitewide font deployment dan cleanup | ✅ Stable |
+| **Batch Backup** | Automated WordPress data backup with timestamp | Stable |
+| **Visual Audit** | Screenshot regression testing with Playwright | Stable |
+| **Elementor API** | Direct manipulation via MCP Tools for Elementor | Stable |
+| **Design System** | Centralized tokens, typography, spacing, colors | Stable |
+| **Audit Tracking** | SQLite database for tracking findings | Stable |
+| **SEO Audit** | AIOSEO meta audit and validation | Stable |
+| **Multi-language** | Polylang EN/ID/ZH support scripts | Stable |
+| **Font Management** | Sitewide font deployment and cleanup | Stable |
 
 ---
 
@@ -128,7 +111,7 @@ sequenceDiagram
 
 - Node.js 18+
 - Python 3.10+
-- Playwright (untuk screenshot automation)
+- Playwright (for screenshot automation)
 
 ### Install
 
@@ -147,13 +130,13 @@ npx playwright install
 ### Usage
 
 ```bash
-# Backup semua data WordPress
+# Backup all WordPress data
 node tools/js/backup-all.js
 
 # Screenshot audit 9 key pages
 node tools/js/screenshot-audit.js
 
-# Insert audit findings ke database
+# Insert audit findings to database
 python tools/py/audit_insert.py
 
 # Build final page structure
@@ -166,13 +149,13 @@ python tools/py/build_final.py
 
 ```
 suriota-website-toolkit/
-├── README.md                 # Dokumentasi ini
+├── README.md                 # This documentation
 ├── LICENSE                   # License file
 ├── CONTRIBUTING.md           # Contribution guidelines
 ├── package.json              # Node.js dependencies
 ├── .gitignore                # Git ignore rules
 │
-├── docs/                     # Dokumentasi
+├── docs/                     # Documentation
 │   ├── AGENTS.md             # AI agent instructions
 │   └── swarm-config.md       # Agent swarm configuration
 │
@@ -206,7 +189,7 @@ suriota-website-toolkit/
 ├── exports/                  # Exported data
 │   └── json/                 # JSON content exports
 │
-├── data/                     # Database & data
+├── data/                     # Database and data
 │   └── db/
 │       └── website_audit.db  # SQLite audit database
 │
@@ -245,23 +228,23 @@ suriota-website-toolkit/
 
 | Report | Date | Focus | Severity |
 |:-------|:-----|:------|:--------:|
-| COMPREHENSIVE-WEBSITE-AUDIT | 2026-05-18 | Full site audit | 🔴 High |
-| VALIDATION-REPORT | 2026-05-19 | Post-fix validation | 🟡 Medium |
-| AIOSEO-AUDIT | 2026-05-18 | SEO meta audit | 🟡 Medium |
-| WP-OPTIMIZE-BASELINE | 2026-05-18 | Performance baseline | 🟡 Medium |
-| FINAL-AUDIT-CLUSTER1 | 2026-05-18 | Homepage cluster | 🔴 High |
-| CLUSTER2-SERVICE-PAGES | 2026-05-18 | Service pages | 🟡 Medium |
-| CLUSTER3-AUDIT | 2026-05-18 | Product pages | 🟡 Medium |
-| CLUSTER4-PORTFOLIO | 2026-05-18 | Portfolio + Internship | 🟢 Low |
-| WEB-HEALTH-CHECK | 2026-05-18 | General health | 🟡 Medium |
-| ABOUT-US-AUDIT | 2026-05-14 | About page | 🟢 Low |
-| DESIGN-CRITIQUE-PORTFOLIO | 2026-05-18 | Portfolio post | 🟢 Low |
+| COMPREHENSIVE-WEBSITE-AUDIT | 2026-05-18 | Full site audit | High |
+| VALIDATION-REPORT | 2026-05-19 | Post-fix validation | Medium |
+| AIOSEO-AUDIT | 2026-05-18 | SEO meta audit | Medium |
+| WP-OPTIMIZE-BASELINE | 2026-05-18 | Performance baseline | Medium |
+| FINAL-AUDIT-CLUSTER1 | 2026-05-18 | Homepage cluster | High |
+| CLUSTER2-SERVICE-PAGES | 2026-05-18 | Service pages | Medium |
+| CLUSTER3-AUDIT | 2026-05-18 | Product pages | Medium |
+| CLUSTER4-PORTFOLIO | 2026-05-18 | Portfolio + Internship | Low |
+| WEB-HEALTH-CHECK | 2026-05-18 | General health | Medium |
+| ABOUT-US-AUDIT | 2026-05-14 | About page | Low |
+| DESIGN-CRITIQUE-PORTFOLIO | 2026-05-18 | Portfolio post | Low |
 
 ---
 
 ## Design System
 
-SX Design System — Industrial Editorial style untuk suriota.com.
+SX Design System — Industrial Editorial style for suriota.com.
 
 | Token | Value |
 |:------|:------|
@@ -272,7 +255,7 @@ SX Design System — Industrial Editorial style untuk suriota.com.
 | **Border Radius** | 4px |
 | **Container Max** | 1280px |
 
-Lihat lengkapnya di [`design-system/DESIGN-SYSTEM.md`](design-system/DESIGN-SYSTEM.md).
+See full documentation in [`design-system/DESIGN-SYSTEM.md`](design-system/DESIGN-SYSTEM.md).
 
 ---
 
@@ -280,17 +263,12 @@ Lihat lengkapnya di [`design-system/DESIGN-SYSTEM.md`](design-system/DESIGN-SYST
 
 ```mermaid
 graph LR
-    A[WordPress 6.x] --> B[Elementor Pro]
-    B --> C[PHP 8.x]
-    C --> D[MySQL]
-    E[Playwright 1.x] --> F[Node.js 18+]
-    G[Python 3.10+] --> H[SQLite]
-    I[MCP Server] --> J[Claude Code]
-    style A fill:#21759b,color:#fff
-    style B fill:#92003B,color:#fff
-    style E fill:#2EAD33,color:#fff
-    style G fill:#3776AB,color:#fff
-    style I fill:#000,color:#fff
+    WP[WordPress 6.x] --> EL[Elementor Pro]
+    EL --> PHP[PHP 8.x]
+    PHP --> SQL[MySQL]
+    PW[Playwright 1.x] --> NODE[Node.js 18+]
+    PY[Python 3.10+] --> SQ[SQLite]
+    MCP[MCP Server] --> CC[Claude Code]
 ```
 
 | Layer | Technologies |
@@ -306,13 +284,13 @@ graph LR
 
 ## Contributing
 
-Lihat [`CONTRIBUTING.md`](CONTRIBUTING.md) untuk detail kontribusi.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for detailed contribution guidelines.
 
 Quick guidelines:
-1. Fork repository
-2. Buat branch: `git checkout -b feature/nama-fitur`
-3. Commit dengan [Conventional Commits](https://conventionalcommits.org)
-4. Push dan buat Pull Request
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/name`
+3. Commit using [Conventional Commits](https://conventionalcommits.org)
+4. Push and create a Pull Request
 
 ---
 
@@ -322,12 +300,12 @@ Proprietary — PT Surya Inovasi Prioritas (SURIOTA)
 
 All rights reserved. Unauthorized copying, distribution, or modification is prohibited.
 
-Lihat [`LICENSE`](LICENSE) untuk detail lengkap.
+See [`LICENSE`](LICENSE) for full details.
 
 ---
 
 <div align="center">
 
-**[suriota.com](https://suriota.com)** · Made with precision by SURIOTA Engineering
+**[suriota.com](https://suriota.com)** &middot; Made with precision by SURIOTA Engineering
 
 </div>

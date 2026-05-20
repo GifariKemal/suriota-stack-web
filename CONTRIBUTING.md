@@ -1,10 +1,10 @@
 # Contributing to SURIOTA Website Toolkit
 
-Terima kasih atas minat Anda untuk berkontribusi pada SURIOTA Website Toolkit.
+Thank you for your interest in contributing to the SURIOTA Website Toolkit.
 
 ## Development Workflow
 
-### 1. Setup Environment
+### 1. Environment Setup
 
 ```bash
 # Clone repo
@@ -14,24 +14,24 @@ cd suriota-website-toolkit
 # Install dependencies
 npm install
 
-# Setup Playwright (jika perlu screenshot)
+# Setup Playwright (if screenshot needed)
 npx playwright install
 ```
 
 ### 2. Branch Naming
 
-Gunakan format berikut:
+Use the following format:
 
-| Prefix | Kegunaan | Contoh |
-|:-------|:---------|:-------|
-| `feature/` | Fitur baru | `feature/seo-audit-script` |
+| Prefix | Purpose | Example |
+|:-------|:--------|:--------|
+| `feature/` | New feature | `feature/seo-audit-script` |
 | `fix/` | Bug fix | `fix/backup-path-error` |
-| `docs/` | Dokumentasi | `docs/readme-update` |
+| `docs/` | Documentation | `docs/readme-update` |
 | `refactor/` | Refactor | `refactor/cleanup-scripts` |
 
 ### 3. Commit Convention
 
-Gunakan [Conventional Commits](https://conventionalcommits.org):
+Use [Conventional Commits](https://conventionalcommits.org):
 
 ```
 <type>(<scope>): <subject>
@@ -42,21 +42,21 @@ Gunakan [Conventional Commits](https://conventionalcommits.org):
 ```
 
 **Types:**
-- `feat` — Fitur baru
-- `fix` — Perbaikan bug
-- `docs` — Perubahan dokumentasi
-- `style` — Formatting, tanpa perubahan kode
-- `refactor` — Refactor kode
-- `test` — Menambah test
+- `feat` — New feature
+- `fix` — Bug fix
+- `docs` — Documentation changes
+- `style` — Formatting, no code change
+- `refactor` — Code refactoring
+- `test` — Adding tests
 - `chore` — Maintenance tasks
 
-**Contoh:**
+**Example:**
 ```
 feat(tools): add bulk image optimizer script
 
 - Support WebP conversion
-- Auto-resize untuk breakpoint mobile/desktop
-- Integrasi dengan Elementor media library
+- Auto-resize for mobile/desktop breakpoints
+- Integrate with Elementor media library
 
 Closes #12
 ```
@@ -64,18 +64,18 @@ Closes #12
 ### 4. Code Standards
 
 **Python:**
-- Gunakan PEP 8
-- Type hints untuk function signatures
-- Docstring untuk public functions
+- Follow PEP 8
+- Use type hints for function signatures
+- Add docstrings for public functions
 
 **JavaScript:**
 - ES6+ syntax
-- Async/await untuk operasi asynchronous
-- Error handling dengan try/catch
+- Async/await for asynchronous operations
+- Error handling with try/catch
 
 ### 5. Testing
 
-Sebelum commit:
+Before committing:
 ```bash
 # Test Python scripts
 python -m py_compile tools/py/*.py
@@ -86,18 +86,18 @@ node --check tools/js/*.js
 
 ### 6. Pull Request
 
-1. Update README.md jika ada perubahan fitur
-2. Pastikan tidak ada file temporary (`_*.py`, `_*.js`)
-3. Deskripsikan perubahan dengan jelas di PR description
-4. Link ke issue terkait jika ada
+1. Update README.md if features change
+2. Ensure no temporary files (`_*.py`, `_*.js`) are committed
+3. Describe changes clearly in PR description
+4. Link to related issues if any
 
 ## Code Review
 
-Semua PR akan direview dalam 24-48 jam. Maintainer berhak:
+All PRs will be reviewed within 24-48 hours. Maintainers may:
 - Request changes
-- Merge setelah approval
-- Close PR yang tidak sesuai guideline
+- Merge after approval
+- Close PRs that do not follow guidelines
 
 ## Questions?
 
-Hubungi tim engineering SURIOTA via email: info@suriota.com
+Contact the SURIOTA engineering team: info@suriota.com
