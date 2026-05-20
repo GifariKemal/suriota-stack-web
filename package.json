@@ -1,0 +1,19 @@
+{
+  "name": "website-suriota",
+  "version": "1.0.0",
+  "description": "> **Project:** UI/UX Improvement untuk website [suriota.com](https://suriota.com)   > **Platform:** WordPress + Elementor   > **MCP Server:** MCP Tools for Elementor (v1.4.3) via WordPress MCP Adapter (v0.4.1)   > **Managed by:** Kimi Code CLI via MCP stdio wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.43.1"
+  }
+}

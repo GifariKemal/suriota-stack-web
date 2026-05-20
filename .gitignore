@@ -1,9 +1,27 @@
-_home.html
-_auto.html
-_min.css
-_pt_surya_eyebrow.png
-_pt_brand_*.png
-_audit_id_pages.txt
+# Dependencies
+node_modules/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Logs
+*.log
+data/logs/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp files
+*.tmp
+*.temp
+
+# Embedded repos
+.design-claude/
+.neo-ux/

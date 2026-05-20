@@ -1,0 +1,131 @@
+{
+  "id": 1925,
+  "date": "2026-04-12T13:38:33",
+  "date_gmt": "2026-04-12T13:38:33",
+  "guid": {
+    "rendered": "https://suriota.com/hybrid-pju-menggunakan-plts-dan-pltb-berbasis-iot/"
+  },
+  "modified": "2026-04-13T03:23:05",
+  "modified_gmt": "2026-04-13T03:23:05",
+  "slug": "hybrid-pju-menggunakan-plts-dan-pltb-berbasis-iot",
+  "status": "publish",
+  "type": "post",
+  "link": "https://suriota.com/hybrid-pju-menggunakan-plts-dan-pltb-berbasis-iot/",
+  "title": {
+    "rendered": "Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT"
+  },
+  "content": {
+    "rendered": "\n<p>Selanjutnya, PJU hybrid PLTS PLTB berbasis IoT merupakan solusi penerangan jalan umum generasi berikutnya yang menggabungkan dua sumber energi terbarukan, tenaga surya dan tenaga angin, dalam satu sistem terintegrasi dengan kemampuan monitoring jarak jauh. Di Indonesia, biaya operasional penerangan jalan umum (PJU) yang bergantung sepenuhnya pada listrik PLN menjadi beban fiskal yang signifikan bagi pemerintah daerah. S</p>\n\n\n<p>Perlu diketahui bahwa ementara itu, banyak wilayah, terutama di daerah pesisir, perbukitan, dan kawasan terpencil, memiliki potensi energi matahari dan angin yang belum dimanfaatkan secara optimal. SURIOTA mengembangkan sistem lampu jalan tenaga surya angin dengan monitoring IoT yang menjawab kedua tantangan ini sekaligus: mengurangi ketergantungan pada jaringan listrik konvensional dan memberikan visibilitas penuh terhadap kondisi operasional setiap titik lampu.</p>\n\n\n\n<p>Namun demikian, sistem ini dirancang tidak hanya sebagai instalasi energi terbarukan biasa, tetapi sebagai smart street light yang dapat dipantau dan dikelola dari jarak jauh melalui dashboard IoT penerangan. Dengan pendekatan ini, kualitas penerangan jalan dapat dipertahankan secara optimal sambil meminimalkan biaya pemeliharaan dan operasional. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1080\" height=\"719\" src=\"https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable.jpg\" alt=\"PJU Hybrid PLTS - Solar panel street lamp against a twilight sky\" class=\"wp-image-1920\" srcset=\"https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable.jpg 1080w, https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-512x341.jpg 512w, https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg 1024w, https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-150x100.jpg 150w, https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-768x511.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /><figcaption class=\"wp-element-caption\">Foto: [jeff wu](https://unsplash.com/@jeffwuphotograph) / Unsplash</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Tantangan Penerangan Jalan Umum Konvensional di Indonesia PJU Hybrid PLTS</h2>\n\n\n\n<p>Sebagai tambahan, sistem PJU konvensional yang bergantung pada jaringan listrik PLN menghadapi berbagai keterbatasan yang semakin terasa seiring dengan ekspansi infrastruktur ke wilayah wilayah yang lebih terpencil. Biaya penyambungan listrik ke daerah terpencil sangat tinggi, sementara biaya langganan dan konsumsi listrik bulanan menjadi beban berkelanjutan yang harus ditanggung pemerintah daerah. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<p>Faktanya, masalah keandalan juga menjadi perhatian utama. Pemadaman listrik PLN otomatis mematikan seluruh sistem PJU, menciptakan kondisi gelap di jalan yang membahayakan pengguna jalan. Pemeliharaan sistem PJU konvensional juga menghadapi tantangan karena kerusakan lampu sering tidak diketahui hingga ada laporan dari masyarakat atau inspeksi fisik yang memakan waktu dan biaya. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<p>Perlu diketahui bahwa di sisi lain, potensi energi terbarukan di banyak wilayah Indonesia belum dimanfaatkan. Intensitas matahari yang tinggi sepanjang tahun dan kecepatan angin yang memadai di banyak lokasi menjadikan kombinasi PLTS dan PLTB sebagai solusi yang sangat menjanjikan untuk PJU mandiri yang tidak bergantung pada jaringan PLN. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Arsitektur Sistem PJU Solar Panel IoT Monitoring PJU Hybrid PLTS</h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" width=\"1080\" height=\"720\" src=\"https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains.jpg\" alt=\"Street light with solar panel against blue sky.\" class=\"wp-image-1921\" srcset=\"https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains.jpg 1080w, https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains-512x341.jpg 512w, https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains-1024x683.jpg 1024w, https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains-150x100.jpg 150w, https://suriota.com/wp-content/uploads/2026/04/02-street-light-with-solar-panel-agains-768x512.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /><figcaption class=\"wp-element-caption\">Foto: [Mochamad Reza Aditya](https://unsplash.com/@aicd_fix) / Unsplash</figcaption></figure>\n\n\n\n<p>Dalam hal ini, sistem hybrid PJU yang dikembangkan SURIOTA mengintegrasikan komponen energi terbarukan dengan sistem kendali dan monitoring IoT dalam arsitektur yang andal dan efisien. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Subsistem Pembangkitan Energi Hybrid PJU Hybrid PLTS</h3>\n\n\n\n<p>Namun demikian, panel surya (PLTS) berfungsi sebagai sumber energi primer, memanfaatkan radiasi matahari yang tersedia sepanjang siang hari untuk mengisi baterai penyimpanan energi. Turbin angin skala kecil (PLTB) berperan sebagai sumber energi komplementer yang aktif baik siang maupun malam, dan sangat efektif pada kondisi berawan di mana output panel surya berkurang. Penerapan <strong>PJU Hybrid PLTS</strong> secara profesional terbukti memberikan hasil optimal.</p>\n\n\n\n<p>Hasilnya, sistem manajemen energi (Energy Management System/EMS) mengatur secara cerdas aliran energi dari kedua sumber ke baterai dan dari baterai ke beban lampu. Algoritma pengisian baterai yang dioptimalkan memastikan baterai tidak pernah overcharge atau deep discharge, memperpanjang umur baterai secara signifikan.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Subsistem Penyimpanan dan Distribusi Energi PJU Hybrid PLTS</h3>\n\n\n\n<p>Faktanya, baterai kapasitas tinggi, umumnya menggunakan teknologi Lithium Iron Phosphate (LiFePO4) yang tahan terhadap siklus pengisian pengosongan berulang, menyimpan energi yang dihasilkan untuk digunakan saat malam hari atau ketika produksi energi rendah. Inverter atau konverter DC to DC memastikan tegangan yang disuplai ke lampu LED selalu stabil pada level yang dibutuhkan.</p>\n\n\n\n<h3 class=\"wp-block-heading\">Subsistem Monitoring IoT Penerangan</h3>\n\n\n\n<p>Secara keseluruhan, modul IoT yang terintegrasi dalam sistem melakukan pengukuran dan pengiriman data operasional secara real time, meliputi tegangan dan arus baterai, output daya panel surya dan turbin angin, status ON/OFF lampu, serta kondisi kesehatan komponen sistem. Data ini dikirimkan ke platform cloud yang dapat diakses melalui dashboard web atau aplikasi mobile.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Implementasi Sistem Solar Wind Hybrid untuk PJU</h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" width=\"1880\" height=\"1253\" src=\"https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels.jpg\" alt=\"A solar-powered street light set against vibrant green conifer trees, symbolizing sustainable energy.\" class=\"wp-image-1922\" srcset=\"https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels.jpg 1880w, https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels-512x341.jpg 512w, https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels-1024x682.jpg 1024w, https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels-150x100.jpg 150w, https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels-768x512.jpg 768w, https://suriota.com/wp-content/uploads/2026/04/04-a-solar-powered-street-light-set-pexels-1536x1024.jpg 1536w\" sizes=\"(max-width: 1880px) 100vw, 1880px\" /><figcaption class=\"wp-element-caption\">Foto: Pexels</figcaption></figure>\n\n\n\n<p>Lebih jauh, proses implementasi sistem PJU hybrid PLTS PLTB IoT memerlukan perencanaan yang matang dan eksekusi yang cermat untuk memastikan performa optimal dalam jangka panjang.</p>\n\n\n\n<p><strong>Dalam hal ini, studi Kelayakan dan Desain Sistem</strong><br/>Tim SURIOTA melakukan analisis data iradiasi matahari dan kecepatan angin di lokasi yang dituju menggunakan data historis NASA atau BMKG. Berdasarkan analisis ini, kapasitas panel surya, turbin angin, dan baterai dihitung secara teliti untuk memastikan sistem mampu menyuplai kebutuhan penerangan selama minimal 3-5 hari berturut turut tanpa sinar matahari maupun angin yang signifikan (kondisi terburuk).</p>\n\n\n\n<p><strong>Selain itu, instalasi Komponen Mekanik dan Elektrikal</strong><br/>Tiang lampu PJU dirancang untuk menopang panel surya, turbin angin, dan lampu LED secara bersamaan dengan mempertimbangkan beban angin dan faktor keamanan struktural. Kabel dan komponen elektrikal dipilih berdasarkan standar keamanan listrik yang berlaku.</p>\n\n\n\n<p><strong>Selain itu, konfigurasi Sistem IoT dan Commissioning</strong><br/>Modul IoT dikonfigurasi dengan parameter pemantauan yang sesuai dan diuji konektivitasnya ke platform cloud. Dashboard monitoring dikustomisasi untuk menampilkan informasi yang paling relevan bagi operator. Setelah semua pengujian selesai, sistem memasuki fase commissioning di mana performa aktual dibandingkan dengan desain untuk verifikasi.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Manfaat Energi Terbarukan dan IoT untuk Penerangan Jalan</h2>\n\n\n\n<p>Penerapan sistem PJU hybrid berbasis IoT memberikan manfaat multi dimensi yang mencakup aspek ekonomi, lingkungan, dan operasional.</p>\n\n\n\n<p>Lebih lanjut, dari sisi ekonomi, penghematan biaya listrik sangat signifikan karena sistem beroperasi sepenuhnya dari energi terbarukan. Biaya pemeliharaan juga berkurang karena kerusakan dapat dideteksi secara dini melalui sistem monitoring IoT, menghindari kunjungan lapangan yang tidak perlu dan mencegah kerusakan lebih parah akibat terlambat ditangani.</p>\n\n\n\n<p>Lebih lanjut, dari sisi lingkungan, penggunaan energi terbarukan mengurangi emisi karbon dibandingkan dengan PJU berbasis listrik dari pembangkit konvensional. Ini sejalan dengan komitmen Indonesia terhadap target energi terbarukan dan pengurangan emisi gas rumah kaca.</p>\n\n\n\n<p>Di samping itu, dari sisi operasional, kemampuan monitoring jarak jauh melalui IoT penerangan mengubah paradigma pemeliharaan PJU dari reaktif menjadi proaktif. Operator dapat mengetahui kondisi setiap titik lampu secara real time tanpa harus melakukan inspeksi fisik rutin yang memakan waktu dan biaya.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Praktik Terbaik Penerapan Smart Street Light Berbasis IoT</h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1733\" height=\"1300\" src=\"https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels.jpg\" alt=\"Street light with solar panel against a dusky sky, symbolizing renewable energy.\" class=\"wp-image-1923\" srcset=\"https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels.jpg 1733w, https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels-512x384.jpg 512w, https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels-1024x768.jpg 1024w, https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels-150x113.jpg 150w, https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels-768x576.jpg 768w, https://suriota.com/wp-content/uploads/2026/04/05-street-light-with-solar-panel-ag-pexels-1536x1152.jpg 1536w\" sizes=\"(max-width: 1733px) 100vw, 1733px\" /><figcaption class=\"wp-element-caption\">Foto: Pexels</figcaption></figure>\n\n\n\n<p>Dengan demikian, keberhasilan jangka panjang sistem PJU hybrid IoT sangat bergantung pada penerapan praktik pemeliharaan yang tepat. Panel surya harus dibersihkan secara berkala, minimal setiap 3 bulan, untuk menghilangkan debu dan kotoran yang mengurangi efisiensi konversi cahaya matahari. Turbin angin perlu diinspeksi secara rutin untuk memastikan bearing dan komponen mekanik lainnya dalam kondisi baik. Kapasitas baterai harus dipantau melalui sistem IoT dan baterai perlu diganti sesuai siklus hidupnya untuk mencegah kegagalan sistem mendadak.</p>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\" style=\"border-left-color:#1a6aab;border-left-width:5px;background-color:#eef6ff;padding-top:24px;padding-right:28px;padding-bottom:24px;padding-left:28px\">\n\n<p><strong>Mengapa SURIOTA sebagai Mitra Engineering Anda?</strong></p>\n\n\n<ul class=\"wp-block-list\"><li>Pengalaman lebih dari <strong>5 tahun</strong> di engineering, IoT, dan otomasi industri</li><li>Tim engineer bersertifikat dengan keahlian <strong>hardware + software + cloud</strong></li><li>Solusi <strong>end to end custom</strong> sesuai kebutuhan dan skala bisnis Anda</li><li>Support teknis dan <strong>after sales maintenance</strong> jangka panjang</li></ul>\n\n</div>\n\n\n\n<h2 class=\"wp-block-heading\">Kesimpulan</h2>\n\n\n\n<p>Oleh karena itu, sistem PJU hybrid PLTS PLTB berbasis IoT yang dikembangkan SURIOTA menghadirkan solusi penerangan jalan yang mandiri secara energi, ramah lingkungan, dan cerdas dalam pengelolaannya. Dengan menggabungkan kekuatan energi surya dan angin dalam satu sistem terintegrasi yang dapat dipantau secara real time melalui teknologi IoT penerangan, sistem ini memberikan jawaban komprehensif atas tantangan PJU di Indonesia.</p>\n\n\n<p>Baik untuk kawasan perkotaan yang ingin mengurangi tagihan listrik maupun wilayah terpencil yang belum terjangkau jaringan PLN, PJU solar panel IoT monitoring dari SURIOTA adalah investasi infrastruktur yang tepat dan berkelanjutan. Hubungi SURIOTA untuk mendiskusikan solusi PJU yang sesuai dengan kebutuhan wilayah Anda.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"810\" src=\"https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a.jpg\" alt=\"Solar-powered street light against a cloudy sky.\" class=\"wp-image-1924\" srcset=\"https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a.jpg 1080w, https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a-512x384.jpg 512w, https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a-1024x768.jpg 1024w, https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a-150x113.jpg 150w, https://suriota.com/wp-content/uploads/2026/04/03-solar-powered-street-light-against-a-768x576.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /><figcaption class=\"wp-element-caption\">Foto: [Amid Hasan Emon](https://unsplash.com/@emonphoto) / Unsplash</figcaption></figure>\n\n\n\n<p><strong>Referensi:</strong> Teknologi PJU hybrid berdasarkan standar <a href=\"https://en.wikipedia.org/wiki/Solar_street_light\" target=\"_blank\" rel=\"noopener noreferrer\">lampu jalan tenaga surya</a> sebagai acuan teknis proyek ini.</p>\n\n\n<h2 class=\"wp-block-heading\">Pertanyaan yang Sering Diajukan</h2>\n\n\n\n<p><strong>Dalam hal ini, bagaimana sistem PJU hybrid PLTS PLTB bekerja saat cuaca mendung dan tidak ada angin?</strong><br/>Sistem dirancang dengan kapasitas baterai yang memadai untuk tetap beroperasi selama 3-5 hari dalam kondisi minimal produksi energi (tidak ada sinar matahari dan angin). Ini dicapai melalui kalkulasi kebutuhan energi yang teliti pada tahap desain, pemilihan kapasitas panel surya dan turbin angin yang sesuai, serta algoritma manajemen energi yang mengoptimalkan penggunaan daya tersimpan. Dalam kondisi darurat yang berkepanjangan, sistem dapat dikonfigurasi untuk menurunkan kecerahan lampu secara otomatis guna memperpanjang daya tahan baterai.</p>\n\n\n\n<p><strong>Khususnya, apa keuntungan menggunakan sistem monitoring IoT pada PJU hybrid dibandingkan tanpa monitoring?</strong><br/>Monitoring IoT pada PJU solar panel memberikan beberapa keunggulan kritis. Pertama, deteksi dini kerusakan komponen, seperti penurunan output panel surya akibat kerusakan atau penyumbatan, memungkinkan perbaikan sebelum lampu benar benar padam. Kedua, data produksi energi historis membantu optimasi desain untuk instalasi berikutnya. Ketiga, kontrol jarak jauh memungkinkan penyesuaian jadwal operasional lampu tanpa kunjungan fisik. Keempat, laporan kinerja berbasis data mempermudah pertanggungjawaban anggaran kepada pemangku kepentingan.</p>\n\n\n\n<p>Berapa biaya investasi dan payback period sistem PJU hybrid IoT dibandingkan PJU konvensional? Investasi awal sistem PJU hybrid memang lebih tinggi dibandingkan PJU konvensional. Namun biaya operasional yang jauh lebih rendah menjadikan total cost of ownership lebih kompetitif dalam jangka panjang.</p>\n\n\n<p>Dengan tidak adanya tagihan listrik bulanan dan kebutuhan pemeliharaan yang lebih terencana, payback period sistem PJU hybrid umumnya berkisar antara 3-6 tahun tergantung pada harga listrik lokal, intensitas penggunaan, dan kualitas komponen yang digunakan. Untuk lokasi terpencil yang memerlukan biaya tinggi untuk penyambungan listrik PLN, keunggulan ekonomis PJU hybrid menjadi lebih signifikan lagi.</p>\n\n\n\n<div class=\"wp-block-group is-layout-flow wp-block-group-is-layout-flow\" style=\"border-radius:8px;background-color:#1a6aab;padding-top:40px;padding-right:40px;padding-bottom:40px;padding-left:40px\">\n\n<h3 class=\"wp-block-heading has-text-align-center\" style=\"color:#ffffff\">Butuh Solusi Engineering untuk Bisnis Anda?</h3>\n\n\n<p class=\"has-text-align-center\" style=\"color:#ddeeff\">Konsultasikan kebutuhan engineering, IoT, dan otomasi Anda dengan tim SURIOTA. Solusi tepat guna untuk industri, infrastruktur, dan pendidikan di Batam dan seluruh Indonesia.</p>\n\n\n\n<div class=\"wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-a89b3969 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://suriota.com/contact/\" style=\"border-radius:6px;background-color:#ffffff;color:#1a6aab;font-weight:700\">Hubungi SURIOTA Sekarang</a></div>\n</div>\n\n</div>\n\n\n\n<script type=\"application/ld+json\">\n{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Bagaimana sistem PJU hybrid PLTS PLTB bekerja saat cuaca mendung dan tidak ada angin?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Sistem dirancang dengan kapasitas baterai yang memadai untuk tetap beroperasi selama 3-5 hari dalam kondisi minimal produksi energi (tidak ada sinar matahari dan angin). Ini dicapai melalui kalkulasi kebutuhan energi yang teliti pada tahap desain, pemilihan kapasitas panel surya dan turbin angin yang sesuai, serta algoritma manajemen energi yang mengoptimalkan penggunaan daya tersimpan. Dalam kondisi darurat yang berkepanjangan, sistem dapat dikonfigurasi untuk menurunkan kecerahan lampu secara otomatis guna memperpanjang daya tahan baterai.\"}}, {\"@type\": \"Question\", \"name\": \"Apa keuntungan menggunakan sistem monitoring IoT pada PJU hybrid dibandingkan tanpa monitoring?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Monitoring IoT pada PJU solar panel memberikan beberapa keunggulan kritis. Pertama, deteksi dini kerusakan komponen - seperti penurunan output panel surya akibat kerusakan atau penyumbatan - memungkinkan perbaikan sebelum lampu benar benar padam. Kedua, data produksi energi historis membantu optimasi desain untuk instalasi berikutnya. Ketiga, kontrol jarak jauh memungkinkan penyesuaian jadwal operasional lampu tanpa kunjungan fisik. Keempat, laporan kinerja berbasis data mempermudah pertanggungjawaban anggaran kepada pemangku kepentingan.\"}}, {\"@type\": \"Question\", \"name\": \"Berapa biaya investasi dan payback period sistem PJU hybrid IoT dibandingkan PJU konvensional?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Investasi awal sistem PJU hybrid memang lebih tinggi dibandingkan PJU konvensional, namun biaya operasional yang jauh lebih rendah menjadikan total cost of ownership lebih kompetitif dalam jangka panjang. Dengan tidak adanya tagihan listrik bulanan dan kebutuhan pemeliharaan yang lebih terencana, payback period sistem PJU hybrid umumnya berkisar antara 3-6 tahun tergantung pada harga listrik lokal, intensitas penggunaan, dan kualitas komponen yang digunakan. Untuk lokasi terpencil yang memerlukan biaya tinggi untuk penyambungan listrik PLN, keunggulan ekonomis PJU hybrid menjadi lebih signifikan lagi.\"}}]}\n</script>\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "<p>Selanjutnya, PJU hybrid PLTS PLTB berbasis IoT merupakan solusi penerangan jalan umum generasi berikutnya yang menggabungkan dua sumber energi terbarukan, tenaga surya dan tenaga angin, dalam satu sistem terintegrasi dengan kemampuan monitoring jarak jauh. Di Indonesia, biaya operasional penerangan jalan umum (PJU) yang bergantung sepenuhnya pada listrik PLN menjadi beban fiskal yang signifikan bagi pemerintah [&hellip;]</p>\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 1920,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "footnotes": ""
+  },
+  "categories": [
+    1
+  ],
+  "tags": [
+    37,
+    38,
+    22,
+    41,
+    54
+  ],
+  "class_list": [
+    "post-1925",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-project",
+    "tag-electrical",
+    "tag-electronic",
+    "tag-iot",
+    "tag-programing",
+    "tag-renewable-energy"
+  ],
+  "aioseo_notices": [],
+  "_links": {
+    "self": [
+      {
+        "href": "https://suriota.com/wp-json/wp/v2/posts/1925",
+        "targetHints": {
+          "allow": [
+            "GET"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://suriota.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://suriota.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://suriota.com/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://suriota.com/wp-json/wp/v2/comments?post=1925"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://suriota.com/wp-json/wp/v2/posts/1925/revisions"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://suriota.com/wp-json/wp/v2/media/1920"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://suriota.com/wp-json/wp/v2/media?parent=1925"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://suriota.com/wp-json/wp/v2/categories?post=1925"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://suriota.com/wp-json/wp/v2/tags?post=1925"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+/* ============================================================
+   SURIOTA Design System "sx-" — Industrial Editorial v1
+   ------------------------------------------------------------
+   Reusable across all suriota.com pages.
+   Apply via Elementor → Page Settings → Custom CSS.
+   Source: About Us page (post_id=29) — locked 2026-05-16.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --sx-teal:         #205B69;
+  --sx-teal-deep:    #0E3942;
+  --sx-green:        #3C7D47;
+  --sx-amber:        #C8851F;
+  --sx-surface:      #FAFBFC;
+  --sx-line:         #E8ECEE;
+  --sx-line-dark:    rgba(255,255,255,0.18);
+  --sx-text:         #1F2D33;
+  --sx-text-mute:    #5B6F75;
+  --sx-font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --sx-font-mono:    'IBM Plex Mono', 'Menlo', monospace;
+  --sx-font-body:    'Poppins', system-ui, sans-serif;
+  --sx-ease:         cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------- Eyebrow tag ---------- */
+.sx-eyebrow {
+  display: inline-block;
+  font-family: var(--sx-font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--sx-teal);
+}
+.sx-eyebrow::before {
+  content: "// ";
+  color: var(--sx-amber);
+  font-weight: 600;
+}
+.sx-eyebrow--light { color: rgba(255,255,255,0.82); }
+.sx-eyebrow--light::before { color: #FFB94A; }
+
+/* ---------- Numbered label (01 / VISI, etc) ---------- */
+.sx-numlabel {
+  display: inline-block;
+  font-family: var(--sx-font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--sx-amber);
+}
+
+/* ---------- Stat numeric (tabular mono) ---------- */
+.sx-stat-num {
+  font-family: var(--sx-font-mono);
+  font-feature-settings: "tnum" 1, "lnum" 1;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+.sx-stat-num .sx-plus { color: var(--sx-amber); margin-left: 2px; }
+
+/* ---------- Hairline rule ---------- */
+.sx-hr {
+  border: none;
+  border-top: 1px solid var(--sx-line);
+  margin: 0;
+}
+.sx-hr--light { border-top-color: var(--sx-line-dark); }
+
+/* ---------- Underline-draw effect ---------- */
+.sx-underline {
+  position: relative;
+  display: inline-block;
+}
+.sx-underline::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -2px;
+  width: 100%;
+  height: 1.5px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 320ms var(--sx-ease);
+}
+.about-service-card-link:hover .sx-underline::after,
+.about-service-card-link:focus-visible .sx-underline::after {
+  transform: scaleX(1);
+}
+
+/* ---------- Numbered card badge ---------- */
+.sx-card-num {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  font-family: var(--sx-font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--sx-amber);
+}
+
+/* ---------- Card surface override ---------- */
+.about-service-card,
+.about-trust-card {
+  position: relative;
+  background: var(--sx-surface) !important;
+}
+
+/* ---------- Reveal animation ---------- */
+@keyframes sx-reveal {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+.sx-reveal { animation: sx-reveal 620ms var(--sx-ease) both; }
+.sx-reveal[data-d="100"] { animation-delay: 100ms; }
+.sx-reveal[data-d="200"] { animation-delay: 200ms; }
+.sx-reveal[data-d="300"] { animation-delay: 300ms; }
+.sx-reveal[data-d="400"] { animation-delay: 400ms; }
+
+/* ---------- CTA buttons ---------- */
+.about-cta {
+  position: relative;
+  will-change: transform, box-shadow;
+}
+.about-cta:hover { transform: translateY(-2px); }
+.about-cta:focus-visible {
+  outline: 3px solid rgba(255,255,255,0.85);
+  outline-offset: 3px;
+}
+.about-cta--primary:hover {
+  background: rgba(255,255,255,0.94) !important;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.22);
+}
+.about-cta--wa {
+  background: #075E54 !important;
+  border-color: #075E54 !important;
+  box-shadow: 0 4px 14px rgba(7,94,84,0.32) !important;
+}
+.about-cta--wa:hover {
+  background: #128C7E !important;
+  border-color: #128C7E !important;
+  box-shadow: 0 10px 26px rgba(7,94,84,0.45) !important;
+}
+.about-cta--form:hover {
+  background: rgba(255,255,255,0.14) !important;
+  border-color: #ffffff !important;
+}
+
+/* Primary CTA gentle pulse (3 iter, ~12s) — WCAG 2.2.2 safe */
+@keyframes about-cta-pulse {
+  0%, 100% { box-shadow: 0 4px 14px rgba(0,0,0,0.08); }
+  50%      { box-shadow: 0 4px 24px rgba(255,255,255,0.35); }
+}
+#about-cta-btn {
+  animation: about-cta-pulse 4s ease-in-out 3;
+}
+#about-cta-btn:hover { animation: none; }
+
+/* ---------- Card hover lift ---------- */
+.about-service-card,
+.about-trust-card {
+  transition: transform 280ms var(--sx-ease),
+              box-shadow 280ms var(--sx-ease);
+}
+.about-service-card-link:hover .about-service-card,
+.about-service-card-link:focus-visible .about-service-card {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(32,91,105,0.18);
+}
+.about-service-card-link:focus-visible { outline: none; }
+.about-service-card-link:focus-visible .about-service-card {
+  outline: 3px solid var(--sx-teal);
+  outline-offset: 4px;
+}
+.about-service-card-link:hover .about-service-arrow,
+.about-service-card-link:focus-visible .about-service-arrow {
+  transform: translateX(5px);
+}
+.about-trust-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(32,91,105,0.16);
+}
+
+/* ---------- Responsive ---------- */
+
+/* Tablet 640-1023 */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .about-service-card-link { flex: 1 1 calc(50% - 24px) !important; max-width: none !important; }
+  .about-trust-card { flex: 1 1 calc(50% - 20px) !important; }
+}
+
+/* Mobile 360-639 */
+@media (max-width: 639px) {
+  .about-service-card-link {
+    flex: 1 1 100% !important;
+    max-width: 360px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .about-service-card { padding: 24px 20px !important; }
+  .about-trust-card { flex: 1 1 100% !important; padding: 24px 20px !important; }
+  .about-cta-group {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+  .about-cta {
+    width: 100% !important;
+    justify-content: center !important;
+    padding: 14px 22px !important;
+    font-size: 15px !important;
+    letter-spacing: 0.5px !important;
+  }
+}
+
+/* Small mobile ≤359 */
+@media (max-width: 359px) {
+  .about-cta { padding: 12px 16px !important; font-size: 14px !important; }
+  .about-service-card,
+  .about-trust-card { padding: 20px 16px !important; }
+  .about-service-card h3,
+  .about-trust-card h3 { font-size: 16px !important; }
+  .about-service-card p,
+  .about-trust-card p { font-size: 13.5px !important; }
+}
+
+/* Touch devices (hover:none) */
+@media (hover: none) and (pointer: coarse) {
+  .about-cta:hover,
+  .about-service-card-link:hover .about-service-card,
+  .about-trust-card:hover { transform: none !important; }
+  .about-cta:active { transform: translateY(1px) !important; transition-duration: 80ms !important; }
+  .about-service-card-link:active .about-service-card { transform: scale(0.985) !important; transition-duration: 120ms !important; }
+  .about-service-card-link:active .about-service-arrow { transform: translateX(3px) !important; }
+}
+
+/* Text safety */
+.about-trust-card p,
+.about-service-card p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Reduced motion (WCAG 2.3.3) */
+@media (prefers-reduced-motion: reduce) {
+  .sx-reveal,
+  .sx-underline::after,
+  .about-cta,
+  .about-service-card,
+  .about-trust-card { animation: none !important; transition: none !important; transform: none !important; }
+}
+
+/* Theme reset — hide duplicate H1 from theme entry-title */
+.entry-title { display: none !important; }
+
+/* ============================================================
+   Mobile Responsive Fixes v2 — REQUIRED for grid layouts
+   ============================================================ */
+
+/* Auto-fit grids → 1-col on mobile */
+@media (max-width: 639px) {
+  div[style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+  /* Section content blocks respect viewport */
+  div[style*="max-width:1080px"],
+  div[style*="max-width:960px"] { max-width: 100% !important; }
+  /* Service cards full width */
+  .about-service-card-link {
+    width: 100% !important; max-width: 100% !important; flex: none !important;
+  }
+  .about-service-card {
+    padding: 18px 18px 16px !important; width: 100% !important; box-sizing: border-box !important;
+  }
+  .about-service-card h3 { font-size: 16px !important; margin-bottom: 6px !important; }
+  .about-service-card p { font-size: 13.5px !important; line-height: 1.5 !important; }
+  /* Trust/CIPTA cards */
+  .about-trust-card {
+    flex: none !important; width: 100% !important; max-width: 100% !important;
+    padding: 18px 18px !important; box-sizing: border-box !important;
+  }
+  .about-trust-card h3 { font-size: 15.5px !important; }
+  .about-trust-card p { font-size: 13px !important; line-height: 1.55 !important; }
+  /* Stats stacks: replace L/R borders with bottom only */
+  .sx-reveal[style*="border-left:1px solid rgba(255,255,255"] {
+    border-left: none !important; border-right: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+    padding: 14px 8px !important; text-align: center !important; flex: 1 1 100% !important;
+  }
+  .sx-reveal[style*="border-left:1px solid rgba(255,255,255"]:last-child {
+    border-bottom: none !important;
+  }
+  /* Visi/Misi cards */
+  article[style*="border-top:3px solid"] {
+    flex: none !important; width: 100% !important;
+    padding: 20px 18px !important; box-sizing: border-box !important;
+  }
+  article[style*="border-top:3px solid"] h3 { font-size: 18px !important; }
+  article[style*="border-top:3px solid"] ul li {
+    font-size: 13.5px !important; line-height: 1.55 !important; margin-bottom: 7px !important;
+  }
+}
+
+/* Tablet (640-1023) — 2-col grids */
+@media (min-width: 640px) and (max-width: 1023px) {
+  div[style*="grid-template-columns:repeat(auto-fit,minmax(180px"],
+  div[style*="grid-template-columns:repeat(auto-fit,minmax(190px"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Small mobile ≤359 */
+@media (max-width: 359px) {
+  .about-service-card,
+  .about-trust-card,
+  article[style*="border-top:3px solid"] { padding: 14px 14px !important; }
+  .about-service-card h3 { font-size: 15px !important; }
+  .about-trust-card h3 { font-size: 14.5px !important; }
+  .sx-stat-num { font-size: 28px !important; }
+  .about-trust-card span[style*="font-size:34px"] { font-size: 28px !important; }
+}
+
+/* Overflow safety — applies all viewports */
+.about-service-card,
+.about-trust-card,
+article[style*="border-top"] {
+  min-width: 0; overflow: hidden;
+}
+.about-service-card h3,
+.about-trust-card h3,
+.about-service-card p,
+.about-trust-card p {
+  min-width: 0; max-width: 100%;
+  overflow-wrap: break-word; word-break: break-word; hyphens: auto;
+}
