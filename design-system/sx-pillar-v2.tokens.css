@@ -1,0 +1,60 @@
+/*!
+ * sx-pillar-v2.tokens.css — Modern Industrial Editorial v2
+ * Scoped to 15 pillar posts only. Do NOT add to sitewide CSS.
+ */
+
+/* Base tokens — inherited from sx-design-system v1 also exist sitewide.
+   These are additive v2 tokens for pillar pages only. */
+:root {
+  /* Overlays */
+  --sxp-overlay-deep: rgba(14, 57, 66, 0.92);
+  --sxp-overlay-veil: rgba(14, 57, 66, 0.42);
+
+  /* Textures */
+  --sxp-dot-color:  rgba(255, 255, 255, 0.06);
+  --sxp-grid-color: rgba(255, 255, 255, 0.04);
+
+  /* Elevation */
+  --sxp-elev-1: 0 1px  0  rgba(14, 57, 66, 0.05);
+  --sxp-elev-2: 0 8px  24px rgba(14, 57, 66, 0.08);
+  --sxp-elev-3: 0 16px 40px rgba(14, 57, 66, 0.12);
+
+  /* Motion */
+  --sxp-ease:      cubic-bezier(0.22, 1, 0.36, 1);
+  --sxp-dur-fast:  180ms;
+  --sxp-dur-base:  320ms;
+  --sxp-dur-slow:  640ms;
+
+  /* Defaults — overridden per pillar via body.page-id-* */
+  --sxp-accent:      #205B69;
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+
+/* Per-pillar accent */
+body.page-id-5554, body.page-id-5566, body.page-id-5571 {
+  --sxp-accent: #205B69;             /* P1 teal */
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+body.page-id-5555, body.page-id-5567, body.page-id-5572 {
+  --sxp-accent: #3C7D47;             /* P2 green */
+  --sxp-accent-deep: #1E4A26;
+  --sxp-accent-soft: rgba(60, 125, 71, 0.12);
+}
+body.page-id-5556, body.page-id-5568, body.page-id-5573 {
+  --sxp-accent: #C8851F;             /* P3 amber */
+  --sxp-accent-deep: #6E480F;
+  --sxp-accent-soft: rgba(200, 133, 31, 0.12);
+}
+body.page-id-5557, body.page-id-5569, body.page-id-5574 {
+  --sxp-accent: #205B69;             /* P4 teal */
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+body.page-id-5558, body.page-id-5570, body.page-id-5575 {
+  --sxp-accent: #0E3942;             /* P5 deep teal */
+  --sxp-accent-deep: #07242C;
+  --sxp-accent-soft: rgba(14, 57, 66, 0.12);
+  --sxp-accent-aux:  #C8851F;        /* amber secondary */
+}
