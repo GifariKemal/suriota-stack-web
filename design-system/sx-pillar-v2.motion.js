@@ -24,6 +24,12 @@
   function bindReveals() {
     document.querySelectorAll('.sxp-reveal').forEach(function (el, i) {
       if (reduce || !io) { el.classList.add('is-visible'); return; }
+      var rect = el.getBoundingClientRect();
+      // Already (partly) in viewport at bind time → reveal immediately, no IO/animation.
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
+        el.classList.add('is-visible');
+        return;
+      }
       el.style.transitionDelay = (i % 5) * 80 + 'ms';
       io.observe(el);
     });
