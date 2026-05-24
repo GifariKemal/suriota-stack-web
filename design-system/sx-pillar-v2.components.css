@@ -367,14 +367,16 @@
 .sxp-reveal { opacity: 0; transform: translateY(12px); transition: opacity 400ms var(--sxp-ease), transform 400ms var(--sxp-ease); }
 .sxp-reveal.is-visible { opacity: 1; transform: none; }
 
-/* ===== Focus visible ===== */
+/* ===== Focus visible (use !important to override Elementor/theme resets) ===== */
 .sxp-cta:focus-visible,
 .sxp-faq__btn:focus-visible,
 .sxp-nav__link:focus-visible,
-.sxp-case__more:focus-visible {
-  outline: 2px solid var(--sxp-accent);
-  outline-offset: 2px;
+.sxp-case__more:focus-visible,
+.sxp-cta-block__wa:focus-visible {
+  outline: 2px solid var(--sxp-accent) !important;
+  outline-offset: 2px !important;
 }
+.sxp-faq__btn { outline: 0; }  /* remove default before :focus-visible adds it back */
 
 /* ===== Reduce motion ===== */
 @media (prefers-reduced-motion: reduce) {
