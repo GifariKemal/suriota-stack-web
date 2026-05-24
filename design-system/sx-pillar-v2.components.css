@@ -384,3 +384,52 @@
   .sxp-faq__panel { transition: none !important; }
   .sxp-cap__card, .sxp-ind__cell, .sxp-cta, .sxp-cta-block__wa { transition: none !important; }
 }
+
+/* ===== 3.11 Related Projects ===== */
+.sxp-related__grid {
+  display: grid; gap: 18px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .sxp-related__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+  .sxp-related__grid { grid-template-columns: repeat(3, 1fr); }
+}
+.sxp-related__card {
+  display: flex; flex-direction: column;
+  background: #fff;
+  border: 1px solid #E8ECEE; border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none; color: inherit;
+  transition: transform var(--sxp-dur-base) var(--sxp-ease), box-shadow var(--sxp-dur-base) var(--sxp-ease), border-color var(--sxp-dur-base) var(--sxp-ease);
+}
+.sxp-related__card:hover { transform: translateY(-4px); box-shadow: var(--sxp-elev-2); border-color: var(--sxp-accent); }
+.sxp-related__media {
+  aspect-ratio: 16 / 10;
+  background: var(--sxp-accent-soft) center/cover no-repeat;
+  position: relative;
+  border-bottom: 1px solid #E8ECEE;
+}
+.sxp-related__cat {
+  position: absolute; top: 12px; left: 12px;
+  background: rgba(255,255,255,0.96);
+  font-family: "IBM Plex Mono", monospace; font-size: 0.6875rem;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--sxp-accent-deep);
+  padding: 5px 10px; border-radius: 999px;
+}
+.sxp-related__body { padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.sxp-related__title {
+  font-family: "Plus Jakarta Sans", sans-serif; font-weight: 600;
+  font-size: 1.0625rem; line-height: 1.35em; color: #1F2D33; margin: 0;
+}
+.sxp-related__more {
+  margin-top: auto;
+  font-family: "IBM Plex Mono", monospace; font-size: 0.8125rem;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--sxp-accent);
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: gap var(--sxp-dur-fast) var(--sxp-ease);
+}
+.sxp-related__card:hover .sxp-related__more { gap: 12px; }
