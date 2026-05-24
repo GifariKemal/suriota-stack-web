@@ -433,3 +433,20 @@
   transition: gap var(--sxp-dur-fast) var(--sxp-ease);
 }
 .sxp-related__card:hover .sxp-related__more { gap: 12px; }
+
+/* ===== Inline cross-pillar link ===== */
+.sxp-inline-link {
+  color: var(--sxp-accent);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  border-bottom-color: var(--sxp-accent-soft);
+  transition: border-bottom-color var(--sxp-dur-fast) var(--sxp-ease);
+}
+.sxp-inline-link:hover {
+  border-bottom-color: var(--sxp-accent);
+}
+.sxp-inline-link:focus-visible {
+  outline: 2px solid var(--sxp-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
