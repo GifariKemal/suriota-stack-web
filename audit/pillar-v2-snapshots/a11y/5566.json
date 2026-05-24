@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-05-24T17:08:39.479Z",
+  "timestamp": "2026-05-24T22:20:48.814Z",
   "url": "https://suriota.com/id/iot-industri-integrasi-sistem/",
   "toolOptions": {
     "reporter": "v1"
@@ -544,26 +544,6 @@
       "nodes": []
     },
     {
-      "id": "role-img-alt",
-      "impact": null,
-      "tags": [
-        "cat.text-alternatives",
-        "wcag2a",
-        "wcag111",
-        "section508",
-        "section508.22.a",
-        "TTv5",
-        "TT7.a",
-        "EN-301-549",
-        "EN-9.1.1.1",
-        "ACT"
-      ],
-      "description": "Ensures [role=\"img\"] elements have alternate text",
-      "help": "[role=\"img\"] elements must have an alternative text",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/role-img-alt?application=axeAPI",
-      "nodes": []
-    },
-    {
       "id": "scope-attr-valid",
       "impact": null,
       "tags": [
@@ -1027,6 +1007,162 @@
             }
           ],
           "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
           "html": "<a href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\" aria-label=\"WhatsApp\">",
           "target": [
             "a[aria-label=\"WhatsApp\"]"
@@ -1246,6 +1382,114 @@
           "target": [
             "#p1-faq-4"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
         }
       ]
     },
@@ -1405,6 +1649,114 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p1-faq-4\">\n          <span>Bagaimana dengan cybersecurity?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p1-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -1601,6 +1953,114 @@
           "html": "<div class=\"sxp-faq__panel\" id=\"p1-faq-4\" role=\"region\">\n          <p class=\"sxp-body\">Defense-in-depth: jaringan OT tersegmentasi, TLS ke broker, firmware bertanda, audit log, akses berbasis peran.</p>\n        </div>",
           "target": [
             "#p1-faq-4"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]
@@ -2104,6 +2564,198 @@
           "target": [
             "svg[width=\"16\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
         }
       ]
     },
@@ -2263,6 +2915,114 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p1-faq-4\">\n          <span>Bagaimana dengan cybersecurity?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p1-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -2460,6 +3220,114 @@
           "target": [
             "#p1-faq-4"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
         }
       ]
     },
@@ -2603,6 +3471,198 @@
           "html": "<div class=\"sxp-faq__panel\" id=\"p1-faq-4\" role=\"region\">\n          <p class=\"sxp-body\">Defense-in-depth: jaringan OT tersegmentasi, TLS ke broker, firmware bertanda, audit log, akses berbasis peran.</p>\n        </div>",
           "target": [
             "#p1-faq-4"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]
@@ -2875,6 +3935,198 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p1-faq-4\">\n          <span>Bagaimana dengan cybersecurity?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p1-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -3242,6 +4494,114 @@
           "all": [],
           "none": [],
           "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
           "html": "<a href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\" aria-label=\"WhatsApp\">",
           "target": [
             "a[aria-label=\"WhatsApp\"]"
@@ -3557,25 +4917,25 @@
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Deployment Industrial IoT</h3>",
                   "target": [
-                    ".sxp-cap__card:nth-child(1) > .sxp-cap__title"
+                    ".sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SCADA / MES / ERP</h3>",
                   "target": [
-                    ".sxp-cap__card:nth-child(2) > .sxp-cap__title"
+                    ".sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; Analitik Cloud</h3>",
                   "target": [
-                    ".sxp-cap__card:nth-child(3) > .sxp-cap__title"
+                    ".sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Modernisasi Sistem Legacy</h3>",
                   "target": [
-                    ".sxp-cap__card:nth-child(4) > .sxp-cap__title"
+                    ".sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
@@ -3599,13 +4959,13 @@
                 {
                   "html": "<h3 class=\"sxp-h3\">Retrofit IIoT manufaktur, Batam</h3>",
                   "target": [
-                    ".sxp-case__card:nth-child(1) > h3"
+                    ".sxp-case__card:nth-child(1) > .sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3\">Integrasi SCADA terminal Oil &amp; Gas</h3>",
                   "target": [
-                    ".sxp-case__card:nth-child(2) > h3"
+                    ".sxp-case__card:nth-child(2) > .sxp-h3"
                   ]
                 },
                 {
@@ -3618,6 +4978,66 @@
                   "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap mengintegrasikan sistem Anda?</h2>",
                   "target": [
                     ".sxp-cta-block__title"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Lihat hasil kerja kami.</h2>",
+                  "target": [
+                    ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Procurement of Genset Sensors PT Dwiutama Mandiri Sukses</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Smart System for NPK and Plantation Soil Monitoring IoT</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Plantation pH, Temp, Hum Monitoring and Soil Control System IoT</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Prototype Sistem Monitoring &amp; Control Debit Flowmeter</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Apa itu integrasi IoT industri?</h2>",
+                  "target": [
+                    ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Berorientasi protokol, bebas merek perangkat keras.</h2>",
+                  "target": [
+                    ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 80ms;\">Dari visibilitas menuju pengambilan keputusan.</h2>",
+                  "target": [
+                    ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
                   ]
                 },
                 {
@@ -3952,6 +5372,114 @@
           "html": "<p class=\"sxp-eyebrow\">FAQ</p>",
           "target": [
             ".elementor-element-5e58bca > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PROYEK TERKAIT</p>",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDAHULUAN</p>",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDEKATAN KAMI</p>",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">DAMPAK BISNIS</p>",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
           ]
         },
         {
@@ -4863,7 +6391,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Deployment Industrial IoT</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -4881,7 +6409,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SCADA / MES / ERP</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -4899,7 +6427,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; Analitik Cloud</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -4917,7 +6445,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Modernisasi Sistem Legacy</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -4989,7 +6517,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Retrofit IIoT manufaktur, Batam</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -5007,7 +6535,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Integrasi SCADA terminal Oil &amp; Gas</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -5044,6 +6572,186 @@
           "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap mengintegrasikan sistem Anda?</h2>",
           "target": [
             ".sxp-cta-block__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Procurement of Genset Sensors PT Dwiutama Mandiri Sukses</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Smart System for NPK and Plantation Soil Monitoring IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Plantation pH, Temp, Hum Monitoring and Soil Control System IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Prototype Sistem Monitoring &amp; Control Debit Flowmeter</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Apa itu integrasi IoT industri?</h2>",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Berorientasi protokol, bebas merek perangkat keras.</h2>",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 80ms;\">Dari visibilitas menuju pengambilan keputusan.</h2>",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
           ]
         },
         {
@@ -5235,6 +6943,66 @@
                   },
                   {
                     "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(2) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(3) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(4) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(5) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(11) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(6) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(13) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(15) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
                       "html > body > footer:nth-child(32) > div:nth-child(1) > div > div:nth-child(1) > h4:nth-child(1)"
                     ],
                     "level": 4
@@ -5299,7 +7067,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Deployment Industrial IoT</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5317,7 +7085,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SCADA / MES / ERP</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5335,7 +7103,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; Analitik Cloud</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5353,7 +7121,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Modernisasi Sistem Legacy</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5425,7 +7193,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Retrofit IIoT manufaktur, Batam</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -5443,7 +7211,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Integrasi SCADA terminal Oil &amp; Gas</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -5480,6 +7248,186 @@
           "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap mengintegrasikan sistem Anda?</h2>",
           "target": [
             ".sxp-cta-block__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Procurement of Genset Sensors PT Dwiutama Mandiri Sukses</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Smart System for NPK and Plantation Soil Monitoring IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Plantation pH, Temp, Hum Monitoring and Soil Control System IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Prototype Sistem Monitoring &amp; Control Debit Flowmeter</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Apa itu integrasi IoT industri?</h2>",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Berorientasi protokol, bebas merek perangkat keras.</h2>",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 80ms;\">Dari visibilitas menuju pengambilan keputusan.</h2>",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
           ]
         },
         {
@@ -6422,6 +8370,162 @@
           "html": "<a class=\"sxp-cta-block__wa\" href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\">",
           "target": [
             ".sxp-cta-block__wa"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/pengadaan-sensor-genset-procurement-genset-sensors-pt-dwiutama/\">",
+          "target": [
+            ".sxp-related__card:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/hybrid-pju-menggunakan-plts-dan-pltb-berbasis-iot/\">",
+          "target": [
+            ".sxp-related__card:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/monitoring-npk-tanah-smart-system-for-npk-and-plantation-soil/\">",
+          "target": [
+            ".sxp-related__card:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/monitoring-ph-suhu-plantation-ph-temp-hum-monitoring-and-soil-control/\">",
+          "target": [
+            ".sxp-related__card:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/prototype-sistem-monitoring-control-debit-flowmeter/\">",
+          "target": [
+            ".sxp-related__card:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/suriota-modbus-gateway-iiot-integrasi-iot-sensor-water-quality/\">",
+          "target": [
+            ".sxp-related__card:nth-child(6)"
           ]
         },
         {
@@ -7753,6 +9857,114 @@
           "all": [],
           "none": [],
           "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
           "html": "<button type=\"submit\" aria-label=\"Subscribe\">\u2192</button>",
           "target": [
             "button[type=\"submit\"]"
@@ -8844,7 +11056,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Deployment Industrial IoT</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -9004,7 +11216,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SCADA / MES / ERP</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -9164,7 +11376,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; Analitik Cloud</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -9304,7 +11516,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Modernisasi Sistem Legacy</h3>",
           "target": [
-            ".sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            ".sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11544,7 +13756,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Retrofit IIoT manufaktur, Batam</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -11664,7 +13876,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Integrasi SCADA terminal Oil &amp; Gas</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -12785,6 +14997,1986 @@
           "html": "<div class=\"elementor-widget-container\">",
           "target": [
             ".elementor-element-530686d > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-d85256a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"d85256a\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-d85256a"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-d85256a > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1462ca4\" data-id=\"1462ca4\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-1462ca4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-1462ca4 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-d7f78e8 elementor-widget elementor-widget-html\" data-id=\"d7f78e8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-d7f78e8"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PROYEK TERKAIT</p>",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-d7f78e8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__grid sxp-reveal\" style=\"transition-delay: 80ms;\">",
+          "target": [
+            ".sxp-related__grid"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/pengadaan-sensor-genset-procurement-genset-sensors-pt-dwiutama/\">",
+          "target": [
+            ".sxp-related__card:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">IoT &amp; Monitoring</span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Procurement of Genset Sensors PT Dwiutama Mandiri Sukses</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Procurement of Genset Sensors PT Dwiutama Mandiri Sukses</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/hybrid-pju-menggunakan-plts-dan-pltb-berbasis-iot/\">",
+          "target": [
+            ".sxp-related__card:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Energi Terbarukan</span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/monitoring-npk-tanah-smart-system-for-npk-and-plantation-soil/\">",
+          "target": [
+            ".sxp-related__card:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Pengolahan Air</span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Smart System for NPK and Plantation Soil Monitoring IoT</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Smart System for NPK and Plantation Soil Monitoring IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/monitoring-ph-suhu-plantation-ph-temp-hum-monitoring-and-soil-control/\">",
+          "target": [
+            ".sxp-related__card:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Pengolahan Air</span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Plantation pH, Temp, Hum Monitoring and Soil Control System IoT</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Plantation pH, Temp, Hum Monitoring and Soil Control System IoT</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/prototype-sistem-monitoring-control-debit-flowmeter/\">",
+          "target": [
+            ".sxp-related__card:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Pengolahan Air</span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Prototype Sistem Monitoring &amp; Control Debit Flowmeter</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Prototype Sistem Monitoring &amp; Control Debit Flowmeter</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/suriota-modbus-gateway-iiot-integrasi-iot-sensor-water-quality/\">",
+          "target": [
+            ".sxp-related__card:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Pengolahan Air</span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-f6fd97d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"f6fd97d\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-f6fd97d"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-f6fd97d > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4dc9dde\" data-id=\"4dc9dde\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-4dc9dde"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-4dc9dde > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-bfec747 elementor-widget elementor-widget-html\" data-id=\"bfec747\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-bfec747"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-bfec747 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7ca2b37 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"7ca2b37\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-7ca2b37"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-7ca2b37 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74297c0\" data-id=\"74297c0\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-74297c0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-74297c0 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-d1282b0 elementor-widget elementor-widget-html\" data-id=\"d1282b0\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-d1282b0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDAHULUAN</p>",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Apa itu integrasi IoT industri?</h2>",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 240ms;\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-d1282b0 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7635db0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"7635db0\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-7635db0"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-7635db0 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f4bc014\" data-id=\"f4bc014\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-f4bc014"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-f4bc014 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-c4d645c elementor-widget elementor-widget-html\" data-id=\"c4d645c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-c4d645c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDEKATAN KAMI</p>",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Berorientasi protokol, bebas merek perangkat keras.</h2>",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 0ms;\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-c4d645c > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".sxp-body:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a5270f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"a5270f3\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-a5270f3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-a5270f3 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a0b27e4\" data-id=\"a0b27e4\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-a0b27e4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-a0b27e4 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-7aa0be5 elementor-widget elementor-widget-html\" data-id=\"7aa0be5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-7aa0be5"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">DAMPAK BISNIS</p>",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 80ms;\">Dari visibilitas menuju pengambilan keputusan.</h2>",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 160ms;\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-7aa0be5 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
           ]
         },
         {
@@ -14525,6 +18717,135 @@
           "html": "<a href=\"https://suriota.com/sitemap/\">Sitemap</a>",
           "target": [
             "a[href$=\"sitemap/\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "role-img-alt",
+      "impact": null,
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT"
+      ],
+      "description": "Ensures [role=\"img\"] elements have alternate text",
+      "help": "[role=\"img\"] elements must have an alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/role-img-alt?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-warehouse-logistics-1024x683.jpg');\" role=\"img\" aria-label=\"Procurement of Genset Sensors PT Dwiutama Mandiri Sukses\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-solar-panel-street-light-renewable-1024x682.jpg');\" role=\"img\" aria-label=\"Hybrid PJU Menggunakan PLTS dan PLTB Berbasis IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-grass-field-under-cloudy-sky-1024x488.jpg');\" role=\"img\" aria-label=\"Smart System for NPK and Plantation Soil Monitoring IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-blue-fire-hydrant-sitting-in-the-m-1024x683.jpg');\" role=\"img\" aria-label=\"Plantation pH, Temp, Hum Monitoring and Soil Control System IoT\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-water-pressure-gauge-pipe-industrial-1024x683.jpg');\" role=\"img\" aria-label=\"Prototype Sistem Monitoring &amp; Control Debit Flowmeter\">",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-close-up-of-a-control-panel-1024x576.jpg');\" role=\"img\" aria-label=\"Suriota Modbus Gateway IIoT (Integrasi IoT Sensor Water Quality)\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]

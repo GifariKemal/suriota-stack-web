@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-05-24T17:12:52.735Z",
+  "timestamp": "2026-05-24T22:20:59.086Z",
   "url": "https://suriota.com/id/teknik-industri-otomasi/",
   "toolOptions": {
     "reporter": "v1"
@@ -544,26 +544,6 @@
       "nodes": []
     },
     {
-      "id": "role-img-alt",
-      "impact": null,
-      "tags": [
-        "cat.text-alternatives",
-        "wcag2a",
-        "wcag111",
-        "section508",
-        "section508.22.a",
-        "TTv5",
-        "TT7.a",
-        "EN-301-549",
-        "EN-9.1.1.1",
-        "ACT"
-      ],
-      "description": "Ensures [role=\"img\"] elements have alternate text",
-      "help": "[role=\"img\"] elements must have an alternative text",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/role-img-alt?application=axeAPI",
-      "nodes": []
-    },
-    {
       "id": "scope-attr-valid",
       "impact": null,
       "tags": [
@@ -1034,6 +1014,162 @@
             }
           ],
           "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
           "html": "<a href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\" aria-label=\"WhatsApp\">",
           "target": [
             "a[aria-label=\"WhatsApp\"]"
@@ -1253,6 +1389,114 @@
           "target": [
             "#p4-faq-4"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-allowed-role",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is allowed for given element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
         }
       ]
     },
@@ -1430,6 +1674,114 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p4-faq-4\">\n          <span>Apakah tim Anda tersertifikasi untuk pekerjaan kelistrikan di Indonesia?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p4-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -1626,6 +1978,114 @@
           "html": "<div class=\"sxp-faq__panel\" id=\"p4-faq-4\" role=\"region\">\n          <p class=\"sxp-body\">Ya. Elektrikus tersertifikasi SLO, prosedur memenuhi PUIL 2011, dan partner-network untuk deployment lintas pulau.</p>\n        </div>",
           "target": [
             "#p4-faq-4"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]
@@ -1969,6 +2429,198 @@
           "target": [
             "svg[width=\"16\"]"
           ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span aria-hidden=\"true\">\u2192</span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__more > span[aria-hidden=\"true\"]"
+          ]
         }
       ]
     },
@@ -2146,6 +2798,114 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p4-faq-4\">\n          <span>Apakah tim Anda tersertifikasi untuk pekerjaan kelistrikan di Indonesia?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p4-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -2343,6 +3103,114 @@
           "target": [
             "#p4-faq-4"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
         }
       ]
     },
@@ -2486,6 +3354,198 @@
           "html": "<div class=\"sxp-faq__panel\" id=\"p4-faq-4\" role=\"region\">\n          <p class=\"sxp-body\">Ya. Elektrikus tersertifikasi SLO, prosedur memenuhi PUIL 2011, dan partner-network untuk deployment lintas pulau.</p>\n        </div>",
           "target": [
             "#p4-faq-4"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]
@@ -2790,6 +3850,198 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p4-faq-4\">\n          <span>Apakah tim Anda tersertifikasi untuk pekerjaan kelistrikan di Indonesia?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p4-faq-4\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -3175,6 +4427,114 @@
           "all": [],
           "none": [],
           "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
           "html": "<a href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\" aria-label=\"WhatsApp\">",
           "target": [
             "a[aria-label=\"WhatsApp\"]"
@@ -3490,25 +4850,25 @@
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Pemrograman &amp; HMI</h3>",
                   "target": [
-                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Gateway Modbus &amp; cloud</h3>",
                   "target": [
-                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Roadmap modernisasi</h3>",
                   "target": [
-                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Maintain &amp; skala</h3>",
                   "target": [
-                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+                    "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
@@ -3520,25 +4880,25 @@
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">MCC, PCC, panel distribusi</h3>",
                   "target": [
-                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Transformator &amp; load balancing</h3>",
                   "target": [
-                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SNI, IEC, PUIL 2011</h3>",
                   "target": [
-                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring energi &amp; PQ</h3>",
                   "target": [
-                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+                    "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
@@ -3550,25 +4910,25 @@
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Rooftop &amp; ground-mounted</h3>",
                   "target": [
-                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Solar + angin + storage</h3>",
                   "target": [
-                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Performance ratio real-time</h3>",
                   "target": [
-                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SLO, net-metering, commissioning</h3>",
                   "target": [
-                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+                    "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
@@ -3580,25 +4940,25 @@
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Spesifikasi proses &amp; peralatan</h3>",
                   "target": [
-                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; reporting online</h3>",
                   "target": [
-                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Dashboard &amp; alert</h3>",
                   "target": [
-                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Enablement hands-on</h3>",
                   "target": [
-                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+                    "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
                   ]
                 },
                 {
@@ -3616,13 +4976,13 @@
                 {
                   "html": "<h3 class=\"sxp-h3\">PLTS rooftop, Kawasan Industri Batamindo</h3>",
                   "target": [
-                    ".sxp-case__card:nth-child(1) > h3"
+                    ".sxp-case__card:nth-child(1) > .sxp-h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"sxp-h3\">Monitoring WWTP, pabrik kelapa sawit, Sumatra</h3>",
                   "target": [
-                    ".sxp-case__card:nth-child(2) > h3"
+                    ".sxp-case__card:nth-child(2) > .sxp-h3"
                   ]
                 },
                 {
@@ -3635,6 +4995,66 @@
                   "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap memulai proyek engineering Anda?</h2>",
                   "target": [
                     ".sxp-cta-block__title"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 240ms;\">Lihat hasil kerja kami.</h2>",
+                  "target": [
+                    ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Survey &amp; Setup VFD (Variable Frequency Drive)</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Electrical Testing Avanti Coffee</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Design CAD Water Treatment PT Darmawan Antar Sarana</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Machining-1 TeFa Pemesinan SMKN 6 Batam</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">Machining-2 TeFa Pemesinan SMKN 6 Batam</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h3 class=\"sxp-related__title\">2D Splingker P&amp;ID PT Darmawan Antar Sarana</h3>",
+                  "target": [
+                    ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Satu mitra untuk seluruh lapisan fisik.</h2>",
+                  "target": [
+                    ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Engineering, fabrikasi, commissioning di bawah satu atap.</h2>",
+                  "target": [
+                    ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Kualitas rekayasa yang terukur lewat jejak audit.</h2>",
+                  "target": [
+                    ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
                   ]
                 },
                 {
@@ -4131,6 +5551,114 @@
           "html": "<p class=\"sxp-eyebrow\">FAQ</p>",
           "target": [
             ".elementor-element-051056b > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PROYEK TERKAIT</p>",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDAHULUAN</p>",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">METODOLOGI</p>",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#205b69",
+                "bgColor": "#ffffff",
+                "contrastRatio": 7.6,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1",
+                "shadowColor": null
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 7.6"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">DAMPAK BISNIS</p>",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
           ]
         },
         {
@@ -5042,7 +6570,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Pemrograman &amp; HMI</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5060,7 +6588,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Gateway Modbus &amp; cloud</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5078,7 +6606,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Roadmap modernisasi</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5096,7 +6624,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Maintain &amp; skala</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5132,7 +6660,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">MCC, PCC, panel distribusi</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5150,7 +6678,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Transformator &amp; load balancing</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5168,7 +6696,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SNI, IEC, PUIL 2011</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5186,7 +6714,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring energi &amp; PQ</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5222,7 +6750,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Rooftop &amp; ground-mounted</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5240,7 +6768,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Solar + angin + storage</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5258,7 +6786,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Performance ratio real-time</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5276,7 +6804,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SLO, net-metering, commissioning</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5312,7 +6840,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Spesifikasi proses &amp; peralatan</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5330,7 +6858,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; reporting online</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5348,7 +6876,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Dashboard &amp; alert</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5366,7 +6894,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Enablement hands-on</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5420,7 +6948,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">PLTS rooftop, Kawasan Industri Batamindo</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -5438,7 +6966,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Monitoring WWTP, pabrik kelapa sawit, Sumatra</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -5475,6 +7003,186 @@
           "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap memulai proyek engineering Anda?</h2>",
           "target": [
             ".sxp-cta-block__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 240ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Survey &amp; Setup VFD (Variable Frequency Drive)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Electrical Testing Avanti Coffee</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Design CAD Water Treatment PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-1 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-2 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">2D Splingker P&amp;ID PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Satu mitra untuk seluruh lapisan fisik.</h2>",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Engineering, fabrikasi, commissioning di bawah satu atap.</h2>",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Kualitas rekayasa yang terukur lewat jejak audit.</h2>",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
           ]
         },
         {
@@ -5750,6 +7458,66 @@
                   },
                   {
                     "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(1) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(2) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(3) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(4) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(5) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(14) > div > div > div > div > div > section > div > div:nth-child(3) > a:nth-child(6) > div:nth-child(2) > h3:nth-child(1)"
+                    ],
+                    "level": 3
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(16) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(17) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
+                      "html > body > main:nth-child(4) > div:nth-child(2) > div > section:nth-child(18) > div > div > div > div > div > section > div > h2:nth-child(2)"
+                    ],
+                    "level": 2
+                  },
+                  {
+                    "ancestry": [
                       "html > body > footer:nth-child(32) > div:nth-child(1) > div > div:nth-child(1) > h4:nth-child(1)"
                     ],
                     "level": 4
@@ -5814,7 +7582,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Pemrograman &amp; HMI</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5832,7 +7600,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Gateway Modbus &amp; cloud</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5850,7 +7618,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Roadmap modernisasi</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5868,7 +7636,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Maintain &amp; skala</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5904,7 +7672,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">MCC, PCC, panel distribusi</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5922,7 +7690,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Transformator &amp; load balancing</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5940,7 +7708,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SNI, IEC, PUIL 2011</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5958,7 +7726,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring energi &amp; PQ</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -5994,7 +7762,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Rooftop &amp; ground-mounted</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6012,7 +7780,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Solar + angin + storage</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6030,7 +7798,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Performance ratio real-time</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6048,7 +7816,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SLO, net-metering, commissioning</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6084,7 +7852,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Spesifikasi proses &amp; peralatan</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6102,7 +7870,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; reporting online</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6120,7 +7888,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Dashboard &amp; alert</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6138,7 +7906,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Enablement hands-on</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -6192,7 +7960,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">PLTS rooftop, Kawasan Industri Batamindo</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -6210,7 +7978,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Monitoring WWTP, pabrik kelapa sawit, Sumatra</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -6247,6 +8015,186 @@
           "html": "<h2 class=\"sxp-cta-block__title sxp-h2\">Siap memulai proyek engineering Anda?</h2>",
           "target": [
             ".sxp-cta-block__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 240ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Survey &amp; Setup VFD (Variable Frequency Drive)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Electrical Testing Avanti Coffee</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Design CAD Water Treatment PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-1 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-2 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">2D Splingker P&amp;ID PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Satu mitra untuk seluruh lapisan fisik.</h2>",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Engineering, fabrikasi, commissioning di bawah satu atap.</h2>",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "heading-order",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "Heading order valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Kualitas rekayasa yang terukur lewat jejak audit.</h2>",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
           ]
         },
         {
@@ -7314,6 +9262,162 @@
           "html": "<a class=\"sxp-cta-block__wa\" href=\"https://wa.me/6285835672476\" target=\"_blank\" rel=\"noopener\">",
           "target": [
             ".sxp-cta-block__wa"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/survey-setup-vfd/\">",
+          "target": [
+            ".sxp-related__card:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/electrical-testing-instalasi-electrical-testing-avanti-coffee/\">",
+          "target": [
+            ".sxp-related__card:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/design-cad-water-treatment-pt-darmawan/\">",
+          "target": [
+            ".sxp-related__card:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/cnc-bubut-poros-machining-1-tefa-smkn6-batam/\">",
+          "target": [
+            ".sxp-related__card:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/milling-cnc-bracket-machining-2-tefa-smkn6-batam/\">",
+          "target": [
+            ".sxp-related__card:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/gambar-pid-sistem-2d-splingker-pid-pt-darmawan/\">",
+          "target": [
+            ".sxp-related__card:nth-child(6)"
           ]
         },
         {
@@ -8720,6 +10824,114 @@
           "html": "<button class=\"sxp-faq__btn\" aria-expanded=\"false\" aria-controls=\"p4-faq-4\">\n          <span>Apakah tim Anda tersertifikasi untuk pekerjaan kelistrikan di Indonesia?</span><span class=\"sxp-faq__icon\" aria-hidden=\"true\"></span>\n        </button>",
           "target": [
             "button[aria-controls=\"p4-faq-4\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         },
         {
@@ -10146,7 +12358,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Pemrograman &amp; HMI</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10226,7 +12438,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Gateway Modbus &amp; cloud</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10306,7 +12518,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Roadmap modernisasi</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10386,7 +12598,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Maintain &amp; skala</h3>",
           "target": [
-            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#automation > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10686,7 +12898,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">MCC, PCC, panel distribusi</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10766,7 +12978,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Transformator &amp; load balancing</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10846,7 +13058,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SNI, IEC, PUIL 2011</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -10926,7 +13138,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring energi &amp; PQ</h3>",
           "target": [
-            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#electrical > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11226,7 +13438,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Rooftop &amp; ground-mounted</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11306,7 +13518,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Solar + angin + storage</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11386,7 +13598,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Performance ratio real-time</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11466,7 +13678,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">SLO, net-metering, commissioning</h3>",
           "target": [
-            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#renewable-energy > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11766,7 +13978,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Spesifikasi proses &amp; peralatan</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(1) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11846,7 +14058,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Monitoring &amp; reporting online</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(2) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -11926,7 +14138,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Dashboard &amp; alert</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(3) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -12006,7 +14218,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3 sxp-cap__title\">Enablement hands-on</h3>",
           "target": [
-            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title"
+            "#water-treatment > .sxp-wrap > .sxp-cap__grid > .sxp-cap__card:nth-child(4) > .sxp-cap__title.sxp-h3"
           ]
         },
         {
@@ -13766,7 +15978,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">PLTS rooftop, Kawasan Industri Batamindo</h3>",
           "target": [
-            ".sxp-case__card:nth-child(1) > h3"
+            ".sxp-case__card:nth-child(1) > .sxp-h3"
           ]
         },
         {
@@ -13906,7 +16118,7 @@
           "impact": null,
           "html": "<h3 class=\"sxp-h3\">Monitoring WWTP, pabrik kelapa sawit, Sumatra</h3>",
           "target": [
-            ".sxp-case__card:nth-child(2) > h3"
+            ".sxp-case__card:nth-child(2) > .sxp-h3"
           ]
         },
         {
@@ -15027,6 +17239,1986 @@
           "html": "<div class=\"elementor-widget-container\">",
           "target": [
             ".elementor-element-40ac0e8 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-20d0d31 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"20d0d31\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-20d0d31"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-20d0d31 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d5bda37\" data-id=\"d5bda37\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-d5bda37"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-d5bda37 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-3b57dbc elementor-widget elementor-widget-html\" data-id=\"3b57dbc\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-3b57dbc"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PROYEK TERKAIT</p>",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 240ms;\">Lihat hasil kerja kami.</h2>",
+          "target": [
+            ".elementor-element-3b57dbc > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__grid sxp-reveal\" style=\"transition-delay: 320ms;\">",
+          "target": [
+            ".sxp-related__grid"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/survey-setup-vfd/\">",
+          "target": [
+            ".sxp-related__card:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Otomasi</span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Survey &amp; Setup VFD (Variable Frequency Drive)</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Survey &amp; Setup VFD (Variable Frequency Drive)</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/electrical-testing-instalasi-electrical-testing-avanti-coffee/\">",
+          "target": [
+            ".sxp-related__card:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Kelistrikan</span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Electrical Testing Avanti Coffee</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Electrical Testing Avanti Coffee</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/design-cad-water-treatment-pt-darmawan/\">",
+          "target": [
+            ".sxp-related__card:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Pengolahan Air</span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Design CAD Water Treatment PT Darmawan Antar Sarana</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Design CAD Water Treatment PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/cnc-bubut-poros-machining-1-tefa-smkn6-batam/\">",
+          "target": [
+            ".sxp-related__card:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Manufaktur</span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Machining-1 TeFa Pemesinan SMKN 6 Batam</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-1 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/milling-cnc-bracket-machining-2-tefa-smkn6-batam/\">",
+          "target": [
+            ".sxp-related__card:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Manufaktur</span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">Machining-2 TeFa Pemesinan SMKN 6 Batam</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">Machining-2 TeFa Pemesinan SMKN 6 Batam</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<a class=\"sxp-related__card\" href=\"https://suriota.com/gambar-pid-sistem-2d-splingker-pid-pt-darmawan/\">",
+          "target": [
+            ".sxp-related__card:nth-child(6)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__cat\">Desain &amp; CAD</span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"] > .sxp-related__cat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__body\">\n          <h3 class=\"sxp-related__title\">2D Splingker P&amp;ID PT Darmawan Antar Sarana</h3>\n          <span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h3 class=\"sxp-related__title\">2D Splingker P&amp;ID PT Darmawan Antar Sarana</h3>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__title"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"sxp-related__more\">Lihat proyek <span aria-hidden=\"true\">\u2192</span></span>",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__body > .sxp-related__more"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-0e0034d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"0e0034d\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-0e0034d"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-0e0034d > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f016ba\" data-id=\"5f016ba\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-5f016ba"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-5f016ba > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-c19e832 elementor-widget elementor-widget-html\" data-id=\"c19e832\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-c19e832"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-c19e832 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5d2ad2c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"5d2ad2c\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-5d2ad2c"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-5d2ad2c > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-871c1e4\" data-id=\"871c1e4\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-871c1e4"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-871c1e4 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-39f3fc3 elementor-widget elementor-widget-html\" data-id=\"39f3fc3\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-39f3fc3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">PENDAHULUAN</p>",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 0ms;\">Satu mitra untuk seluruh lapisan fisik.</h2>",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 80ms;\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-39f3fc3 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-63e2b65 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"63e2b65\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-63e2b65"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-63e2b65 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e8696d7\" data-id=\"e8696d7\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-e8696d7"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-e8696d7 > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-1ce8172 elementor-widget elementor-widget-html\" data-id=\"1ce8172\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-1ce8172"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">METODOLOGI</p>",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 160ms;\">Engineering, fabrikasi, commissioning di bawah satu atap.</h2>",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 240ms;\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-1ce8172 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".sxp-body:nth-child(5)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"elementor-section elementor-top-section elementor-element elementor-element-0d1f4d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-id=\"0d1f4d3\" data-element_type=\"section\" data-e-type=\"section\">",
+          "target": [
+            ".elementor-element-0d1f4d3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-container elementor-column-gap-default\">",
+          "target": [
+            ".elementor-element-0d1f4d3 > .elementor-container.elementor-column-gap-default"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eee15ae\" data-id=\"eee15ae\" data-element_type=\"column\" data-e-type=\"column\">",
+          "target": [
+            ".elementor-element-eee15ae"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-wrap elementor-element-populated\">",
+          "target": [
+            ".elementor-element-eee15ae > .elementor-widget-wrap.elementor-element-populated"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-element elementor-element-5d2faa8 elementor-widget elementor-widget-html\" data-id=\"5d2faa8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">",
+          "target": [
+            ".elementor-element-5d2faa8"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"elementor-widget-container\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<section class=\"sxp-section\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-wrap\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-eyebrow\">DAMPAK BISNIS</p>",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-eyebrow"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<h2 class=\"sxp-h2 sxp-reveal\" style=\"transition-delay: 320ms;\">Kualitas rekayasa yang terukur lewat jejak audit.</h2>",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > h2"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-reveal\" style=\"max-width: 760px; transition-delay: 0ms;\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body sxp-body-l\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body-l.sxp-body"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "region",
+              "data": {
+                "isIframe": false
+              },
+              "relatedNodes": [],
+              "impact": "moderate",
+              "message": "All page content is contained by landmarks"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"sxp-body\" style=\"margin-top: 16px;\">",
+          "target": [
+            ".elementor-element-5d2faa8 > .elementor-widget-container > .sxp-section > .sxp-wrap > .sxp-reveal:nth-child(3) > .sxp-body:nth-child(4)"
           ]
         },
         {
@@ -16767,6 +20959,135 @@
           "html": "<a href=\"https://suriota.com/sitemap/\">Sitemap</a>",
           "target": [
             "a[href$=\"sitemap/\"]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "role-img-alt",
+      "impact": null,
+      "tags": [
+        "cat.text-alternatives",
+        "wcag2a",
+        "wcag111",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT7.a",
+        "EN-301-549",
+        "EN-9.1.1.1",
+        "ACT"
+      ],
+      "description": "Ensures [role=\"img\"] elements have alternate text",
+      "help": "[role=\"img\"] elements must have an alternative text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.9/role-img-alt?application=axeAPI",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-electric-motor-vfd-industrial-1-1024x683.jpg');\" role=\"img\" aria-label=\"Survey &amp; Setup VFD (Variable Frequency Drive)\">",
+          "target": [
+            ".sxp-related__card:nth-child(1) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-a-red-brick-building-with-pipes-and-1024x683.jpg');\" role=\"img\" aria-label=\"Electrical Testing Avanti Coffee\">\n          <span class=\"sxp-related__cat\">Kelistrikan</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(2) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-an-aerial-view-of-a-large-array-of-w-1024x558.jpg');\" role=\"img\" aria-label=\"Design CAD Water Treatment PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(3) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-industrial-workshop-with-machinery-a-1024x710.jpg');\" role=\"img\" aria-label=\"Machining-1 TeFa Pemesinan SMKN 6 Batam\">",
+          "target": [
+            ".sxp-related__card:nth-child(4) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-lathe-machine-1024x683.jpg');\" role=\"img\" aria-label=\"Machining-2 TeFa Pemesinan SMKN 6 Batam\">\n          <span class=\"sxp-related__cat\">Manufaktur</span>\n        </div>",
+          "target": [
+            ".sxp-related__card:nth-child(5) > .sxp-related__media[role=\"img\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"sxp-related__media\" style=\"background-image: url('https://suriota.com/wp-content/uploads/2026/04/01-two-metal-mechanical-parts-on-engine-1024x576.jpg');\" role=\"img\" aria-label=\"2D Splingker P&amp;ID PT Darmawan Antar Sarana\">",
+          "target": [
+            ".sxp-related__card:nth-child(6) > .sxp-related__media[role=\"img\"]"
           ]
         }
       ]
