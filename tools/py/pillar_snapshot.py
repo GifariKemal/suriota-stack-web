@@ -43,6 +43,11 @@ def snap(post_id: int, label: str) -> None:
             ctx = browser.new_context(viewport=vp, device_scale_factor=2)
             page = ctx.new_page()
             page.goto(url, wait_until="networkidle", timeout=60000)
+            # Force-reveal all sxp-reveal elements (motion JS only fires for in-viewport at bind time
+            # and on scroll-into-view; full-page screenshots scroll faster than the IO can settle).
+            page.evaluate(
+                "document.querySelectorAll('.sxp-reveal').forEach(function(el){el.classList.add('is-visible');});"
+            )
             page.wait_for_timeout(800)
             page.screenshot(
                 path=str(out_dir / f"{post_id}-{name}.png"),
