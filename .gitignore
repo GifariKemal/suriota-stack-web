@@ -43,3 +43,6 @@ audit/carousel_bundle_snippet.js
 # Previous-session one-off PLL scripts
 fix_pll_zh*.py
 review_zh_pages.py
+
+# Env
+.env
