@@ -547,9 +547,21 @@
   gap: 16px;
   grid-template-columns: 1fr;
   counter-reset: sxp-step;
+  /* Kill native <ol> auto-numbering so manual .sxp-proc__num is the only label */
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 @media (min-width: 880px) {
   .sxp-proc__list { grid-template-columns: repeat(5, 1fr); }
+}
+.sxp-proc__list > li,
+.sxp-proc__step {
+  list-style: none !important;
+}
+.sxp-proc__list > li::marker,
+.sxp-proc__step::marker {
+  content: none !important;
 }
 .sxp-proc__step {
   position: relative;
@@ -993,4 +1005,31 @@
   .sxp-cta-block__ctas .sxp-cta-block__wa { flex: 1 1 auto; justify-content: center; }
   .sxp-tech__row { gap: var(--sxp-space-4); }
   .sxp-nav__list { gap: var(--sxp-space-4); }
+}
+
+/* ===== FAQ question text must wrap on mobile (UA <button> defaults to white-space: nowrap) ===== */
+.sxp-faq__btn {
+  white-space: normal !important;
+  flex-wrap: nowrap;
+  gap: var(--sxp-space-3);
+  min-width: 0;
+}
+.sxp-faq__btn > span:first-child {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* ===== Defensive mobile overflow guard — scoped to 15 pillar posts only =====
+ * Body class page-id-XXXX targets exactly the pillar page; never touches
+ * non-pillar pages. Prevents any third-party widget (e.g. chat) or oversized
+ * inline content from causing horizontal scroll. */
+@media (max-width: 640px) {
+  body.page-id-5554, body.page-id-5555, body.page-id-5556, body.page-id-5557, body.page-id-5558,
+  body.page-id-5566, body.page-id-5567, body.page-id-5568, body.page-id-5569, body.page-id-5570,
+  body.page-id-5571, body.page-id-5572, body.page-id-5573, body.page-id-5574, body.page-id-5575 {
+    overflow-x: hidden;
+  }
 }
