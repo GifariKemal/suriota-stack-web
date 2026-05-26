@@ -1,0 +1,134 @@
+/*!
+ * sx-pillar-v3.tokens.css — Refined Industrial Editorial v3
+ * Geist-first typography, retina-friendly scale, compact spacing.
+ * Scoped to 15 pillar posts only. Do NOT add to sitewide CSS.
+ *
+ * Improvements vs v2:
+ *  - Unified Geist family (replaces Plus Jakarta Sans + Poppins + IBM Plex Mono headings)
+ *  - Smaller, retina-tuned type scale (H1 max 52px vs 72px)
+ *  - Tighter section padding (max 56px vs 72px)
+ *  - 4px-base spacing scale
+ *  - Em-only line-heights (per critical rule)
+ */
+
+:root {
+  /* === Fonts === */
+  --sxp-font-display: "Geist", "Geist Sans", system-ui, -apple-system, sans-serif;
+  --sxp-font-body:    "Geist", "Geist Sans", system-ui, -apple-system, sans-serif;
+  --sxp-font-mono:    "Geist Mono", "IBM Plex Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  /* === Type scale (retina-friendly, compact) === */
+  --sxp-fs-h1:           clamp(2rem, 3.6vw, 3.25rem);     /* 32-52px */
+  --sxp-fs-h2:           clamp(1.5rem, 2.4vw, 2.125rem);  /* 24-34px */
+  --sxp-fs-h3:           clamp(1.125rem, 1.4vw, 1.375rem);/* 18-22px */
+  --sxp-fs-body-l:       clamp(1rem, 1.1vw, 1.0625rem);   /* 16-17px */
+  --sxp-fs-body:         0.9375rem;                       /* 15px — comfortable retina */
+  --sxp-fs-sm:           0.875rem;                        /* 14px */
+  --sxp-fs-mono-eyebrow: 0.75rem;                         /* 12px — smaller eyebrow */
+  --sxp-fs-mono-caption: 0.8125rem;                       /* 13px */
+
+  /* === Line heights (em-only per critical rule) === */
+  --sxp-lh-tight:   1.08em;
+  --sxp-lh-snug:    1.18em;
+  --sxp-lh-normal:  1.45em;
+  --sxp-lh-relaxed: 1.6em;
+
+  /* === Letter spacing === */
+  --sxp-ls-tight: -0.02em;
+  --sxp-ls-snug:  -0.01em;
+  --sxp-ls-wide:   0.06em;
+  --sxp-ls-wider:  0.08em;
+
+  /* === Spacing scale (4px base, compact) === */
+  --sxp-space-1:  4px;
+  --sxp-space-2:  8px;
+  --sxp-space-3:  12px;
+  --sxp-space-4:  16px;
+  --sxp-space-5:  20px;
+  --sxp-space-6:  24px;
+  --sxp-space-7:  28px;
+  --sxp-space-8:  32px;
+  --sxp-space-10: 40px;
+  --sxp-space-12: 48px;
+  --sxp-space-16: 64px;
+
+  /* === Section vertical rhythm (compact, retina-friendly) === */
+  --sxp-section-py: clamp(28px, 3.8vw, 56px);  /* was 40-72 */
+  --sxp-section-px: clamp(16px, 4vw, 24px);
+
+  /* === Container === */
+  --sxp-wrap-max: 1120px;                       /* was 1180 */
+
+  /* === Overlays === */
+  --sxp-overlay-deep: rgba(14, 57, 66, 0.92);
+  --sxp-overlay-veil: rgba(14, 57, 66, 0.42);
+
+  /* === Textures === */
+  --sxp-dot-color:  rgba(255, 255, 255, 0.07);
+  --sxp-grid-color: rgba(255, 255, 255, 0.04);
+  --sxp-dot-dark:   rgba(14, 57, 66, 0.06);
+
+  /* === Elevation === */
+  --sxp-elev-0:     none;
+  --sxp-elev-1:     0 1px 0 rgba(14, 57, 66, 0.05);
+  --sxp-elev-2:     0 6px 16px rgba(14, 57, 66, 0.06);
+  --sxp-elev-3:     0 12px 32px rgba(14, 57, 66, 0.10);
+  --sxp-elev-hover: 0 10px 28px rgba(14, 57, 66, 0.10);
+
+  /* === Borders === */
+  --sxp-radius-sm:    6px;
+  --sxp-radius-md:    8px;
+  --sxp-radius-lg:    12px;
+  --sxp-radius-pill:  999px;
+  --sxp-border:        1px solid #E8ECEE;
+  --sxp-border-strong: 1px solid #D4DBDE;
+
+  /* === Surface palette === */
+  --sxp-surface-0: #FFFFFF;
+  --sxp-surface-1: #FAFBFC;
+  --sxp-surface-2: #F4F6F7;
+  --sxp-ink:       #14202A;
+  --sxp-ink-soft:  #4D5E66;
+  --sxp-ink-mute:  #7A8B92;
+  --sxp-line:      #E8ECEE;
+
+  /* === Motion === */
+  --sxp-ease:     cubic-bezier(0.22, 1, 0.36, 1);
+  --sxp-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --sxp-dur-fast: 160ms;
+  --sxp-dur-base: 280ms;
+  --sxp-dur-slow: 560ms;
+
+  /* === Default accent (overridden per pillar) === */
+  --sxp-accent:      #205B69;
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+
+/* === Per-pillar accents (same mapping as v2) === */
+body.page-id-5554, body.page-id-5566, body.page-id-5571 {
+  --sxp-accent:      #205B69;                 /* P1 teal */
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+body.page-id-5555, body.page-id-5567, body.page-id-5572 {
+  --sxp-accent:      #3C7D47;                 /* P2 green */
+  --sxp-accent-deep: #1E4A26;
+  --sxp-accent-soft: rgba(60, 125, 71, 0.12);
+}
+body.page-id-5556, body.page-id-5568, body.page-id-5573 {
+  --sxp-accent:      #C8851F;                 /* P3 amber */
+  --sxp-accent-deep: #6E480F;
+  --sxp-accent-soft: rgba(200, 133, 31, 0.12);
+}
+body.page-id-5557, body.page-id-5569, body.page-id-5574 {
+  --sxp-accent:      #205B69;                 /* P4 teal */
+  --sxp-accent-deep: #0E3942;
+  --sxp-accent-soft: rgba(32, 91, 105, 0.12);
+}
+body.page-id-5558, body.page-id-5570, body.page-id-5575 {
+  --sxp-accent:      #0E3942;                 /* P5 deep teal */
+  --sxp-accent-deep: #07242C;
+  --sxp-accent-soft: rgba(14, 57, 66, 0.12);
+  --sxp-accent-aux:  #C8851F;                 /* amber secondary */
+}

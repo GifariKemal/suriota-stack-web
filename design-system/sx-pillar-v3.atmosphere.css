@@ -1,0 +1,64 @@
+/*!
+ * sx-pillar-v3.atmosphere.css — Subtle CSS-only background depth.
+ * Scoped to 15 pillar posts only. Pure decoration; safe to drop.
+ *
+ * Approach:
+ *  - Hero already carries dotted texture via components.css. This file
+ *    adds optional helpers for mid-page sections that opt-in via class.
+ *  - All effects are CSS-only (no images, no JS).
+ *  - All respect prefers-reduced-motion (no animation).
+ */
+
+/* Hairline grid (mid-page rhythmic sections) */
+.sxp-bg-grid {
+  position: relative;
+  isolation: isolate;
+}
+.sxp-bg-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(to right, var(--sxp-dot-dark) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--sxp-dot-dark) 1px, transparent 1px);
+  background-size: 56px 56px;
+  opacity: 0.5;
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+  pointer-events: none;
+}
+
+/* Dot field (stats / metric sections) */
+.sxp-bg-dots {
+  position: relative;
+  isolation: isolate;
+}
+.sxp-bg-dots::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: radial-gradient(circle at 1px 1px, var(--sxp-dot-dark) 1px, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+/* Soft top fade (use to separate sections without a hard border) */
+.sxp-bg-fade-top {
+  background: linear-gradient(180deg, var(--sxp-surface-1) 0%, var(--sxp-surface-0) 60%);
+}
+.sxp-bg-fade-bottom {
+  background: linear-gradient(180deg, var(--sxp-surface-0) 40%, var(--sxp-surface-1) 100%);
+}
+
+/* CTA-block noise/sheen — purely CSS, no image asset */
+.sxp-cta-block.sxp-bg-sheen::after {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(255,255,255,0.07) 0, transparent 35%),
+    radial-gradient(circle at 85% 80%, rgba(255,255,255,0.05) 0, transparent 40%),
+    radial-gradient(circle at 1px 1px, var(--sxp-dot-color) 1px, transparent 0);
+  background-size: auto, auto, 24px 24px;
+  opacity: 0.55;
+}

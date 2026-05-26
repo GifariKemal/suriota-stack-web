@@ -6,8 +6,9 @@ from pathlib import Path
 from pillar_env import ROOT, WP_BASE, assert_allowed, make_session
 
 CSS_FILES = [
-    ROOT / "design-system" / "sx-pillar-v2.tokens.css",
-    ROOT / "design-system" / "sx-pillar-v2.components.css",
+    ROOT / "design-system" / "sx-pillar-v3.tokens.css",
+    ROOT / "design-system" / "sx-pillar-v3.components.css",
+    ROOT / "design-system" / "sx-pillar-v3.atmosphere.css",
 ]
 
 def build_css_bundle() -> str:
