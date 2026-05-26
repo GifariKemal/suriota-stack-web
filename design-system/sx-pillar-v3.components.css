@@ -154,7 +154,11 @@
   overflow: hidden;
 }
 .sxp-hero--light {
-  background: var(--sxp-surface-1);
+  /* P3 Consulting — warm cream with subtle amber wash to differentiate from generic white */
+  background:
+    radial-gradient(ellipse at top right, rgba(200, 133, 31, 0.10) 0%, transparent 55%),
+    radial-gradient(ellipse at bottom left, rgba(110, 72, 15, 0.04) 0%, transparent 60%),
+    linear-gradient(180deg, #FBF6EB 0%, #FDFAF2 100%);
   color: var(--sxp-ink);
 }
 .sxp-hero::before {
@@ -168,10 +172,10 @@
   pointer-events: none;
 }
 .sxp-hero--light::before {
+  /* dot-grid only, no extra wash (gradient now lives on .sxp-hero--light bg) */
   background-image:
-    radial-gradient(circle at 80% 10%, rgba(14,57,66,0.04) 0, transparent 50%),
-    radial-gradient(circle at 1px 1px, var(--sxp-dot-dark) 1px, transparent 0);
-  background-size: auto, 24px 24px;
+    radial-gradient(circle at 1px 1px, rgba(110, 72, 15, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
 }
 .sxp-hero__inner {
   position: relative;
