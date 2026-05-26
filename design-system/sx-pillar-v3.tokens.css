@@ -39,25 +39,25 @@
   --sxp-ls-wide:   0.06em;
   --sxp-ls-wider:  0.08em;
 
-  /* === Spacing scale (4px base, compact) === */
+  /* === Spacing scale (4px base, compact — tightened v3.1 polish) === */
   --sxp-space-1:  4px;
   --sxp-space-2:  8px;
   --sxp-space-3:  12px;
-  --sxp-space-4:  16px;
-  --sxp-space-5:  20px;
-  --sxp-space-6:  24px;
-  --sxp-space-7:  28px;
-  --sxp-space-8:  32px;
-  --sxp-space-10: 40px;
-  --sxp-space-12: 48px;
-  --sxp-space-16: 64px;
+  --sxp-space-4:  14px;   /* was 16, -12% */
+  --sxp-space-5:  18px;   /* was 20, -10% */
+  --sxp-space-6:  22px;   /* was 24,  -8% */
+  --sxp-space-7:  26px;   /* was 28,  -7% */
+  --sxp-space-8:  28px;   /* was 32, -12% */
+  --sxp-space-10: 36px;   /* was 40, -10% */
+  --sxp-space-12: 42px;   /* was 48, -12% */
+  --sxp-space-16: 56px;   /* was 64, -12% */
 
   /* === Section vertical rhythm (compact, retina-friendly) === */
-  --sxp-section-py: clamp(28px, 3.8vw, 56px);  /* was 40-72 */
+  --sxp-section-py: clamp(20px, 2.8vw, 42px);  /* was 28-56, -25% */
   --sxp-section-px: clamp(16px, 4vw, 24px);
 
   /* === Container === */
-  --sxp-wrap-max: 1120px;                       /* was 1180 */
+  --sxp-wrap-max: 1100px;                       /* was 1120 */
 
   /* === Overlays === */
   --sxp-overlay-deep: rgba(14, 57, 66, 0.92);

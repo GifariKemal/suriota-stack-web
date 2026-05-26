@@ -65,7 +65,7 @@
   letter-spacing: var(--sxp-ls-wider);
   text-transform: uppercase;
   color: var(--sxp-accent);
-  margin: 0 0 var(--sxp-space-3);
+  margin: 0 0 var(--sxp-space-2); /* tightened from space-3 */
   display: inline-flex;
   align-items: center;
   gap: var(--sxp-space-2);
@@ -92,7 +92,7 @@
   font-size: var(--sxp-fs-h2);
   letter-spacing: var(--sxp-ls-snug);
   line-height: var(--sxp-lh-snug);
-  margin: 0 0 var(--sxp-space-4);
+  margin: 0 0 var(--sxp-space-3); /* tightened from space-4 */
   color: var(--sxp-ink);
 }
 .sxp-h3 {
@@ -143,12 +143,12 @@
 .sxp-hero {
   position: relative;
   min-height: auto;
-  max-height: clamp(420px, 60vh, 580px);
+  max-height: clamp(380px, 54vh, 520px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: clamp(48px, 6.5vw, 80px) clamp(16px, 4vw, 24px) clamp(40px, 5vw, 64px);
+  padding: clamp(40px, 5.4vw, 68px) clamp(16px, 4vw, 24px) clamp(32px, 4vw, 52px);
   background: linear-gradient(135deg, var(--sxp-accent) 0%, var(--sxp-accent-deep) 100%);
   color: #fff;
   overflow: hidden;
@@ -165,6 +165,7 @@
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 0; /* dot-grid below the vector ornament */
   background-image:
     radial-gradient(circle at 20% 20%, rgba(255,255,255,0.06) 0, transparent 40%),
     radial-gradient(circle at 1px 1px, var(--sxp-dot-color) 1px, transparent 0);
@@ -179,6 +180,7 @@
 }
 .sxp-hero__inner {
   position: relative;
+  z-index: 2; /* sit above ::after vector ornaments */
   max-width: 880px;
   width: 100%;
 }
@@ -210,7 +212,7 @@
   font-size: var(--sxp-fs-h1);
   letter-spacing: var(--sxp-ls-tight);
   line-height: var(--sxp-lh-tight);
-  margin: var(--sxp-space-3) 0 var(--sxp-space-5);
+  margin: 12px 0 18px; /* tightened: was space-3/space-5 (12/20) → 12/18 */
   color: inherit;
 }
 .sxp-hero__sub {
@@ -219,7 +221,7 @@
   line-height: var(--sxp-lh-relaxed);
   max-width: 56ch;
   opacity: 0.92;
-  margin: 0 0 var(--sxp-space-7);
+  margin: 0 0 24px; /* tightened from space-7 (26) → 24 */
 }
 .sxp-hero__ctas {
   display: flex;
@@ -338,7 +340,7 @@
 /* ===== 3.3 Capabilities asymmetric grid ===== */
 .sxp-cap__grid {
   display: grid;
-  gap: 14px;
+  gap: 12px; /* tightened from 14 */
   grid-template-columns: repeat(12, 1fr);
 }
 .sxp-cap__card {
@@ -346,7 +348,7 @@
   background: var(--sxp-surface-1);
   border: var(--sxp-border);
   border-radius: var(--sxp-radius-lg);
-  padding: clamp(16px, 1.5vw, 22px);
+  padding: clamp(14px, 1.3vw, 18px); /* tightened from 16-22 */
   position: relative;
   overflow: hidden;
   transition: transform var(--sxp-dur-base) var(--sxp-ease),
@@ -455,14 +457,14 @@
 /* ===== 3.5 Industries grid ===== */
 .sxp-ind__grid {
   display: grid;
-  gap: 12px;
+  gap: 10px; /* tightened from 12 */
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
 .sxp-ind__cell {
   background: var(--sxp-surface-1);
   border: var(--sxp-border);
   border-radius: var(--sxp-radius-lg);
-  padding: 18px 16px;
+  padding: 14px 14px; /* tightened from 18/16 */
   text-align: center;
   transition: transform var(--sxp-dur-fast) var(--sxp-ease),
               border-color var(--sxp-dur-fast) var(--sxp-ease),
@@ -513,7 +515,7 @@
 .sxp-stats__grid {
   position: relative;
   display: grid;
-  gap: 14px;
+  gap: 12px; /* tightened from 14 */
   grid-template-columns: repeat(2, 1fr);
 }
 @media (min-width: 768px) {
@@ -548,7 +550,7 @@
 /* ===== 3.7 Process timeline ===== */
 .sxp-proc__list {
   display: grid;
-  gap: 16px;
+  gap: 14px; /* tightened from 16 */
   grid-template-columns: 1fr;
   counter-reset: sxp-step;
   /* Kill native <ol> auto-numbering so manual .sxp-proc__num is the only label */
@@ -604,7 +606,7 @@
 /* ===== 3.8 Case studies ===== */
 .sxp-case {
   display: grid;
-  gap: 18px;
+  gap: 16px; /* tightened from 18 */
   grid-template-columns: 1fr;
 }
 @media (min-width: 880px) {
@@ -614,7 +616,7 @@
   background: var(--sxp-surface-1);
   border: var(--sxp-border);
   border-radius: var(--sxp-radius-lg);
-  padding: clamp(16px, 1.5vw, 22px);
+  padding: clamp(14px, 1.3vw, 18px); /* tightened from 16-22 */
   transition: transform var(--sxp-dur-base) var(--sxp-ease),
               box-shadow var(--sxp-dur-base) var(--sxp-ease);
 }
@@ -810,14 +812,14 @@
   line-height: var(--sxp-lh-snug);
   letter-spacing: var(--sxp-ls-snug);
   color: #fff;
-  margin: 0 0 var(--sxp-space-3);
+  margin: 0 0 12px; /* tightened: literal 12px */
 }
 .sxp-cta-block__body {
   font-family: var(--sxp-font-body);
   font-size: var(--sxp-fs-body-l);
   line-height: var(--sxp-lh-relaxed);
   color: rgba(255, 255, 255, 0.92);
-  margin: 0 auto var(--sxp-space-6);
+  margin: 0 auto 18px; /* tightened: literal 18px */
   max-width: 56ch;
 }
 .sxp-cta-block__ctas {
@@ -868,7 +870,7 @@
 /* ===== 3.11 Related projects ===== */
 .sxp-related__grid {
   display: grid;
-  gap: 16px;
+  gap: 14px; /* tightened from 16 */
   grid-template-columns: 1fr;
 }
 @media (min-width: 640px) {
