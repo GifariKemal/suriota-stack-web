@@ -34,26 +34,29 @@ PILLAR_BY_POST: dict[int, int] = {
 
 P1_ORDER = ["p1-hero", "p1-intro", "p1-capabilities", "p1-approach", "p1-tech",
             "p1-industries", "p1-stats", "p1-process", "p1-impact", "p1-cases",
-            "p1-faq", "p1-related", "p1-cta", "p1-schema", "p1-motion"]
+            "p1-faq", "p1-related", "p1-cta", "p1-schema", "p1-faqschema",
+            "p1-motion"]
 
 P2_ORDER = ["p2-hero", "p2-intro", "p2-capabilities", "p2-approach", "p2-tech",
             "p2-industries", "p2-stats", "p2-process", "p2-impact", "p2-cases",
-            "p2-faq", "p2-related", "p2-cta", "p2-schema", "p2-motion"]
+            "p2-faq", "p2-related", "p2-cta", "p2-schema", "p2-faqschema",
+            "p2-motion"]
 
 P3_ORDER = ["p3-hero", "p3-intro", "p3-capabilities", "p3-deliverables",
             "p3-approach", "p3-stats", "p3-process", "p3-impact", "p3-cases",
-            "p3-faq", "p3-related", "p3-cta", "p3-schema", "p3-motion"]
+            "p3-faq", "p3-related", "p3-cta", "p3-schema", "p3-faqschema",
+            "p3-motion"]
 
 P4_ORDER = ["p4-hero", "p4-intro", "p4-nav", "p4-sub-automation",
             "p4-sub-electrical", "p4-sub-renewable", "p4-sub-water",
             "p4-approach", "p4-tech", "p4-stats", "p4-process", "p4-impact",
             "p4-cases", "p4-faq", "p4-related", "p4-cta", "p4-schema",
-            "p4-motion"]
+            "p4-faqschema", "p4-motion"]
 
 P5_ORDER = ["p5-hero", "p5-intro", "p5-capabilities", "p5-features",
             "p5-approach", "p5-deployment", "p5-pricing", "p5-impact",
             "p5-cases", "p5-faq", "p5-related", "p5-cta", "p5-schema",
-            "p5-motion"]
+            "p5-faqschema", "p5-motion"]
 
 ORDER_BY_PILLAR = {1: P1_ORDER, 2: P2_ORDER, 3: P3_ORDER, 4: P4_ORDER, 5: P5_ORDER}
 
