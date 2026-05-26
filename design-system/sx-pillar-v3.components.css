@@ -619,20 +619,39 @@
 
 /* ===== 3.9 FAQ accordion ===== */
 .sxp-faq { border-top: var(--sxp-border); }
+.sxp-faq,
+.sxp-faq__panel {
+  background: transparent !important;
+}
 .sxp-faq__item {
   border-bottom: var(--sxp-border);
+  background: transparent !important;
+  -webkit-tap-highlight-color: transparent;
   transition: background var(--sxp-dur-fast) var(--sxp-ease);
 }
 .sxp-faq__item:has(.sxp-faq__btn[aria-expanded="true"]) {
-  background: var(--sxp-accent-soft);
+  background: var(--sxp-accent-soft) !important;
   border-radius: var(--sxp-radius-md);
   padding: 0 16px;
   margin: 0 -16px;
 }
+/* Override Elementor/theme injected button backgrounds (e.g. pink #CC3366)
+   on every interactive state — keep button visually flat, rely on item bg. */
+.sxp-faq__btn,
+.sxp-faq__btn:hover,
+.sxp-faq__btn:focus,
+.sxp-faq__btn:active,
+.sxp-faq__btn[aria-expanded="true"],
+.sxp-faq__btn[aria-expanded="false"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
 .sxp-faq__btn {
   width: 100%;
   text-align: left;
-  background: transparent;
   border: 0;
   cursor: pointer;
   padding: 16px 0;
@@ -644,7 +663,6 @@
   font-size: 1rem;
   color: var(--sxp-ink);
   outline: 0;
-  -webkit-tap-highlight-color: transparent;
   transition: color var(--sxp-dur-fast) var(--sxp-ease);
 }
 .sxp-faq__btn:hover {
@@ -652,6 +670,12 @@
 }
 .sxp-faq__btn[aria-expanded="true"] {
   color: var(--sxp-accent);
+}
+/* Anything Elementor renders inside the panel must not paint pink either */
+.sxp-faq__panel,
+.sxp-faq__panel > *,
+.sxp-faq__panel p {
+  background: transparent !important;
 }
 .sxp-faq__btn[aria-expanded="true"] .sxp-faq__icon {
   transform: rotate(45deg);
@@ -784,8 +808,8 @@
               background var(--sxp-dur-fast) var(--sxp-ease);
 }
 .sxp-cta-block__wa svg {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   fill: currentColor;
   stroke: none;
   flex-shrink: 0;
