@@ -123,10 +123,12 @@
 /* ===== 3.1 Hero ===== */
 .sxp-hero {
   position: relative;
-  min-height: 64vh;
-  display: grid;
-  place-items: center;
-  padding: clamp(56px, 8vw, 96px) clamp(16px, 4vw, 24px) clamp(32px, 4vw, 48px);
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(48px, 6.5vw, 80px) clamp(16px, 4vw, 24px) clamp(40px, 5vw, 64px);
   background: linear-gradient(135deg, var(--sxp-accent) 0%, var(--sxp-accent-deep) 100%);
   color: #fff;
   overflow: hidden;
@@ -617,11 +619,20 @@
 
 /* ===== 3.9 FAQ accordion ===== */
 .sxp-faq { border-top: var(--sxp-border); }
-.sxp-faq__item { border-bottom: var(--sxp-border); }
+.sxp-faq__item {
+  border-bottom: var(--sxp-border);
+  transition: background var(--sxp-dur-fast) var(--sxp-ease);
+}
+.sxp-faq__item:has(.sxp-faq__btn[aria-expanded="true"]) {
+  background: var(--sxp-accent-soft);
+  border-radius: var(--sxp-radius-md);
+  padding: 0 16px;
+  margin: 0 -16px;
+}
 .sxp-faq__btn {
   width: 100%;
   text-align: left;
-  background: none;
+  background: transparent;
   border: 0;
   cursor: pointer;
   padding: 16px 0;
@@ -633,6 +644,14 @@
   font-size: 1rem;
   color: var(--sxp-ink);
   outline: 0;
+  -webkit-tap-highlight-color: transparent;
+  transition: color var(--sxp-dur-fast) var(--sxp-ease);
+}
+.sxp-faq__btn:hover {
+  color: var(--sxp-accent);
+}
+.sxp-faq__btn[aria-expanded="true"] {
+  color: var(--sxp-accent);
 }
 .sxp-faq__btn[aria-expanded="true"] .sxp-faq__icon {
   transform: rotate(45deg);
@@ -737,7 +756,7 @@
   font-family: var(--sxp-font-body);
   font-size: var(--sxp-fs-body-l);
   line-height: var(--sxp-lh-relaxed);
-  opacity: 0.92;
+  color: rgba(255, 255, 255, 0.92);
   margin: 0 auto var(--sxp-space-6);
   max-width: 56ch;
 }
@@ -759,10 +778,21 @@
   font-weight: 600;
   font-size: 0.9375rem;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
   transition: transform var(--sxp-dur-fast) var(--sxp-ease),
-              box-shadow var(--sxp-dur-fast) var(--sxp-ease);
+              box-shadow var(--sxp-dur-fast) var(--sxp-ease),
+              background var(--sxp-dur-fast) var(--sxp-ease);
+}
+.sxp-cta-block__wa svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  stroke: none;
+  flex-shrink: 0;
 }
 .sxp-cta-block__wa:hover {
+  background: #0a7568;
+  color: #fff;
   transform: translateY(-1px);
   box-shadow: var(--sxp-elev-2);
 }
@@ -771,7 +801,7 @@
   font-size: var(--sxp-fs-mono-eyebrow);
   text-transform: uppercase;
   letter-spacing: var(--sxp-ls-wide);
-  opacity: 0.7;
+  color: rgba(255, 255, 255, 0.78);
   margin: var(--sxp-space-6) 0 0;
 }
 
@@ -911,7 +941,7 @@
 
 /* ===== Responsive — tighter mobile rules ===== */
 @media (max-width: 640px) {
-  .sxp-hero { min-height: 56vh; }
+  .sxp-hero { min-height: auto; }
   .sxp-hero__ctas { width: 100%; }
   .sxp-hero__ctas .sxp-cta { flex: 1 1 auto; justify-content: center; }
   .sxp-cta-block__ctas { width: 100%; }
