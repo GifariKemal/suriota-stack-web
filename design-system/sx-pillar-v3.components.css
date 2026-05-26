@@ -14,6 +14,25 @@
  *  - Tighter mobile breakpoints (640 / 1024)
  */
 
+/* ===== Neutralize Elementor/theme default arrow pseudo-elements on our CTAs =====
+ * Elementor's default button styles inject a "→" via ::after content on anchors,
+ * which collides with our inline SVG arrow producing a visible double-arrow.
+ * Scoped tightly so .sxp-eyebrow::before (decorative dash) is unaffected.
+ */
+.sxp-cta::before,
+.sxp-cta::after,
+.sxp-cta-block__wa::before,
+.sxp-cta-block__wa::after,
+.sxp-related__card::before,
+.sxp-related__card::after,
+.sxp-hero__ctas a::before,
+.sxp-hero__ctas a::after {
+  content: none !important;
+  display: none !important;
+}
+.sxp-cta .elementor-button-icon,
+.sxp-cta-block__wa .elementor-button-icon { display: none !important; }
+
 /* ===== Section helpers ===== */
 .sxp-section {
   padding: var(--sxp-section-py) var(--sxp-section-px);
@@ -124,6 +143,7 @@
 .sxp-hero {
   position: relative;
   min-height: auto;
+  max-height: clamp(420px, 60vh, 580px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -965,7 +985,7 @@
 
 /* ===== Responsive — tighter mobile rules ===== */
 @media (max-width: 640px) {
-  .sxp-hero { min-height: auto; }
+  .sxp-hero { min-height: auto; max-height: none; }
   .sxp-hero__ctas { width: 100%; }
   .sxp-hero__ctas .sxp-cta { flex: 1 1 auto; justify-content: center; }
   .sxp-cta-block__ctas { width: 100%; }
