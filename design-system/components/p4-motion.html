@@ -96,8 +96,30 @@
     sections.forEach(function (s) { nio.observe(s); });
   }
 
+  // ===== Back-to-top button =====
+  function bindBackToTop() {
+    if (document.querySelector('.sxp-backtop')) return;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'sxp-backtop';
+    btn.setAttribute('aria-label', 'Back to top');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>';
+    btn.addEventListener('click', function () {
+      try { window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' }); }
+      catch (e) { window.scrollTo(0, 0); }
+    });
+    document.body.appendChild(btn);
+    var threshold = 320;
+    function onScroll() {
+      if (window.pageYOffset > threshold) btn.classList.add('is-visible');
+      else btn.classList.remove('is-visible');
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   // Boot
-  function init() { bindReveals(); bindCounters(); bindFaq(); bindStickyNav(); }
+  function init() { bindReveals(); bindCounters(); bindFaq(); bindStickyNav(); bindBackToTop(); }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else { init(); }

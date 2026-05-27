@@ -1,0 +1,439 @@
+/*!
+ * sx-homepage.css — Homepage atmosphere + polish (v3 unification)
+ * Scoped to homepage variants only: EN (12), ID (5273), ZH (5448).
+ * Do NOT include in sitewide CSS. Applied via _elementor_page_settings.custom_css.
+ *
+ * Adds (priority audit 2026-05-26):
+ *   - Hero atmosphere: subtle dot-grid + diagonal vector mesh
+ *   - Eyebrow polish: mono caps + accent dash for PRODUCTS / TRUSTED BY / PORTFOLIO
+ *   - Capabilities panel: dot-pattern overlay
+ *   - Hero typography: tighter tracking, bolder weight
+ *   - Service card hover: subtle lift + accent border
+ *   - Trusted By carousel: padding fix so first logo never crops
+ *   - Back-to-top button (.sx-backtop) — same mechanism as pillar pages
+ */
+
+/* ---------- Local tokens (homepage scope) ---------- */
+body.page-id-12,
+body.page-id-5273,
+body.page-id-5448 {
+  --sxh-ink:         #14202A;
+  --sxh-ink-soft:    #4D5E66;
+  --sxh-accent:      #205B69;
+  --sxh-accent-deep: #0E3942;
+  --sxh-amber:       #C8851F;
+  --sxh-line:        #E8ECEE;
+  --sxh-surface-1:   #FAFBFC;
+  --sxh-dot-light:   rgba(14, 57, 66, 0.05);
+  --sxh-grid-light:  rgba(14, 57, 66, 0.035);
+  --sxh-dot-white:   rgba(255, 255, 255, 0.07);
+  --sxh-grid-white:  rgba(255, 255, 255, 0.035);
+  --sxh-ease:        cubic-bezier(0.22, 1, 0.36, 1);
+  --sxh-dur-fast:    160ms;
+  --sxh-dur-base:    280ms;
+}
+
+/* ===== HERO atmosphere =====
+ * The very first elementor-top-section (#elementor-1 .elementor-top-section:first-of-type).
+ * We attach dot-grid + diagonal accent via ::before and ::after so we don't
+ * have to mutate the Elementor DOM. */
+body.page-id-12   .elementor section.elementor-top-section:first-of-type,
+body.page-id-5273 .elementor section.elementor-top-section:first-of-type,
+body.page-id-5448 .elementor section.elementor-top-section:first-of-type {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+body.page-id-12   .elementor section.elementor-top-section:first-of-type > *,
+body.page-id-5273 .elementor section.elementor-top-section:first-of-type > *,
+body.page-id-5448 .elementor section.elementor-top-section:first-of-type > * {
+  position: relative;
+  z-index: 1;
+}
+body.page-id-12   .elementor section.elementor-top-section:first-of-type::before,
+body.page-id-5273 .elementor section.elementor-top-section:first-of-type::before,
+body.page-id-5448 .elementor section.elementor-top-section:first-of-type::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(var(--sxh-dot-light) 1px, transparent 1px),
+    linear-gradient(var(--sxh-grid-light) 1px, transparent 1px),
+    linear-gradient(90deg, var(--sxh-grid-light) 1px, transparent 1px);
+  background-size: 24px 24px, 96px 96px, 96px 96px;
+  background-position: 0 0, 0 0, 0 0;
+  opacity: 0.85;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.45) 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.45) 60%, transparent 100%);
+}
+body.page-id-12   .elementor section.elementor-top-section:first-of-type::after,
+body.page-id-5273 .elementor section.elementor-top-section:first-of-type::after,
+body.page-id-5448 .elementor section.elementor-top-section:first-of-type::after {
+  /* Hero signature ornament — 5-pillar network constellation (inline SVG data URI).
+   * Subtle teal/green/amber accents matching pillar palette. Top-right of hero. */
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: -4%;
+  width: 46%;
+  height: 88%;
+  max-width: 640px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20640%20460%22%20fill=%22none%22%3E%20%3Cg%20stroke=%22%23205B69%22%20stroke-width=%221.25%22%20opacity=%220.55%22%3E%20%3Ccircle%20cx=%22320%22%20cy=%22230%22%20r=%2222%22%20fill=%22rgba(32,91,105,0.04)%22/%3E%20%3Ccircle%20cx=%22320%22%20cy=%22230%22%20r=%2260%22%20stroke-dasharray=%223%205%22%20opacity=%220.4%22%20fill=%22none%22/%3E%20%3Ccircle%20cx=%22320%22%20cy=%22230%22%20r=%22100%22%20stroke-dasharray=%222%206%22%20opacity=%220.25%22%20fill=%22none%22/%3E%20%3Ccircle%20cx=%22160%22%20cy=%2290%22%20r=%2210%22%20fill=%22rgba(32,91,105,0.06)%22/%3E%20%3Ccircle%20cx=%22490%22%20cy=%2290%22%20r=%2210%22%20fill=%22rgba(60,125,71,0.06)%22%20stroke=%22%233C7D47%22/%3E%20%3Ccircle%20cx=%22560%22%20cy=%22320%22%20r=%2210%22%20fill=%22rgba(200,133,31,0.07)%22%20stroke=%22%23C8851F%22/%3E%20%3Ccircle%20cx=%2290%22%20cy=%22320%22%20r=%2210%22%20fill=%22rgba(32,91,105,0.06)%22/%3E%20%3Ccircle%20cx=%22320%22%20cy=%22420%22%20r=%2210%22%20fill=%22rgba(14,57,66,0.07)%22%20stroke=%22%230E3942%22/%3E%20%3Cline%20x1=%22160%22%20y1=%2290%22%20x2=%22320%22%20y2=%22230%22/%3E%20%3Cline%20x1=%22490%22%20y1=%2290%22%20x2=%22320%22%20y2=%22230%22%20stroke=%22%233C7D47%22/%3E%20%3Cline%20x1=%22560%22%20y1=%22320%22%20x2=%22320%22%20y2=%22230%22%20stroke=%22%23C8851F%22/%3E%20%3Cline%20x1=%2290%22%20y1=%22320%22%20x2=%22320%22%20y2=%22230%22/%3E%20%3Cline%20x1=%22320%22%20y1=%22420%22%20x2=%22320%22%20y2=%22230%22%20stroke=%22%230E3942%22/%3E%20%3Cline%20x1=%22160%22%20y1=%2290%22%20x2=%22490%22%20y2=%2290%22%20opacity=%220.3%22/%3E%20%3Cline%20x1=%22490%22%20y1=%2290%22%20x2=%22560%22%20y2=%22320%22%20opacity=%220.3%22/%3E%20%3Cline%20x1=%22560%22%20y1=%22320%22%20x2=%22320%22%20y2=%22420%22%20opacity=%220.3%22/%3E%20%3Cline%20x1=%22320%22%20y1=%22420%22%20x2=%2290%22%20y2=%22320%22%20opacity=%220.3%22/%3E%20%3Cline%20x1=%2290%22%20y1=%22320%22%20x2=%22160%22%20y2=%2290%22%20opacity=%220.3%22/%3E%20%3Ccircle%20cx=%22320%22%20cy=%22230%22%20r=%223%22%20fill=%22%23205B69%22/%3E%20%3C/g%3E%20%3Cg%20font-family=%22ui-monospace,%20Geist%20Mono,%20monospace%22%20font-size=%229%22%20font-weight=%22500%22%20letter-spacing=%220.08em%22%20fill=%22%23205B69%22%20opacity=%220.5%22%3E%20%3Ctext%20x=%22158%22%20y=%2270%22%20text-anchor=%22middle%22%3EP1%3C/text%3E%20%3Ctext%20x=%22488%22%20y=%2270%22%20text-anchor=%22middle%22%20fill=%22%233C7D47%22%3EP2%3C/text%3E%20%3Ctext%20x=%22320%22%20y=%22445%22%20text-anchor=%22middle%22%20fill=%22%23C8851F%22%3EP3%3C/text%3E%20%3Ctext%20x=%22560%22%20y=%22305%22%20text-anchor=%22middle%22%20fill=%22%23205B69%22%3EP4%3C/text%3E%20%3Ctext%20x=%2290%22%20y=%22305%22%20text-anchor=%22middle%22%20fill=%22%230E3942%22%3EP5%3C/text%3E%20%3C/g%3E%20%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: contain;
+  opacity: 0.85;
+  pointer-events: none;
+  z-index: 0;
+  filter: none;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 24%, #000 100%);
+}
+@media (max-width: 1100px) {
+  body.page-id-12   .elementor section.elementor-top-section:first-of-type::after,
+  body.page-id-5273 .elementor section.elementor-top-section:first-of-type::after,
+  body.page-id-5448 .elementor section.elementor-top-section:first-of-type::after {
+    opacity: 0.5;
+    width: 60%;
+    right: -10%;
+  }
+}
+@media (max-width: 720px) {
+  body.page-id-12   .elementor section.elementor-top-section:first-of-type::after,
+  body.page-id-5273 .elementor section.elementor-top-section:first-of-type::after,
+  body.page-id-5448 .elementor section.elementor-top-section:first-of-type::after {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  body.page-id-12   .elementor section.elementor-top-section:first-of-type::before,
+  body.page-id-5273 .elementor section.elementor-top-section:first-of-type::before,
+  body.page-id-5448 .elementor section.elementor-top-section:first-of-type::before {
+    background-size: 18px 18px, 72px 72px, 72px 72px;
+  }
+
+}
+
+/* ===== HERO typography tightening ===== */
+body.page-id-12   .elementor-top-section:first-of-type h1,
+body.page-id-5273 .elementor-top-section:first-of-type h1,
+body.page-id-5448 .elementor-top-section:first-of-type h1 {
+  letter-spacing: -0.024em;
+  font-weight: 700;
+  line-height: 1.08em;
+}
+
+/* ===== Mono eyebrow for non-hero section headings ("PRODUCTS", "PORTFOLIO", "TRUSTED BY", "OUR 5 CORE SERVICES") ===== */
+body.page-id-12   .elementor-widget-heading h2.elementor-heading-title,
+body.page-id-5273 .elementor-widget-heading h2.elementor-heading-title,
+body.page-id-5448 .elementor-widget-heading h2.elementor-heading-title {
+  /* Inherit existing weight; nothing forced here to avoid breaking real headings */
+}
+/* Specifically polish the all-caps short-text headings (PRODUCTS / TRUSTED BY / PORTFOLIO / OUR 5 CORE SERVICES)
+   by detecting the .elementor-heading-title with text-transform:uppercase already applied. */
+body.page-id-12   p:where(.elementor-widget-text-editor p, .elementor-widget-heading h2)[style*="uppercase"],
+body.page-id-5273 p:where(.elementor-widget-text-editor p, .elementor-widget-heading h2)[style*="uppercase"],
+body.page-id-5448 p:where(.elementor-widget-text-editor p, .elementor-widget-heading h2)[style*="uppercase"] {
+  position: relative;
+  letter-spacing: 0.14em;
+  font-family: "Geist Mono", ui-monospace, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--sxh-ink-soft);
+}
+body.page-id-12   .elementor-widget-heading h2.elementor-heading-title[style*="uppercase"],
+body.page-id-5273 .elementor-widget-heading h2.elementor-heading-title[style*="uppercase"],
+body.page-id-5448 .elementor-widget-heading h2.elementor-heading-title[style*="uppercase"] {
+  letter-spacing: 0.14em;
+  font-family: "Geist Mono", ui-monospace, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--sxh-ink-soft);
+}
+
+/* ===== CAPABILITIES panel dot texture overlay =====
+ * Targets the dark-teal "capabilities" stat strip (text-editor with bg #205B69 / 0E3942). */
+body.page-id-12   .elementor-widget-text-editor:has(> .elementor-widget-container > div[style*="background:#205B69"]),
+body.page-id-5273 .elementor-widget-text-editor:has(> .elementor-widget-container > div[style*="background:#205B69"]),
+body.page-id-5448 .elementor-widget-text-editor:has(> .elementor-widget-container > div[style*="background:#205B69"]) {
+  position: relative;
+}
+body.page-id-12   .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"],
+body.page-id-5273 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"],
+body.page-id-5448 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"] {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+body.page-id-12   .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"]::before,
+body.page-id-5273 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"]::before,
+body.page-id-5448 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(var(--sxh-dot-white) 1px, transparent 1px),
+    linear-gradient(var(--sxh-grid-white) 1px, transparent 1px),
+    linear-gradient(90deg, var(--sxh-grid-white) 1px, transparent 1px);
+  background-size: 20px 20px, 80px 80px, 80px 80px;
+  pointer-events: none;
+  z-index: 0;
+}
+body.page-id-12   .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"] > *,
+body.page-id-5273 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"] > *,
+body.page-id-5448 .elementor-widget-text-editor > .elementor-widget-container > div[style*="background:#205B69"] > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===== Service card hover affordance ===== */
+body.page-id-12   a.about-service-card-link,
+body.page-id-5273 a.about-service-card-link,
+body.page-id-5448 a.about-service-card-link {
+  display: block;
+  transition: transform var(--sxh-dur-base) var(--sxh-ease);
+}
+body.page-id-12   a.about-service-card-link > article.about-service-card,
+body.page-id-5273 a.about-service-card-link > article.about-service-card,
+body.page-id-5448 a.about-service-card-link > article.about-service-card {
+  transition:
+    border-color var(--sxh-dur-fast) var(--sxh-ease),
+    box-shadow var(--sxh-dur-base) var(--sxh-ease),
+    background var(--sxh-dur-fast) var(--sxh-ease);
+}
+body.page-id-12   a.about-service-card-link:hover > article.about-service-card,
+body.page-id-5273 a.about-service-card-link:hover > article.about-service-card,
+body.page-id-5448 a.about-service-card-link:hover > article.about-service-card {
+  border-color: var(--sxh-accent);
+  box-shadow: 0 10px 28px rgba(14, 57, 66, 0.10);
+  background: #FFFFFF;
+}
+body.page-id-12   a.about-service-card-link:hover,
+body.page-id-5273 a.about-service-card-link:hover,
+body.page-id-5448 a.about-service-card-link:hover {
+  transform: translateY(-3px);
+}
+body.page-id-12   a.about-service-card-link:focus-visible,
+body.page-id-5273 a.about-service-card-link:focus-visible,
+body.page-id-5448 a.about-service-card-link:focus-visible {
+  outline: 2px solid var(--sxh-accent);
+  outline-offset: 4px;
+  border-radius: 10px;
+}
+
+/* ===== Trusted By carousel — prevent first/last logo from getting clipped ===== */
+body.page-id-12   .elementor-widget-image-carousel .swiper,
+body.page-id-5273 .elementor-widget-image-carousel .swiper,
+body.page-id-5448 .elementor-widget-image-carousel .swiper {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+body.page-id-12   .elementor-widget-image-carousel .swiper-slide,
+body.page-id-5273 .elementor-widget-image-carousel .swiper-slide,
+body.page-id-5448 .elementor-widget-image-carousel .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== BACK-TO-TOP button (homepage scope) ===== */
+.sx-backtop {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 60;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  background: var(--sxh-accent);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition:
+    opacity var(--sxh-dur-base) var(--sxh-ease),
+    transform var(--sxh-dur-base) var(--sxh-ease),
+    box-shadow var(--sxh-dur-fast) var(--sxh-ease),
+    background var(--sxh-dur-fast) var(--sxh-ease);
+  box-shadow: 0 6px 16px rgba(14, 57, 66, 0.18);
+}
+.sx-backtop svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.sx-backtop.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.sx-backtop:hover {
+  background: var(--sxh-accent-deep);
+  box-shadow: 0 12px 32px rgba(14, 57, 66, 0.22);
+  transform: translateY(-2px);
+}
+.sx-backtop:focus-visible {
+  outline: 2px solid var(--sxh-accent);
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  .sx-backtop { bottom: 16px; left: 16px; width: 40px; height: 40px; }
+  .sx-backtop svg { width: 16px; height: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sx-backtop { transition: opacity 0.1s linear; transform: none; }
+  .sx-backtop.is-visible { transform: none; }
+  .sx-backtop:hover { transform: none; }
+}
+
+/* ===== Defensive overflow guard (homepage scope, mobile only) ===== */
+@media (max-width: 640px) {
+  body.page-id-12,
+  body.page-id-5273,
+  body.page-id-5448 {
+    overflow-x: hidden;
+  }
+}
+
+/* ===== "Our Location" map embed — wrapper styling for inserted iframe ===== */
+body.page-id-12   .sx-map-embed,
+body.page-id-5273 .sx-map-embed,
+body.page-id-5448 .sx-map-embed {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--sxh-line);
+  box-shadow: 0 6px 16px rgba(14, 57, 66, 0.06);
+  aspect-ratio: 16 / 10;
+  background: var(--sxh-surface-1);
+}
+body.page-id-12   .sx-map-embed iframe,
+body.page-id-5273 .sx-map-embed iframe,
+body.page-id-5448 .sx-map-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ===== Section accent SVG — direct-targeted via heading widget data-id =====
+ * Products = ec7caec, Trusted By = 2b673f7, Portfolio = 362468c.
+ * Renders a small "line | dot | line" mark ABOVE the heading text. */
+body.page-id-12   .elementor-element[data-id="ec7caec"] .elementor-widget-container::before,
+body.page-id-5273 .elementor-element[data-id="ec7caec"] .elementor-widget-container::before,
+body.page-id-5448 .elementor-element[data-id="ec7caec"] .elementor-widget-container::before,
+body.page-id-12   .elementor-element[data-id="2b673f7"] .elementor-widget-container::before,
+body.page-id-5273 .elementor-element[data-id="2b673f7"] .elementor-widget-container::before,
+body.page-id-5448 .elementor-element[data-id="2b673f7"] .elementor-widget-container::before,
+body.page-id-12   .elementor-element[data-id="362468c"] .elementor-widget-container::before,
+body.page-id-5273 .elementor-element[data-id="362468c"] .elementor-widget-container::before,
+body.page-id-5448 .elementor-element[data-id="362468c"] .elementor-widget-container::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 12px;
+  margin: 0 auto 12px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2080%2012%22%20fill=%22none%22%3E%20%3Cline%20x1=%220%22%20y1=%226%22%20x2=%2232%22%20y2=%226%22%20stroke=%22%23205B69%22%20stroke-width=%221.25%22%20opacity=%220.45%22/%3E%20%3Ccircle%20cx=%2240%22%20cy=%226%22%20r=%222.5%22%20fill=%22%23C8851F%22/%3E%20%3Cline%20x1=%2248%22%20y1=%226%22%20x2=%2280%22%20y2=%226%22%20stroke=%22%23205B69%22%20stroke-width=%221.25%22%20opacity=%220.45%22/%3E%20%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* Also surface the same accent above the "OUR 5 CORE SERVICES" eyebrow
+ * (rendered as a text-editor inside hero, id 223ff102). */
+body.page-id-12   .elementor-element[data-id="223ff102"] .elementor-widget-container::after,
+body.page-id-5273 .elementor-element[data-id="223ff102"] .elementor-widget-container::after,
+body.page-id-5448 .elementor-element[data-id="223ff102"] .elementor-widget-container::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 12px;
+  margin: 14px auto 0;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2080%2012%22%20fill=%22none%22%3E%20%3Cline%20x1=%220%22%20y1=%226%22%20x2=%2232%22%20y2=%226%22%20stroke=%22%23205B69%22%20stroke-width=%221.25%22%20opacity=%220.45%22/%3E%20%3Ccircle%20cx=%2240%22%20cy=%226%22%20r=%222.5%22%20fill=%22%23C8851F%22/%3E%20%3Cline%20x1=%2248%22%20y1=%226%22%20x2=%2280%22%20y2=%226%22%20stroke=%22%23205B69%22%20stroke-width=%221.25%22%20opacity=%220.45%22/%3E%20%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* ===== Capabilities panel — circuit-trace SVG overlay (in addition to dot texture) =====
+ * Targets the inner dark-teal box of widget id 50680e6.
+ * Overlay sits between the dot-pattern (::before via existing rule) and the content. */
+body.page-id-12   .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"],
+body.page-id-5273 .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"],
+body.page-id-5448 .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"] {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+body.page-id-12   .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"]::after,
+body.page-id-5273 .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"]::after,
+body.page-id-5448 .elementor-element[data-id="50680e6"] > .elementor-widget-container > div[style*="background:#205B69"]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20800%20200%22%20fill=%22none%22%3E%20%3Cg%20stroke=%22rgba(255,255,255,0.10)%22%20stroke-width=%221%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%20%3Cpath%20d=%22M0%2036%20L160%2036%20L160%2080%20L320%2080%20L320%2030%20L480%2030%20L480%2090%20L640%2090%22/%3E%20%3Cpath%20d=%22M80%200%20L80%20120%20L240%20120%20L240%20180%20L400%20180%20L400%20140%20L560%20140%20L560%20200%22/%3E%20%3Cpath%20d=%22M440%200%20L440%2060%20L600%2060%20L600%20130%20L760%20130%20L760%2070%20L800%2070%22/%3E%20%3Cpath%20d=%22M0%20170%20L100%20170%20L100%20140%20L180%20140%22/%3E%20%3C/g%3E%20%3Cg%20fill=%22rgba(200,133,31,0.55)%22%3E%20%3Ccircle%20cx=%22160%22%20cy=%2236%22%20r=%222.2%22/%3E%20%3Ccircle%20cx=%22320%22%20cy=%2230%22%20r=%222.2%22/%3E%20%3Ccircle%20cx=%22240%22%20cy=%22120%22%20r=%222.2%22/%3E%20%3Ccircle%20cx=%22600%22%20cy=%2260%22%20r=%222.2%22/%3E%20%3Ccircle%20cx=%22560%22%20cy=%22140%22%20r=%222.2%22/%3E%20%3C/g%3E%20%3Cg%20fill=%22rgba(255,255,255,0.30)%22%3E%20%3Ccircle%20cx=%2280%22%20cy=%22120%22%20r=%221.75%22/%3E%20%3Ccircle%20cx=%22480%22%20cy=%2290%22%20r=%221.75%22/%3E%20%3Ccircle%20cx=%22400%22%20cy=%22180%22%20r=%221.75%22/%3E%20%3Ccircle%20cx=%22100%22%20cy=%22140%22%20r=%221.75%22/%3E%20%3Ccircle%20cx=%22760%22%20cy=%22130%22%20r=%221.75%22/%3E%20%3C/g%3E%20%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 12%, #000 88%, transparent 100%);
+}
+
+/* ===== Footer ornament (homepage-scoped only) =====
+ * footer.sx-hf-v5 is sitewide; CSS scoped to body.page-id-* keeps this homepage-only. */
+body.page-id-12   footer.sx-hf-v5,
+body.page-id-5273 footer.sx-hf-v5,
+body.page-id-5448 footer.sx-hf-v5 {
+  position: relative;
+  isolation: isolate;
+}
+body.page-id-12   footer.sx-hf-v5::before,
+body.page-id-5273 footer.sx-hf-v5::before,
+body.page-id-5448 footer.sx-hf-v5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201440%2064%22%20fill=%22none%22%3E%20%3Cline%20x1=%220%22%20y1=%2240%22%20x2=%221440%22%20y2=%2240%22%20stroke=%22rgba(255,255,255,0.10)%22%20stroke-width=%221%22/%3E%20%3Cg%20stroke=%22rgba(255,255,255,0.20)%22%20stroke-width=%221%22%20fill=%22none%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%20%3Cpath%20d=%22M120%2040%20L120%2022%20L200%2022%22/%3E%20%3Cpath%20d=%22M380%2040%20L380%2056%20L460%2056%22/%3E%20%3Cpath%20d=%22M680%2040%20L680%2018%20L780%2018%20L780%2044%20L860%2044%22/%3E%20%3Cpath%20d=%22M1060%2040%20L1060%2024%20L1180%2024%22/%3E%20%3Cpath%20d=%22M1280%2040%20L1280%2056%20L1380%2056%22/%3E%20%3C/g%3E%20%3Cg%20fill=%22rgba(200,133,31,0.7)%22%3E%20%3Ccircle%20cx=%22120%22%20cy=%2240%22%20r=%222.5%22/%3E%20%3Ccircle%20cx=%22380%22%20cy=%2240%22%20r=%222.5%22/%3E%20%3Ccircle%20cx=%22680%22%20cy=%2240%22%20r=%222.5%22/%3E%20%3Ccircle%20cx=%221060%22%20cy=%2240%22%20r=%222.5%22/%3E%20%3Ccircle%20cx=%221280%22%20cy=%2240%22%20r=%222.5%22/%3E%20%3C/g%3E%20%3Cg%20fill=%22rgba(255,255,255,0.4)%22%3E%20%3Ccircle%20cx=%22200%22%20cy=%2222%22%20r=%222%22/%3E%20%3Ccircle%20cx=%22460%22%20cy=%2256%22%20r=%222%22/%3E%20%3Ccircle%20cx=%22860%22%20cy=%2244%22%20r=%222%22/%3E%20%3Ccircle%20cx=%221180%22%20cy=%2224%22%20r=%222%22/%3E%20%3Ccircle%20cx=%221380%22%20cy=%2256%22%20r=%222%22/%3E%20%3C/g%3E%20%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(180deg, #000 0%, #000 65%, transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0%, #000 65%, transparent 100%);
+}
+body.page-id-12   footer.sx-hf-v5 > *,
+body.page-id-5273 footer.sx-hf-v5 > *,
+body.page-id-5448 footer.sx-hf-v5 > * {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 640px) {
+  body.page-id-12   footer.sx-hf-v5::before,
+  body.page-id-5273 footer.sx-hf-v5::before,
+  body.page-id-5448 footer.sx-hf-v5::before {
+    height: 44px;
+    background-size: 200% auto;
+  }
+}
