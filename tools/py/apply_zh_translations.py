@@ -2,6 +2,7 @@
 Apply translated text back to Elementor _elementor_data for ZH pages.
 Reads translations/extract.json and backups/elementor_zh_original/, then posts via WP REST.
 """
+import os
 import requests, json, os
 
 BASE = 'https://suriota.com'
@@ -27,7 +28,7 @@ print(f"Pages with translations: {list(translations_by_page.keys())}")
 sess = requests.Session()
 r = sess.post(f'{BASE}/wp-login.php', data={
     'log': 'admin',
-    'pwd': 'REDACTED_ADMIN_PASSWORD',
+    'pwd': os.environ.get('WP_ADMIN_PASS', ''),
     'wp-submit': 'Log In',
     'redirect_to': f'{BASE}/wp-admin',
     'testcookie': '1'

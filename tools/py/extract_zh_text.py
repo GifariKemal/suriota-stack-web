@@ -2,6 +2,7 @@
 Extract translatable text from Elementor _elementor_data for ZH pages.
 Saves backups and generates translations/extract.json
 """
+import os
 import requests, json, os, re
 
 BASE = 'https://suriota.com'
@@ -18,7 +19,7 @@ sess = requests.Session()
 # Login
 r = sess.post(f'{BASE}/wp-login.php', data={
     'log': 'admin',
-    'pwd': 'REDACTED_ADMIN_PASSWORD',
+    'pwd': os.environ.get('WP_ADMIN_PASS', ''),
     'wp-submit': 'Log In',
     'redirect_to': f'{BASE}/wp-admin',
     'testcookie': '1'
