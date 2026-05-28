@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1>SURIOTA Website Toolkit</h1>
+<h1>Suriota Stack Web</h1>
 
-<p><strong>AI-assisted automation toolkit for managing suriota.com</strong><br/>
-WordPress + Elementor | Playwright | Python | MCP Servers</p>
+<p><strong>AI-assisted automation, audit, and design system for SURIOTA's industrial IoT website</strong><br/>
+WordPress + Elementor | AIOSEO | Polylang | Playwright | Python | Claude Code + MCP</p>
 
-[![CI](https://github.com/GifariKemal/suriota-website-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/GifariKemal/suriota-website-toolkit/actions)
-[![GitHub stars](https://img.shields.io/github/stars/GifariKemal/suriota-website-toolkit?style=social)](https://github.com/GifariKemal/suriota-website-toolkit)
+[![CI](https://github.com/GifariKemal/suriota-stack-web/actions/workflows/ci.yml/badge.svg)](https://github.com/GifariKemal/suriota-stack-web/actions)
+[![GitHub stars](https://img.shields.io/github/stars/GifariKemal/suriota-stack-web?style=social)](https://github.com/GifariKemal/suriota-stack-web)
 [![License](https://img.shields.io/badge/License-Proprietary-2563EB.svg)](LICENSE)
 [![WordPress](https://img.shields.io/badge/WordPress-6.x-21759b?logo=wordpress)](https://wordpress.org)
 [![Elementor](https://img.shields.io/badge/Elementor-Pro-92003B?logo=elementor)](https://elementor.com)
@@ -143,8 +143,8 @@ sequenceDiagram
 
 ```bash
 # Clone repository
-git clone https://github.com/GifariKemal/suriota-website-toolkit.git
-cd suriota-website-toolkit
+git clone https://github.com/GifariKemal/suriota-stack-web.git
+cd suriota-stack-web
 
 # Install Node dependencies
 npm install
@@ -174,7 +174,7 @@ python tools/py/build_final.py
 ## Folder Structure
 
 ```
-suriota-website-toolkit/
+suriota-stack-web/
 ├── README.md                 # This documentation
 ├── LICENSE                   # License file
 ├── CONTRIBUTING.md           # Contribution guidelines
