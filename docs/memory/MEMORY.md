@@ -1,0 +1,17 @@
+- [Elementor MCP spawn pattern](elementor_mcp_spawn_pattern.md) — MCP servers go in `~/.claude.json` (not `settings.json`); on Windows use direct `node.exe`, not `cmd /c node`
+- [Suriota Refactor Status](suriota_refactor_status.md) — Current state of all suriota.com page refactors (May 2026), what's done/pending per page
+- [Suriota sx- Design System](suriota_design_system_sx.md) — Industrial Editorial tokens, fonts, Elementor template IDs (4675/4677/4679/4681), critical rules
+- [Suriota Page & Widget IDs](suriota_page_widget_ids.md) — Elementor post IDs + key widget IDs for direct MCP operations
+- [Suriota AIOSEO Templates](suriota_seo_templates.md) — SEO title/meta-description copy per page (manual paste required in AIOSEO sidebar)
+- [SEO v4/v5 Deployed 2026-05-19](suriota_seo_v4_v5_deployed.md) — Live AIOSEO meta on 22 pages + Org JSON-LD sitewide + hero subtitle keyword enrichment
+- [Polylang Bilingual Setup 2026-05-19](suriota_polylang_bilingual.md) — EN+ID live; 7 strategic pages translated; hreflang + switcher live; pipeline for expansion documented
+- [WP Customizer Inline Style Blocker](suriota_wp_inline_style_blocker.md) — Persistent inline `<style>` override conflict on service pages — manual cleanup needed
+- [Gifari Suriota Preferences](suriota_user_preferences.md) — Full English, no duplication, conservative design, no // prefix, company profile alignment, compact spacing
+- [Validated Fixes 2026-05-19](suriota_validated_fixes_may19.md) — Live changes after cross-validating Kimi audit: snippet v5.1, 5 title cleanups, Elementor Kit color reset
+- [Active SX Snippets Inventory 2026-05-21](suriota_active_snippets.md) — 4 live workaround snippets (5511/5515/5524/5528), why each exists, removal condition
+- [Elementor Cache Flush After REST Edits](suriota_elementor_cache_flush.md) — Elementor caches rendered HTML; admin-ajax 400s under AppPassword; flush via Playwright login → Tools → Clear Files & Data
+- [Homepage State 2026-05-27](suriota_homepage_2026-05-27.md) — Final EN/ID/ZH layout (11 sections), modbus poster v2, portfolio live table, backtop widget restored
+- [Schema Graph 2026-05-28](suriota_schema_graph_2026-05-28.md) — LocalBusiness+Organization merged via @id, OfferCatalog hub snippet 5639, per-pillar Service @id (EN/ID/ZH for IoT+SCADA)
+- [Sticky Nav Interpretation](feedback_sticky_nav_interpretation.md) — "navbar ikut scroll" = always-visible (NOT Medium-style hide-on-down); confirmed by user correction 2026-05-28
+- [AIOSEO Audit + Fixes 2026-05-28](suriota_aioseo_audit_2026-05-28.md) — 5-phase batch: 20 desc backfill + 9 legacy noindex + 4 chain collapses + 3 new redirects + schema dedup (snippets 5639/5649)
+- [Portfolio Flicker Fix 2026-05-28](suriota_portfolio_flicker_fix.md) — Homepage portfolio JS hoisting bug — `render(cached)` ran before `var state` assigned → TypeError → empty tbody on cached reloads. Fixed via setTimeout(0) defer
