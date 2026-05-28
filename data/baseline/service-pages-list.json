@@ -1,0 +1,226 @@
+[
+  {
+    "id": 5473,
+    "slug": "saas",
+    "title": "软件即服务 SaaS",
+    "link": "https://suriota.com/zh/saas/",
+    "lang": "en"
+  },
+  {
+    "id": 5472,
+    "slug": "shujufenxi",
+    "title": "数据分析",
+    "link": "https://suriota.com/zh/shujufenxi/",
+    "lang": "en"
+  },
+  {
+    "id": 5471,
+    "slug": "rengong-zhineng",
+    "title": "人工智能与数据分析",
+    "link": "https://suriota.com/zh/rengong-zhineng/",
+    "lang": "en"
+  },
+  {
+    "id": 5470,
+    "slug": "shuzihua-zixun",
+    "title": "数字化咨询",
+    "link": "https://suriota.com/zh/shuzihua-zixun/",
+    "lang": "en"
+  },
+  {
+    "id": 5469,
+    "slug": "xitong-jicheng",
+    "title": "系统集成",
+    "link": "https://suriota.com/zh/xitong-jicheng/",
+    "lang": "en"
+  },
+  {
+    "id": 5468,
+    "slug": "iot",
+    "title": "物联网与系统集成",
+    "link": "https://suriota.com/zh/iot/",
+    "lang": "en"
+  },
+  {
+    "id": 5457,
+    "slug": "shuichuli",
+    "title": "水处理服务",
+    "link": "https://suriota.com/zh/shuichuli/",
+    "lang": "en"
+  },
+  {
+    "id": 5453,
+    "slug": "kezaisheng-nengyuan",
+    "title": "可再生能源服务",
+    "link": "https://suriota.com/zh/kezaisheng-nengyuan/",
+    "lang": "en"
+  },
+  {
+    "id": 5452,
+    "slug": "dianqi-gongcheng",
+    "title": "电气工程服务",
+    "link": "https://suriota.com/zh/dianqi-gongcheng/",
+    "lang": "en"
+  },
+  {
+    "id": 5451,
+    "slug": "zidonghua",
+    "title": "自动化与物联网服务",
+    "link": "https://suriota.com/zh/zidonghua/",
+    "lang": "en"
+  },
+  {
+    "id": 5382,
+    "slug": "system-integration-id",
+    "title": "System Integration Industri — SURIOTA",
+    "link": "https://suriota.com/id/system-integration-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5381,
+    "slug": "artificial-intelligence-id",
+    "title": "Artificial Intelligence Industri — SURIOTA",
+    "link": "https://suriota.com/id/artificial-intelligence-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5287,
+    "slug": "suriota-modbus-gateway-id",
+    "title": "SRT-MGATE-1210 Modbus Gateway IIoT | SURIOTA Batam",
+    "link": "https://suriota.com/id/suriota-modbus-gateway-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5286,
+    "slug": "digital-consulting-id",
+    "title": "Industrial Digital Transformation Consulting | SURIOTA",
+    "link": "https://suriota.com/id/digital-consulting-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5285,
+    "slug": "data-analytics-id",
+    "title": "AI &#038; Data Analytics Industri &#8211; Predictive Maintenance | SURIOTA",
+    "link": "https://suriota.com/id/data-analytics-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5284,
+    "slug": "internet-of-things-id",
+    "title": "IoT &#038; Integrasi Sistem &#8211; Modbus, MQTT, AWS IoT | SURIOTA",
+    "link": "https://suriota.com/id/internet-of-things-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5283,
+    "slug": "renewable-energy-id",
+    "title": "Layanan Solar PV PLTS &#038; Renewable Energy | SURIOTA",
+    "link": "https://suriota.com/id/renewable-energy-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5282,
+    "slug": "automation-id",
+    "title": "Layanan Industrial Automation, PLC &#038; SCADA | SURIOTA",
+    "link": "https://suriota.com/id/automation-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5281,
+    "slug": "electrical-id",
+    "title": "Layanan Industrial Electrical Engineering Batam | SURIOTA",
+    "link": "https://suriota.com/id/electrical-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5278,
+    "slug": "saas-id",
+    "title": "SURGE SaaS &#8211; Platform Monitoring IoT Industri | SURIOTA",
+    "link": "https://suriota.com/id/saas-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5277,
+    "slug": "water-treatment-id",
+    "title": "Water Treatment, WTP &#038; Monitoring SPARING KLHK | SURIOTA",
+    "link": "https://suriota.com/id/water-treatment-id/",
+    "lang": "en"
+  },
+  {
+    "id": 5039,
+    "slug": "software-as-a-service",
+    "title": "Software as a Service",
+    "link": "https://suriota.com/software-as-a-service/",
+    "lang": "en"
+  },
+  {
+    "id": 5037,
+    "slug": "data-analytics",
+    "title": "Data Analytics",
+    "link": "https://suriota.com/data-analytics/",
+    "lang": "en"
+  },
+  {
+    "id": 5035,
+    "slug": "artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "link": "https://suriota.com/artificial-intelligence/",
+    "lang": "en"
+  },
+  {
+    "id": 5033,
+    "slug": "digital-consulting",
+    "title": "Digital Consulting",
+    "link": "https://suriota.com/digital-consulting/",
+    "lang": "en"
+  },
+  {
+    "id": 5031,
+    "slug": "system-integration",
+    "title": "System Integration",
+    "link": "https://suriota.com/system-integration/",
+    "lang": "en"
+  },
+  {
+    "id": 5029,
+    "slug": "internet-of-things",
+    "title": "Internet of Things",
+    "link": "https://suriota.com/internet-of-things/",
+    "lang": "en"
+  },
+  {
+    "id": 945,
+    "slug": "water-treatment",
+    "title": "Water Treatment Services",
+    "link": "https://suriota.com/water-treatment/",
+    "lang": "en"
+  },
+  {
+    "id": 934,
+    "slug": "suriota-modbus-gateway",
+    "title": "Modbus Gateway IIoT",
+    "link": "https://suriota.com/suriota-modbus-gateway/",
+    "lang": "en"
+  },
+  {
+    "id": 39,
+    "slug": "renewable-energy",
+    "title": "Renewable Energy Services",
+    "link": "https://suriota.com/renewable-energy/",
+    "lang": "en"
+  },
+  {
+    "id": 37,
+    "slug": "electrical",
+    "title": "Electrical Services",
+    "link": "https://suriota.com/electrical/",
+    "lang": "en"
+  },
+  {
+    "id": 35,
+    "slug": "automation",
+    "title": "Automation Services",
+    "link": "https://suriota.com/automation/",
+    "lang": "en"
+  }
+]

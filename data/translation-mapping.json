@@ -1,0 +1,31 @@
+{
+  "mapping": {
+    "pillar-1-industrial-iot": {
+      "en": {"id": 5554, "slug": "industrial-iot-system-integration", "url": "https://suriota.com/industrial-iot-system-integration/"},
+      "id": {"id": 5566, "slug": "iot-industri-integrasi-sistem", "url": "https://suriota.com/id/iot-industri-integrasi-sistem/"},
+      "zh": {"id": 5571, "slug": "gongye-wulianwang-jicheng", "url": "https://suriota.com/zh/gongye-wulianwang-jicheng/"}
+    },
+    "pillar-2-ai-analytics": {
+      "en": {"id": 5555, "slug": "ai-industrial-analytics", "url": "https://suriota.com/ai-industrial-analytics/"},
+      "id": {"id": 5567, "slug": "ai-analitik-industri", "url": "https://suriota.com/id/ai-analitik-industri/"},
+      "zh": {"id": 5572, "slug": "ai-gongye-fenxi", "url": "https://suriota.com/zh/ai-gongye-fenxi/"}
+    },
+    "pillar-3-digital-consulting": {
+      "en": {"id": 5556, "slug": "digital-transformation-consulting", "url": "https://suriota.com/digital-transformation-consulting/"},
+      "id": {"id": 5568, "slug": "konsultasi-transformasi-digital", "url": "https://suriota.com/id/konsultasi-transformasi-digital/"},
+      "zh": {"id": 5573, "slug": "shuzihua-zhuanxing-zixun", "url": "https://suriota.com/zh/shuzihua-zhuanxing-zixun/"}
+    },
+    "pillar-4-engineering-automation": {
+      "en": {"id": 5557, "slug": "industrial-engineering-automation", "url": "https://suriota.com/industrial-engineering-automation/"},
+      "id": {"id": 5569, "slug": "teknik-industri-otomasi", "url": "https://suriota.com/id/teknik-industri-otomasi/"},
+      "zh": {"id": 5574, "slug": "gongye-gongcheng-zidonghua", "url": "https://suriota.com/zh/gongye-gongcheng-zidonghua/"}
+    },
+    "pillar-5-surge-saas": {
+      "en": {"id": 5558, "slug": "surge-saas-platform", "url": "https://suriota.com/surge-saas-platform/"},
+      "id": {"id": 5570, "slug": "platform-saas-surge", "url": "https://suriota.com/id/platform-saas-surge/"},
+      "zh": {"id": 5575, "slug": "surge-saas-pingtai", "url": "https://suriota.com/zh/surge-saas-pingtai/"}
+    }
+  },
+  "created_at": "2026-05-24T08:05:00+07:00",
+  "note": "All pages are drafts with placeholder content. ID and ZH content needs translation. Polylang translation linking is pending."
+}

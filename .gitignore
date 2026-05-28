@@ -21,6 +21,31 @@ Thumbs.db
 # Temp files
 *.tmp
 *.temp
+tmp_*.json
+tmp_*.png
+tmp_*.jpg
+tmp_logos*/
+.playwright-mcp/
+
+# Session screenshots (root)
+/*.png
+/*.jpeg
+
+# Session script dumps
+temp_*.py
+temp_*.json
+seo_audit_*.json
+snippet_*.json
+snippet_*.html
+sx_zh_css_*.css
+sx_zh_snippet_*.html
+pages.json
+nonce.txt
+cookies*.txt
+*_headers.txt
+login_*.html
+step?_*.txt
+isolated-poster-compressed.webp
 
 # Embedded repos
 .design-claude/
@@ -46,3 +71,10 @@ review_zh_pages.py
 
 # Env
 .env
+
+# Claude Code local config
+.claude/
+
+# Local WP REST backups (include snapshots only via release tags)
+backups/elementor_zh_original/
+backups/homepage-2026-05-26/

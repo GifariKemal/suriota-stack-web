@@ -1,0 +1,431 @@
+[
+  {
+    "plugin": "all-in-one-seo-pack/all_in_one_seo_pack",
+    "status": "active",
+    "name": "All in One SEO",
+    "plugin_uri": "https://aioseo.com/",
+    "author": "All in One SEO Team",
+    "author_uri": "https://aioseo.com/",
+    "description": {
+      "raw": "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007.",
+      "rendered": "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007. <cite>By <a href=\"https://aioseo.com/\">All in One SEO Team</a>.</cite>"
+    },
+    "version": "4.9.7.2",
+    "network_only": false,
+    "requires_wp": "",
+    "requires_php": "",
+    "textdomain": "all-in-one-seo-pack",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/all-in-one-seo-pack/all_in_one_seo_pack",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "connect-polylang-elementor/connect-polylang-elementor",
+    "status": "active",
+    "name": "Connect Polylang for Elementor",
+    "plugin_uri": "https://github.com/creame/connect-polylang-elementor",
+    "author": "Creame",
+    "author_uri": "https://crea.me/",
+    "description": {
+      "raw": "Connect Polylang with Elementor. Display templates in the correct language, language switcher widget, language visibility conditions and dynamic tags.",
+      "rendered": "Connect Polylang with Elementor. Display templates in the correct language, language switcher widget, language visibility conditions and dynamic tags. <cite>By <a href=\"https://crea.me/\">Creame</a>.</cite>"
+    },
+    "version": "2.5.5",
+    "network_only": false,
+    "requires_wp": "",
+    "requires_php": "5.6",
+    "textdomain": "connect-polylang-elementor",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/connect-polylang-elementor/connect-polylang-elementor",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "elementor/elementor",
+    "status": "active",
+    "name": "Elementor",
+    "plugin_uri": "https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=plugin-uri&#038;utm_medium=wp-dash",
+    "author": "Elementor.com",
+    "author_uri": "https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash",
+    "description": {
+      "raw": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now!",
+      "rendered": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now! <cite>By <a href=\"https://elementor.com/?utm_source=wp-plugins&#038;utm_campaign=author-uri&#038;utm_medium=wp-dash\">Elementor.com</a>.</cite>"
+    },
+    "version": "4.1.1",
+    "network_only": false,
+    "requires_wp": "6.6",
+    "requires_php": "7.4",
+    "textdomain": "elementor",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/elementor/elementor",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "elementor-pro/elementor-pro",
+    "status": "active",
+    "name": "Elementor Pro",
+    "plugin_uri": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/",
+    "author": "Elementor.com",
+    "author_uri": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/",
+    "description": {
+      "raw": "Elevate your designs and unlock the full power of the Atomic Editor. Gain access to dozens of Pro widgets, Website Templates, Theme Builder, Pop Ups, Forms, reusable Components, and WooCommerce building capabilities.",
+      "rendered": "Elevate your designs and unlock the full power of the Atomic Editor. Gain access to dozens of Pro widgets, Website Templates, Theme Builder, Pop Ups, Forms, reusable Components, and WooCommerce building capabilities. <cite>By <a href=\"https://go.elementor.com/wp-dash-wp-plugins-author-uri/\">Elementor.com</a>.</cite>"
+    },
+    "version": "4.1.0",
+    "network_only": false,
+    "requires_wp": "6.7",
+    "requires_php": "7.4",
+    "textdomain": "elementor-pro",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/elementor-pro/elementor-pro",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "ewww-image-optimizer/ewww-image-optimizer",
+    "status": "active",
+    "name": "EWWW Image Optimizer",
+    "plugin_uri": "https://wordpress.org/plugins/ewww-image-optimizer/",
+    "author": "Exactly WWW",
+    "author_uri": "https://ewww.io/",
+    "description": {
+      "raw": "Smaller Images, Faster Sites, Happier Visitors. Comprehensive image optimization that doesn't require a degree in rocket science.",
+      "rendered": "Smaller Images, Faster Sites, Happier Visitors. Comprehensive image optimization that doesn&#8217;t require a degree in rocket science. <cite>By <a href=\"https://ewww.io/\">Exactly WWW</a>.</cite>"
+    },
+    "version": "8.7.0",
+    "network_only": false,
+    "requires_wp": "6.7",
+    "requires_php": "7.4",
+    "textdomain": "ewww-image-optimizer",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/ewww-image-optimizer/ewww-image-optimizer",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "mcp-adapter/mcp-adapter",
+    "status": "active",
+    "name": "MCP Adapter",
+    "plugin_uri": "https://github.com/WordPress/mcp-adapter",
+    "author": "WordPress.org Contributors",
+    "author_uri": "https://github.com/WordPress/mcp-adapter/graphs/contributors",
+    "description": {
+      "raw": "Adapter for Abilities API, letting the abilities to be used as MCP tools, resources or prompts.",
+      "rendered": "Adapter for Abilities API, letting the abilities to be used as MCP tools, resources or prompts. <cite>By <a href=\"https://github.com/WordPress/mcp-adapter/graphs/contributors\">WordPress.org Contributors</a>.</cite>"
+    },
+    "version": "0.4.1",
+    "network_only": false,
+    "requires_wp": "6.8",
+    "requires_php": "7.4",
+    "textdomain": "mcp-adapter",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/mcp-adapter/mcp-adapter",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "elementor-mcp/elementor-mcp",
+    "status": "active",
+    "name": "MCP Tools for Elementor",
+    "plugin_uri": "https://github.com/msrbuilds/elementor-mcpelementor-mcp",
+    "author": "Mian Shahzad Raza",
+    "author_uri": "https://msrbuilds.com",
+    "description": {
+      "raw": "Extends the WordPress MCP Adapter to expose Elementor data, widgets, and page design tools as MCP tools for AI agents.",
+      "rendered": "Extends the WordPress MCP Adapter to expose Elementor data, widgets, and page design tools as MCP tools for AI agents. <cite>By <a href=\"https://msrbuilds.com\">Mian Shahzad Raza</a>.</cite>"
+    },
+    "version": "1.4.3",
+    "network_only": false,
+    "requires_wp": "6.9",
+    "requires_php": "8.0",
+    "textdomain": "elementor-mcp",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/elementor-mcp/elementor-mcp",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "polylang/polylang",
+    "status": "active",
+    "name": "Polylang",
+    "plugin_uri": "https://polylang.pro",
+    "author": "WP SYNTEX",
+    "author_uri": "https://polylang.pro",
+    "description": {
+      "raw": "Adds multilingual capability to WordPress",
+      "rendered": "Adds multilingual capability to WordPress <cite>By <a href=\"https://polylang.pro\">WP SYNTEX</a>.</cite>"
+    },
+    "version": "3.8.4",
+    "network_only": false,
+    "requires_wp": "6.5",
+    "requires_php": "7.4",
+    "textdomain": "polylang",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/polylang/polylang",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "prime-mover/prime-mover",
+    "status": "active",
+    "name": "Prime Mover",
+    "plugin_uri": "https://codexonics.com/",
+    "author": "Codexonics",
+    "author_uri": "https://codexonics.com/",
+    "description": {
+      "raw": "The simplest all-around WordPress migration tool/backup plugin. These support multisite backup/migration or clone WP site/multisite subsite.",
+      "rendered": "The simplest all-around WordPress migration tool/backup plugin. These support multisite backup/migration or clone WP site/multisite subsite. <cite>By <a href=\"https://codexonics.com/\">Codexonics</a>.</cite>"
+    },
+    "version": "2.1.5",
+    "network_only": true,
+    "requires_wp": "",
+    "requires_php": "",
+    "textdomain": "prime-mover",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/prime-mover/prime-mover",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "redirection/redirection",
+    "status": "active",
+    "name": "Redirection",
+    "plugin_uri": "https://redirection.me/",
+    "author": "John Godley",
+    "author_uri": "",
+    "description": {
+      "raw": "Manage all your 301 redirects and monitor 404 errors",
+      "rendered": "Manage all your 301 redirects and monitor 404 errors <cite>By John Godley.</cite>"
+    },
+    "version": "5.7.5",
+    "network_only": false,
+    "requires_wp": "6.5",
+    "requires_php": "7.4",
+    "textdomain": "redirection",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/redirection/redirection",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "tawkto-live-chat/tawkto",
+    "status": "active",
+    "name": "Tawk.to Live Chat",
+    "plugin_uri": "https://www.tawk.to",
+    "author": "Tawkto",
+    "author_uri": "",
+    "description": {
+      "raw": "Embeds Tawk.to live chat widget to your site",
+      "rendered": "Embeds Tawk.to live chat widget to your site <cite>By Tawkto.</cite>"
+    },
+    "version": "0.9.3",
+    "network_only": false,
+    "requires_wp": "",
+    "requires_php": "",
+    "textdomain": "tawk-to-live-chat",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/tawkto-live-chat/tawkto",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "wp-optimize/wp-optimize",
+    "status": "active",
+    "name": "WP-Optimize - Clean, Compress, Cache",
+    "plugin_uri": "https://teamupdraft.com/wp-optimize",
+    "author": "TeamUpdraft, DavidAnderson",
+    "author_uri": "https://teamupdraft.com/wp-optimize?utm_source=wpo-wp-dir&#038;utm_medium=referral&#038;utm_campaign=plugin-dir&#038;utm_content=teamupdraft&#038;utm_creative_format=author",
+    "description": {
+      "raw": "WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract more traffic and users.",
+      "rendered": "WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract more traffic and users. <cite>By <a href=\"https://teamupdraft.com/wp-optimize?utm_source=wpo-wp-dir&#038;utm_medium=referral&#038;utm_campaign=plugin-dir&#038;utm_content=teamupdraft&#038;utm_creative_format=author\">TeamUpdraft, DavidAnderson</a>.</cite>"
+    },
+    "version": "4.5.4",
+    "network_only": false,
+    "requires_wp": "4.9",
+    "requires_php": "7.2",
+    "textdomain": "wp-optimize",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/wp-optimize/wp-optimize",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "plugin": "wp-table-builder/wp-table-builder",
+    "status": "active",
+    "name": "WP Table Builder",
+    "plugin_uri": "https://wptablebuilder.com/",
+    "author": "WP Table Builder",
+    "author_uri": "https://wptablebuilder.com//",
+    "description": {
+      "raw": "Drag and Drop Responsive Table Builder Plugin for WordPress.",
+      "rendered": "Drag and Drop Responsive Table Builder Plugin for WordPress. <cite>By <a href=\"https://wptablebuilder.com//\">WP Table Builder</a>.</cite>"
+    },
+    "version": "2.1.14",
+    "network_only": false,
+    "requires_wp": "",
+    "requires_php": "",
+    "textdomain": "wp-table-builder",
+    "_links": {
+      "self": [
+        {
+          "href": "https://suriota.com/wp-json/wp/v2/plugins/wp-table-builder/wp-table-builder",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -20,6 +20,7 @@ WordPress + Elementor | Playwright | Python | MCP Servers</p>
 
 - [Overview](#overview)
 - [Architecture](#architecture)
+- [Recent Updates — 2026-05-28](#recent-updates--2026-05-28)
 - [Workflow](#workflow)
 - [Features](#features)
 - [Quick Start](#quick-start)
@@ -62,6 +63,30 @@ graph TB
     O[audit] --> P[Audit Reports]
     Q[tools/js] --> R[Visual Regression]
 ```
+
+---
+
+## Recent Updates — 2026-05-28
+
+Major session deploying **15 sitewide Elementor snippets (IDs 5638–5659)** and ~100 REST operations:
+
+- **Schema graph**: Organization + LocalBusiness merged via `@id=#organization` (snippet 5192) with full address, openingHours, telephone, email, contactPoint, areaServed, knowsAbout, makesOffer → `#service-catalog`
+- **OfferCatalog hub** (snippet 5639): listing 5 pillar Services with `@id` refs
+- **Per-pillar Service `@id`** + provider→#organization for IoT, SCADA pillars × EN/ID/ZH (6 pages inline-edited); 3 missing pillars (Modbus, SaaS, Energy) covered via URL-conditional JS (snippet 5649)
+- **CollectionPage schema** for `/artikel/` (snippet 5650)
+- **Sticky always-visible navbar** sitewide (snippet 5640 v3) with mobile-menu open guard
+- **Back-to-top button** sitewide (snippet 5641) — previously only on 4/11 pages
+- **Portfolio table v2.1 redesign** — editorial typography, amber accents, hover micro-interactions, mobile card layout. Fixed JS hoisting bug causing intermittent empty-table (`render(cached)` called before `var state` assigned)
+- **Related Capabilities cross-links** on 15 pillar pages (snippet 5656)
+- **Roboto Google Font dequeue** (snippet 5642), **Geist preload hint** (snippet 5643), **CLS shield** (snippet 5644)
+- **Hreflang dedup** between AIOSEO + Polylang (snippet 5659)
+- **AIOSEO**: 20 page descriptions backfilled (11 ZH + 8 EN/ID legal), 27 legacy slug pages noindexed + sitemap-excluded (96 → 69 URLs), Schema phone/email/foundingDate/employees populated
+- **Redirects**: 4 chains collapsed to single-hop, 3 new 404 redirects added (`/blog/`, `/waste-water-loger/`, old slugs)
+- **Image optimization**: `isolated-poster.webp` 614KB → 57KB (-90.7%)
+- **Partner logo alt text**: all 20 logos updated via REST Media Library
+- **/contact/ duplicate LocalBusiness** dedup, **Portfolio CreativeWork** enriched with `creator: {@id: #organization}` + `url`
+
+Full details per snippet in `~/.claude/projects/.../memory/suriota_active_snippets.md`.
 
 ---
 

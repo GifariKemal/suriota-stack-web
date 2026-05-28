@@ -1,0 +1,1981 @@
+{
+  "items": [
+    {
+      "id": 87,
+      "url": "/surge-energi-mapping-monitoring-control-daya-listrik/",
+      "match_url": "/surge-energi-mapping-monitoring-control-daya-listrik",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/surge-energy-mapping/"
+      },
+      "match_type": "url",
+      "title": "Old ID slug bingbot still hits",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 75,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 86,
+      "url": "/waste-water-loger/",
+      "match_url": "/waste-water-loger",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/waste-water-logger/"
+      },
+      "match_type": "url",
+      "title": "Typo fix",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 74,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 85,
+      "url": "/blog/",
+      "match_url": "/blog",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/artikel/"
+      },
+      "match_type": "url",
+      "title": "Old blog path -&gt; articles archive",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 73,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 83,
+      "url": "/zh/zidonghua/",
+      "match_url": "/zh/zidonghua",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/shuzihua-zhuanxing-zixun/"
+      },
+      "match_type": "url",
+      "title": "P3-ZH: zidonghua",
+      "hits": 11,
+      "regex": false,
+      "group_id": 1,
+      "position": 72,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 82,
+      "url": "/zh/shuichuli/",
+      "match_url": "/zh/shuichuli",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/ai-gongye-fenxi/"
+      },
+      "match_type": "url",
+      "title": "P2-ZH: shuichuli",
+      "hits": 13,
+      "regex": false,
+      "group_id": 1,
+      "position": 71,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 81,
+      "url": "/zh/dianqi-gongcheng/",
+      "match_url": "/zh/dianqi-gongcheng",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/gongye-wulianwang-jicheng/"
+      },
+      "match_type": "url",
+      "title": "P1-ZH: dianqi-gongcheng",
+      "hits": 12,
+      "regex": false,
+      "group_id": 1,
+      "position": 70,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 80,
+      "url": "/id/automation-id/",
+      "match_url": "/id/automation-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/konsultasi-transformasi-digital/"
+      },
+      "match_type": "url",
+      "title": "P3-ID: automation-id",
+      "hits": 9,
+      "regex": false,
+      "group_id": 1,
+      "position": 69,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 79,
+      "url": "/id/water-treatment-id/",
+      "match_url": "/id/water-treatment-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/ai-analitik-industri/"
+      },
+      "match_type": "url",
+      "title": "P2-ID: water-treatment-id",
+      "hits": 5,
+      "regex": false,
+      "group_id": 1,
+      "position": 68,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 78,
+      "url": "/id/electrical-id/",
+      "match_url": "/id/electrical-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/iot-industri-integrasi-sistem/"
+      },
+      "match_type": "url",
+      "title": "P1-ID: electrical-id",
+      "hits": 8,
+      "regex": false,
+      "group_id": 1,
+      "position": 67,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 77,
+      "url": "/automation/",
+      "match_url": "/automation",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/digital-transformation-consulting/"
+      },
+      "match_type": "url",
+      "title": "P3: automation",
+      "hits": 16,
+      "regex": false,
+      "group_id": 1,
+      "position": 66,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 76,
+      "url": "/water-treatment/",
+      "match_url": "/water-treatment",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/ai-industrial-analytics/"
+      },
+      "match_type": "url",
+      "title": "P2: water-treatment",
+      "hits": 19,
+      "regex": false,
+      "group_id": 1,
+      "position": 65,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 75,
+      "url": "/electrical/",
+      "match_url": "/electrical",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-iot-system-integration/"
+      },
+      "match_type": "url",
+      "title": "P1: electrical",
+      "hits": 15,
+      "regex": false,
+      "group_id": 1,
+      "position": 64,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 74,
+      "url": "/zh/saas/",
+      "match_url": "/zh/saas",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/surge-saas-pingtai/"
+      },
+      "match_type": "url",
+      "title": "P5-ZH: saas",
+      "hits": 12,
+      "regex": false,
+      "group_id": 1,
+      "position": 73,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 72,
+      "url": "/zh/kezaisheng-nengyuan/",
+      "match_url": "/zh/kezaisheng-nengyuan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/gongye-gongcheng-zidonghua/"
+      },
+      "match_type": "url",
+      "title": "P4-ZH: kezaisheng-nengyuan",
+      "hits": 10,
+      "regex": false,
+      "group_id": 1,
+      "position": 71,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 69,
+      "url": "/zh/shuzihua-zixun/",
+      "match_url": "/zh/shuzihua-zixun",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/shuzihua-zhuanxing-zixun/"
+      },
+      "match_type": "url",
+      "title": "P3-ZH: shuzihua-zixun",
+      "hits": 15,
+      "regex": false,
+      "group_id": 1,
+      "position": 68,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 68,
+      "url": "/zh/shujufenxi/",
+      "match_url": "/zh/shujufenxi",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/ai-gongye-fenxi/"
+      },
+      "match_type": "url",
+      "title": "P2-ZH: shujufenxi",
+      "hits": 11,
+      "regex": false,
+      "group_id": 1,
+      "position": 67,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 67,
+      "url": "/zh/rengong-zhineng/",
+      "match_url": "/zh/rengong-zhineng",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/ai-gongye-fenxi/"
+      },
+      "match_type": "url",
+      "title": "P2-ZH: rengong-zhineng",
+      "hits": 9,
+      "regex": false,
+      "group_id": 1,
+      "position": 66,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 66,
+      "url": "/zh/iot/",
+      "match_url": "/zh/iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/gongye-wulianwang-jicheng/"
+      },
+      "match_type": "url",
+      "title": "P1-ZH: iot",
+      "hits": 8,
+      "regex": false,
+      "group_id": 1,
+      "position": 65,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 65,
+      "url": "/zh/xitong-jicheng/",
+      "match_url": "/zh/xitong-jicheng",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/zh/gongye-wulianwang-jicheng/"
+      },
+      "match_type": "url",
+      "title": "P1-ZH: xitong-jicheng",
+      "hits": 9,
+      "regex": false,
+      "group_id": 1,
+      "position": 64,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 64,
+      "url": "/id/saas-id/",
+      "match_url": "/id/saas-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/platform-saas-surge/"
+      },
+      "match_type": "url",
+      "title": "P5-ID: saas-id",
+      "hits": 4,
+      "regex": false,
+      "group_id": 1,
+      "position": 63,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 62,
+      "url": "/id/renewable-energy-id/",
+      "match_url": "/id/renewable-energy-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/teknik-industri-otomasi/"
+      },
+      "match_type": "url",
+      "title": "P4-ID: renewable-energy-id",
+      "hits": 6,
+      "regex": false,
+      "group_id": 1,
+      "position": 61,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 59,
+      "url": "/id/digital-consulting-id/",
+      "match_url": "/id/digital-consulting-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/konsultasi-transformasi-digital/"
+      },
+      "match_type": "url",
+      "title": "P3-ID: digital-consulting-id",
+      "hits": 3,
+      "regex": false,
+      "group_id": 1,
+      "position": 58,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 58,
+      "url": "/id/data-analytics-id/",
+      "match_url": "/id/data-analytics-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/ai-analitik-industri/"
+      },
+      "match_type": "url",
+      "title": "P2-ID: data-analytics-id",
+      "hits": 6,
+      "regex": false,
+      "group_id": 1,
+      "position": 57,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 57,
+      "url": "/id/artificial-intelligence-id/",
+      "match_url": "/id/artificial-intelligence-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/ai-analitik-industri/"
+      },
+      "match_type": "url",
+      "title": "P2-ID: artificial-intelligence-id",
+      "hits": 6,
+      "regex": false,
+      "group_id": 1,
+      "position": 56,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 56,
+      "url": "/id/internet-of-things-id/",
+      "match_url": "/id/internet-of-things-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/iot-industri-integrasi-sistem/"
+      },
+      "match_type": "url",
+      "title": "P1-ID: internet-of-things-id",
+      "hits": 4,
+      "regex": false,
+      "group_id": 1,
+      "position": 55,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 55,
+      "url": "/id/system-integration-id/",
+      "match_url": "/id/system-integration-id",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/id/iot-industri-integrasi-sistem/"
+      },
+      "match_type": "url",
+      "title": "P1-ID: system-integration-id",
+      "hits": 6,
+      "regex": false,
+      "group_id": 1,
+      "position": 54,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 54,
+      "url": "/software-as-a-service/",
+      "match_url": "/software-as-a-service",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/surge-saas-platform/"
+      },
+      "match_type": "url",
+      "title": "P5: software-as-a-service",
+      "hits": 18,
+      "regex": false,
+      "group_id": 1,
+      "position": 53,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 52,
+      "url": "/renewable-energy/",
+      "match_url": "/renewable-energy",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-engineering-automation/"
+      },
+      "match_type": "url",
+      "title": "P4: renewable-energy",
+      "hits": 33,
+      "regex": false,
+      "group_id": 1,
+      "position": 51,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 49,
+      "url": "/digital-consulting/",
+      "match_url": "/digital-consulting",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/digital-transformation-consulting/"
+      },
+      "match_type": "url",
+      "title": "P3: digital-consulting",
+      "hits": 30,
+      "regex": false,
+      "group_id": 1,
+      "position": 48,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 48,
+      "url": "/data-analytics/",
+      "match_url": "/data-analytics",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/ai-industrial-analytics/"
+      },
+      "match_type": "url",
+      "title": "P2: data-analytics",
+      "hits": 39,
+      "regex": false,
+      "group_id": 1,
+      "position": 47,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 47,
+      "url": "/artificial-intelligence/",
+      "match_url": "/artificial-intelligence",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/ai-industrial-analytics/"
+      },
+      "match_type": "url",
+      "title": "P2: artificial-intelligence",
+      "hits": 13,
+      "regex": false,
+      "group_id": 1,
+      "position": 46,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 46,
+      "url": "/internet-of-things/",
+      "match_url": "/internet-of-things",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-iot-system-integration/"
+      },
+      "match_type": "url",
+      "title": "P1: internet-of-things",
+      "hits": 33,
+      "regex": false,
+      "group_id": 1,
+      "position": 45,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 45,
+      "url": "/system-integration/",
+      "match_url": "/system-integration",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-iot-system-integration/"
+      },
+      "match_type": "url",
+      "title": "P1: system-integration",
+      "hits": 18,
+      "regex": false,
+      "group_id": 1,
+      "position": 44,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 43,
+      "url": "/water-treatment-services/",
+      "match_url": "/water-treatment-services",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/ai-industrial-analytics/"
+      },
+      "match_type": "url",
+      "title": "SX: water-treatment-services -&gt; /ai-industrial-analytics/ (collapsed chain)",
+      "hits": 10,
+      "regex": false,
+      "group_id": 1,
+      "position": 0,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 42,
+      "url": "/renewable-energy-services/",
+      "match_url": "/renewable-energy-services",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-engineering-automation/"
+      },
+      "match_type": "url",
+      "title": "SX: renewable-energy-services -&gt; /industrial-engineering-automation/ (collapsed chain)",
+      "hits": 8,
+      "regex": false,
+      "group_id": 1,
+      "position": 0,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 41,
+      "url": "/automation-services/",
+      "match_url": "/automation-services",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/digital-transformation-consulting/"
+      },
+      "match_type": "url",
+      "title": "SX: automation-services -&gt; /digital-transformation-consulting/ (collapsed chain)",
+      "hits": 2,
+      "regex": false,
+      "group_id": 1,
+      "position": 0,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 40,
+      "url": "/electrical-services/",
+      "match_url": "/electrical-services",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "/industrial-iot-system-integration/"
+      },
+      "match_type": "url",
+      "title": "SX: electrical-services -&gt; /industrial-iot-system-integration/ (collapsed chain)",
+      "hits": 8,
+      "regex": false,
+      "group_id": 1,
+      "position": 0,
+      "last_access": "May 28, 2026",
+      "enabled": true
+    },
+    {
+      "id": 39,
+      "url": "/migration-server-klhk-development-dashboard-iot-sparing/",
+      "match_url": "/migration-server-klhk-development-dashboard-iot-sparing",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/migrasi-server-klhk-migration-server-klhk-development-dashboard-iot/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 38,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 38,
+      "url": "/maintenance-wtp/",
+      "match_url": "/maintenance-wtp",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/maintenance-wtp-water-maintenance-wtp/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 37,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 37,
+      "url": "/machining-2-tefa-smkn6-batam/",
+      "match_url": "/machining-2-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/milling-cnc-bracket-machining-2-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 36,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 36,
+      "url": "/automatic-iot-based-mini-capacitor-bank-system/",
+      "match_url": "/automatic-iot-based-mini-capacitor-bank-system",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/sistem-kapasitor-bank-automatic-iot-based-mini-capacitor-bank-system/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 35,
+      "last_access": "May 26, 2026",
+      "enabled": true
+    },
+    {
+      "id": 35,
+      "url": "/sld-smoke-detector-pt-darmawan/",
+      "match_url": "/sld-smoke-detector-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/sld-single-line-sld-smoke-detector-pt-darmawan/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 34,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 34,
+      "url": "/digital-stamp-pt-darmawan/",
+      "match_url": "/digital-stamp-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/digital-stamp-dokumen-digital-stamp-pt-darmawan/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 33,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 33,
+      "url": "/engineering-calculation-flow-rate-pt-darmawan/",
+      "match_url": "/engineering-calculation-flow-rate-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/perhitungan-flow-rate-engineering-calculation-flow-rate-pt-darmawan/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 32,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 32,
+      "url": "/engineering-calculation-smoke-detector-pt-darmawan/",
+      "match_url": "/engineering-calculation-smoke-detector-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/perhitungan-teknik-smoke-engineering-calculation-smoke-detector-pt/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 31,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 31,
+      "url": "/2d-splingker-pid-pt-darmawan/",
+      "match_url": "/2d-splingker-pid-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/gambar-pid-sistem-2d-splingker-pid-pt-darmawan/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 30,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 30,
+      "url": "/control-monitoring-pakan-ikan-berbasis-iot/",
+      "match_url": "/control-monitoring-pakan-ikan-berbasis-iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/sistem-pakan-ikan-control-monitoring-pakan-ikan-berbasis-iot/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 29,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 29,
+      "url": "/control-monitoring-ats-panel-surya-berbasis-iot/",
+      "match_url": "/control-monitoring-ats-panel-surya-berbasis-iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/kontrol-monitoring-ats-control-monitoring-ats-panel-surya-berbasis-iot/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 28,
+      "last_access": "May 24, 2026",
+      "enabled": true
+    },
+    {
+      "id": 28,
+      "url": "/machining-3-tefa-smkn6-batam/",
+      "match_url": "/machining-3-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/drilling-boring-presisi-machining-3-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 27,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 27,
+      "url": "/machining-4-tefa-smkn6-batam/",
+      "match_url": "/machining-4-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pemesinan-multi-proses-cnc-machining-4-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 26,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 26,
+      "url": "/website-sekolah/",
+      "match_url": "/website-sekolah",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pembuatan-website-sekolah-website-sekolah/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 25,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 25,
+      "url": "/machining-5-tefa-smkn6-batam/",
+      "match_url": "/machining-5-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/produksi-batch-cnc-machining-5-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 24,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 24,
+      "url": "/machining-6-tefa-smkn6-batam/",
+      "match_url": "/machining-6-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/surface-grinding-pemesinan-machining-6-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 23,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 23,
+      "url": "/machining-7-tefa-smkn6-batam/",
+      "match_url": "/machining-7-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pemesinan-kontur-kompleks-machining-7-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 22,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 22,
+      "url": "/material-1-tefa-smkn6-batam/",
+      "match_url": "/material-1-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pengadaan-material-bahan-material-1-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 21,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 21,
+      "url": "/schematic-programming-mini-pertamina/",
+      "match_url": "/schematic-programming-mini-pertamina",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/schematic-programming-panel-schematic-programming-mini-pertamina/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 20,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 20,
+      "url": "/procurement-module-pt-koltiva/",
+      "match_url": "/procurement-module-pt-koltiva",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/procurement-module-web-procurement-module-pt-koltiva/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 19,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 19,
+      "url": "/machining-8-tefa-smkn6-batam/",
+      "match_url": "/machining-8-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pemesinan-stainless-steel-machining-8-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 18,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 18,
+      "url": "/machining-9-tefa-smkn6-batam/",
+      "match_url": "/machining-9-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/quality-control-pemesinan-machining-9-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 17,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 17,
+      "url": "/module-absensi-iot/",
+      "match_url": "/module-absensi-iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/modul-absensi-iot-module-absensi-iot/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 2,
+      "regex": false,
+      "group_id": 1,
+      "position": 16,
+      "last_access": "May 25, 2026",
+      "enabled": true
+    },
+    {
+      "id": 16,
+      "url": "/smart-system-for-npk-and-plantation-soil-monitoring-iot/",
+      "match_url": "/smart-system-for-npk-and-plantation-soil-monitoring-iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/monitoring-npk-tanah-smart-system-for-npk-and-plantation-soil/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 15,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 15,
+      "url": "/plantation-ph-temp-hum-monitoring-and-soil-control-system-iot/",
+      "match_url": "/plantation-ph-temp-hum-monitoring-and-soil-control-system-iot",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/monitoring-ph-suhu-plantation-ph-temp-hum-monitoring-and-soil-control/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 14,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 14,
+      "url": "/webmail-maintenance-pt-hijrah-travel/",
+      "match_url": "/webmail-maintenance-pt-hijrah-travel",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/jasa-maintenance-webmail-webmail-maintenance-pt-hijrah-travel/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 13,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 13,
+      "url": "/electrical-testing-avanti-coffee/",
+      "match_url": "/electrical-testing-avanti-coffee",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/electrical-testing-instalasi-electrical-testing-avanti-coffee/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 12,
+      "last_access": "May 24, 2026",
+      "enabled": true
+    },
+    {
+      "id": 12,
+      "url": "/water-level-berbasis-iot-dan-labview/",
+      "match_url": "/water-level-berbasis-iot-dan-labview",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/water-level-monitoring-water-level-berbasis-iot-dan-labview/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 11,
+      "last_access": "May 25, 2026",
+      "enabled": true
+    },
+    {
+      "id": 11,
+      "url": "/program-pendeteksi-rgb-cmyk-dan-hsl/",
+      "match_url": "/program-pendeteksi-rgb-cmyk-dan-hsl",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/program-pendeteksi-warna-program-pendeteksi-rgb-cmyk-dan-hsl/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 2,
+      "regex": false,
+      "group_id": 1,
+      "position": 10,
+      "last_access": "May 26, 2026",
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "url": "/mns-logo-design/",
+      "match_url": "/mns-logo-design",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/desain-logo-perusahaan-mns-logo-design/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 9,
+      "last_access": "May 24, 2026",
+      "enabled": true
+    },
+    {
+      "id": 9,
+      "url": "/anshun-sticker-design/",
+      "match_url": "/anshun-sticker-design",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/desain-stiker-perusahaan-anshun-sticker-design/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 8,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "url": "/lifa-programming/",
+      "match_url": "/lifa-programming",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/lifa-programming-arduino-lifa-programming/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 7,
+      "last_access": "May 24, 2026",
+      "enabled": true
+    },
+    {
+      "id": 7,
+      "url": "/wedding-invitation-hardcopy/",
+      "match_url": "/wedding-invitation-hardcopy",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/desain-undangan-pernikahan-wedding-invitation-hardcopy/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 6,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "url": "/jamu-logo-product-design-pt-papa-aii/",
+      "match_url": "/jamu-logo-product-design-pt-papa-aii",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/jamu-logo-dan-jamu-logo-product-design-pt-papa-aii/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 5,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "url": "/design-cad-canopy-pos-security-pt-darmawan/",
+      "match_url": "/design-cad-canopy-pos-security-pt-darmawan",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/design-cad-kanopi-design-cad-canopy-pos-security-pt-darmawan/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 4,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "url": "/company-product-logo-design-pt-papa-aii/",
+      "match_url": "/company-product-logo-design-pt-papa-aii",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/logo-icon-printup-company-product-logo-design-pt-papa-aii/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 3,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "url": "/object-yolo-ai/",
+      "match_url": "/object-yolo-ai",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/deteksi-objek-yolo-object-yolo-ai/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 1,
+      "regex": false,
+      "group_id": 1,
+      "position": 2,
+      "last_access": "May 27, 2026",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "url": "/procurement-genset-sensors-pt-dwiutama/",
+      "match_url": "/procurement-genset-sensors-pt-dwiutama",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/pengadaan-sensor-genset-procurement-genset-sensors-pt-dwiutama/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 1,
+      "last_access": "-",
+      "enabled": true
+    },
+    {
+      "id": 1,
+      "url": "/machining-1-tefa-smkn6-batam/",
+      "match_url": "/machining-1-tefa-smkn6-batam",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "action_code": 301,
+      "action_type": "url",
+      "action_data": {
+        "url": "https://suriota.com/cnc-bubut-poros-machining-1-tefa-smkn6-batam/"
+      },
+      "match_type": "url",
+      "title": "",
+      "hits": 0,
+      "regex": false,
+      "group_id": 1,
+      "position": 0,
+      "last_access": "-",
+      "enabled": true
+    }
+  ],
+  "total": 76
+}

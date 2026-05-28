@@ -2,7 +2,7 @@
   <div class="sxp-wrap">
     <p class="sxp-eyebrow">方法论</p>
     <h2 class="sxp-h2 sxp-reveal">数据为先，模型为次，运维为底。</h2>
-    <div class="sxp-reveal" style="max-width: 960px;">
+    <div class="sxp-reveal" >
       <p class="sxp-body sxp-body-l">第一阶段是<a href="https://suriota.com/zh/gongye-wulianwang-jicheng/" class="sxp-inline-link">数据审计</a>，约消耗整个项目工作量的 60%。我们盘点每一处数据源，historian、SCADA、MES、ERP、人工日志，评估采样率、缺失情况、标签质量与数据血缘，然后建立一份特征目录，把每一个变量绑定到具体的工艺含义。工业 AI 项目失败的 60% 根源于这一阶段。在脏数据上训练出来的不是模型，而是一台自信地输出错误预测的发生器，多数团队等到模型已经上仪表板时才发现这一点。</p>
       <p class="sxp-body" style="margin-top: 16px;">第二阶段先确立基线，再追求复杂度。我们先采用简单、可解释的方法，rolling average、isolation forest、统计过程控制、ARIMA、exponential smoothing，只有在能证明基线已达到瓶颈之后，才转向深度学习。每一个高级模型都在同样的留出窗口与同样的运营成本假设下，与该基线进行基准比较。我们已经叫停过若干本来颇为出色的深度学习原型，因为 rolling-window 基线以十分之一的运营复杂度就达成了同等效果。</p>
       <p class="sxp-body" style="margin-top: 16px;">第三阶段是部署，架构因用例而异。机器视觉质检在产线上运行于 NVIDIA Jetson 或 Intel OpenVINO，因为产线节拍加摄像头帧率不允许云端延迟。预测性维护与<a href="https://suriota.com/zh/surge-saas-pingtai/" class="sxp-inline-link">能源分析</a>在云端进行批量打分，通常每 5 至 15 分钟一次，针对 TimescaleDB 或 InfluxDB。OEE 分析与异常检测居于中间，边缘聚合，云端推理。我们通过 Docker 容器部署，在边缘以 Portainer 或轻量级 Kubernetes（K3s）管理，并锁定每一项依赖的版本。</p>

@@ -110,12 +110,23 @@
   line-height: var(--sxp-lh-relaxed);
   color: var(--sxp-ink-soft);
   font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 .sxp-body-l {
   font-family: var(--sxp-font-body);
   font-size: var(--sxp-fs-body-l);
   line-height: var(--sxp-lh-relaxed);
   color: var(--sxp-ink-soft);
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+@media (max-width: 640px) {
+  .sxp-body, .sxp-body-l { text-align: left; hyphens: manual; }
 }
 .sxp-mono {
   font-family: var(--sxp-font-mono);
@@ -1038,4 +1049,65 @@
   body.page-id-5571, body.page-id-5572, body.page-id-5573, body.page-id-5574, body.page-id-5575 {
     overflow-x: hidden;
   }
+}
+
+/* ===== Back-to-top button — bottom-left, injected by motion.js ===== */
+.sxp-backtop {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 60;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  background: var(--sxp-accent);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition:
+    opacity var(--sxp-dur-base) var(--sxp-ease),
+    transform var(--sxp-dur-base) var(--sxp-ease),
+    box-shadow var(--sxp-dur-fast) var(--sxp-ease),
+    background var(--sxp-dur-fast) var(--sxp-ease);
+  box-shadow: var(--sxp-elev-2);
+}
+.sxp-backtop svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.sxp-backtop.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.sxp-backtop:hover {
+  background: var(--sxp-accent-deep);
+  box-shadow: var(--sxp-elev-3);
+  transform: translateY(-2px);
+}
+.sxp-backtop:focus-visible {
+  outline: 2px solid var(--sxp-accent);
+  outline-offset: 3px;
+}
+@media (max-width: 640px) {
+  .sxp-backtop { bottom: 16px; left: 16px; width: 40px; height: 40px; }
+  .sxp-backtop svg { width: 16px; height: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sxp-backtop { transition: opacity 0.1s linear; transform: none; }
+  .sxp-backtop.is-visible { transform: none; }
+  .sxp-backtop:hover { transform: none; }
 }
